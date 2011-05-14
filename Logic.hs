@@ -210,7 +210,7 @@ doubleNegation x = x
 mkCNF :: Formula NNF -> Formula CNF
 mkCNF = cnf . deepTransform mkCNFVal
 
--- | Assure that no 'Disjunction' contains any 'Conjunction's by making use of
+-- | Ensure that no 'Disjunction' contains any 'Conjunction's by making use of
 -- the distributive law (<http://en.wikipedia.org/wiki/Distributivity>).
 -- This is a \'flat\' function and is meant to be used with 'deepTransform'.
 mkCNFVal :: Formula t -> Formula t
