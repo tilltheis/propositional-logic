@@ -1,4 +1,12 @@
-{-|
+{- |
+Module      :  $Header$
+Description :  The propositional formula and the operations on it.
+Copyright   :  (c) Till Theis
+License     :  MIT
+
+Maintainer  :  Till Theis <theis.till@gmail.com>
+Stability   :  experimental
+Portability :  portable
 
 This is the main module which implements the propositional 'Formula' type
 itself and all the algorithms on it.
