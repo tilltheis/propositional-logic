@@ -8,6 +8,8 @@ itself and all the algorithms on it.
 
 module Logic where
 
+import Prelude hiding (foldr1)
+import Data.Foldable (foldr1)
 import qualified Data.Set as Set
 
 
@@ -249,8 +251,8 @@ toSet x = Set.singleton $ Set.singleton x
 
 -- | Create a 'Formula' from a set, created by 'toSet'.
 fromSet :: Set.Set (Set.Set (Formula CNF)) -> Formula CNF
-fromSet set = setFoldr1 Conjunction set'
-    where set' = Set.map (setFoldr1 Disjunction) set
+fromSet set = foldr1 Conjunction set'
+    where set' = Set.map (foldr1 Disjunction) set
 
 -- | This function works like 'toSet' but pretends its argument is a
 -- 'Conjunction'. It's a helper function of 'toSet'.
@@ -260,10 +262,4 @@ subSets = reconnectMap Set.union toSet
 
 -- | List's concat function for Sets.
 setConcat :: (Eq a, Ord a) => Set.Set (Set.Set a) -> Set.Set a
-setConcat = setFoldr1 Set.union
-
--- | List's foldr1 function for Sets.
-setFoldr1 :: Ord a => (a -> a -> a) -> Set.Set a -> a
-setFoldr1 f set = Set.fold f z (set Set.\\ Set.singleton z)
-    where z = head $ Set.toList set
-
+setConcat = foldr1 Set.union
