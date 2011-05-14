@@ -23,6 +23,7 @@ data Formula t = T                                   -- ^ Atom (true)
                | F                                   -- ^ Atom (false)
                | Symbol String                       -- ^ Atom
                | Negation (Formula t)                -- ^ Unary connective
+               -- (sometimes treated as atom, sometimes as connective)
                | Conjunction (Formula t) (Formula t) -- ^ Connective
                | Disjunction (Formula t) (Formula t) -- ^ Connective
                | Implication (Formula t) (Formula t) -- ^ Connective
