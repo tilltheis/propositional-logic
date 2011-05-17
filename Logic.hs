@@ -19,6 +19,8 @@ module Logic where
 import Prelude hiding (foldr1)
 import Data.Foldable (foldr1)
 import qualified Data.Set as Set
+import qualified Data.Map as Map
+import Data.Maybe (fromJust)
 
 
 -- | Propositional formulae in any form are represented by the atomic formulae
@@ -36,7 +38,7 @@ data Formula t = T                                   -- ^ Atom (true)
                | Disjunction (Formula t) (Formula t) -- ^ Connective
                | Implication (Formula t) (Formula t) -- ^ Connective
                | Equivalence (Formula t) (Formula t) -- ^ Connective
-               deriving (Show, Ord, Eq)
+               deriving (Show, Ord)
 
 
 
@@ -61,6 +63,90 @@ data CNF    = CNF deriving Show
 -- | The disjunctive normal form extends the negative normal form in that
 -- 'Conjunction's must not contain any 'Disjunction's.
 data DNF    = DNF deriving Show
+
+
+
+-- * Equality
+
+instance Eq (Formula t) where
+    x == y = truthTable x == truthTable y
+
+
+-- | Mapping from the 'Symbol's of a 'Formula' to the boolean values they
+-- represent.
+type SymbolMapping = Map.Map String Bool
+
+-- | Mapping from unique combinations of 'SymbolMapping's to the boolean value
+-- the related 'Formula' yields with each configuration.
+type TruthTable = Map.Map SymbolMapping Bool
+
+
+-- | The truth table (<http://en.wikipedia.org/wiki/Truth_table>) of the
+-- 'Formula'.
+truthTable :: Formula t -> TruthTable
+truthTable x = foldr insert Map.empty . mappings $ Set.toList $ symbols x
+    where insert :: SymbolMapping -> TruthTable -> TruthTable
+          insert k = Map.insert k (eval k x)
+
+          -- | Generate the 'SymbolMapping' from the given 'Symbol's and
+          -- 'Formula'.
+          mappings :: [String] -> [SymbolMapping]
+          mappings = map (foldr Map.union Map.empty) . mappingMaps
+
+          -- | From a list of 'Symbol's generate a list of lists where each
+          -- inner one contains a Map, holding exactly one symbol with its
+          -- assigned boolean value. The union of the maps of a sublist will
+          -- describe the complete 'SymbolMapping' for that partcular row
+          -- in the truth table.
+          mappingMaps :: [String] -> [[SymbolMapping]]
+          mappingMaps syms = map (zipWith Map.singleton syms) $ combos syms
+
+          -- | The list of distinct value combinations for each symbol. The
+          -- values still need to be combined with the actual 'Symbol' strings.
+          combos :: [String] -> [[Bool]]
+          combos syms = cartProd . take (length syms) $ repeat [True, False]
+
+
+-- | The cartesian product of the elements of the list.
+--
+-- >>> cartProd [[1,2], [8,9]]
+-- [[1,8],[1,9],[2,8],[2,9]]
+cartProd :: [[a]] -> [[a]]
+cartProd [] = []
+cartProd [[]] = [[]]
+cartProd [xs] = [ [x] | x <- xs ]
+cartProd (xs:xss) = [ x:ys | x <- xs, ys <- cartProd xss ]
+
+
+-- | Extract all symbol names from the 'Formula'.
+--
+-- >>> symbols $ Symbol "Y" `Conjunction` Negation (Symbol "X")
+-- fromList ["X","Y"]
+symbols :: Formula t -> Set.Set String
+symbols = foldFormula insert Set.empty
+    where insert (Symbol s) syms = Set.insert s syms
+          insert _ syms = syms
+
+
+-- | Evaluate the 'Formula' with its corresponding symbol-to-boolean-mapping
+-- to its truth value.
+eval :: SymbolMapping -> Formula t -> Bool
+eval mapping = toBool . deepTransform reduce
+    where reduce T = T
+          reduce F = F
+          reduce (Symbol s) = fromBool . fromJust $ Map.lookup s mapping
+          reduce (Negation T) = F
+          reduce (Negation F) = T
+          reduce val@(Conjunction _ _) = fromBool $ reconnectMap (&&) toBool val
+          reduce val@(Disjunction _ _) = fromBool $ reconnectMap (||) toBool val
+          reduce val@(Implication _ _) = fromBool . eval mapping $ mkNormalVal val
+          reduce val@(Equivalence _ _) = fromBool . eval mapping $ mkNormalVal val
+          reduce _ = error "Logic.eval.reduce: Impossible"
+
+          fromBool True = T
+          fromBool False = F
+          toBool T = True
+          toBool F = False
 
 
 
