@@ -307,6 +307,22 @@ mkCNFVal x = x
 
 
 
+-- | Convert a 'Formula' in the negative normal form to a 'Formula' in the
+-- disjunctive normal form.
+mkDNF :: Formula NNF -> Formula DNF
+mkDNF = dnf . deepTransform mkDNFVal
+
+-- | Ensure that no 'Conjunction' contains any 'Disjunction's by making use of
+-- the distributive law (<http://en.wikipedia.org/wiki/Distributivity>).
+-- This is a \'flat\' function and is meant to be used with 'deepTransform'.
+mkDNFVal :: Formula t -> Formula t
+mkDNFVal (Conjunction x@(Disjunction _ _) y) =
+    transform (mkDNFVal . Conjunction y) x
+mkDNFVal (Conjunction y x@(Disjunction _ _)) = mkDNFVal $ Conjunction x y
+mkDNFVal x = x
+
+
+
 -- * Simplification
 
 -- | Reduce a 'Formula' in the conjunctive normal form to its bare minimum.

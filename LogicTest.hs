@@ -23,6 +23,8 @@ tests =
         , testProperty "NNF Only Negates Atoms\n"     prop_nnfOnlyNegAtoms
         , testProperty "CNF Has No Conjunctions Within Disjunctions\n"
             prop_cnfNoConjInDisj
+        , testProperty "DNF Has No Disjunctions Within Conjunctions\n"
+            prop_dnfNoDisjInConj
         ]
     ]
 
@@ -54,6 +56,9 @@ nnfFormula = liftM mkNNF normalFormula
 cnfFormula :: Gen (Formula CNF)
 cnfFormula = liftM mkCNF nnfFormula
 
+dnfFormula :: Gen (Formula DNF)
+dnfFormula = liftM mkDNF nnfFormula
+
 
 instance Arbitrary (Formula Fancy) where
     arbitrary = fancyFormula
@@ -66,6 +71,9 @@ instance Arbitrary (Formula NNF) where
 
 instance Arbitrary (Formula CNF) where
     arbitrary = cnfFormula
+
+instance Arbitrary (Formula DNF) where
+    arbitrary = dnfFormula
 
 
 prop_normalNoFancy :: Formula Normal -> Bool
@@ -112,3 +120,12 @@ findConjInDisj' (Disjunction _ (Conjunction _ _)) _ = True
 findConjInDisj' _ x = x
 
 
+prop_dnfNoDisjInConj :: Formula DNF -> Bool
+prop_dnfNoDisjInConj = not . findDisjInConj
+
+findDisjInConj :: Formula DNF -> Bool
+findDisjInConj = foldFormula findDisjInConj' False
+
+findDisjInConj' (Conjunction (Disjunction _ _) _) _ = True
+findDisjInConj' (Conjunction _ (Disjunction _ _)) _ = True
+findDisjInConj' _ x = x
