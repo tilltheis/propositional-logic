@@ -325,52 +325,8 @@ mkDNFVal x = x
 
 -- * Simplification
 
--- | Reduce a 'Formula' in the conjunctive normal form to its bare minimum.
-
--- (fromSet . toSet) takes care of idempotence
-simplify :: Formula CNF -> Formula CNF
-simplify = id
-
-
-
-
--- | From a 'Formula' in the conjunctive normal form create a list (the
--- conjunctions) of lists (the disjunctions) with the atoms at the leafs.
-toList :: Formula CNF -> [[Formula CNF]]
-toList x@(Conjunction _ _) = reconnectMap (++) toList x
-toList x@(Disjunction _ _) = return . concat $ reconnectMap (++) toList x
-toList x = [[x]]
-
--- | Create a 'Formula' from a list, created by 'toList'.
-fromList :: [[Formula CNF]] -> Formula CNF
-fromList l = foldr1 Conjunction l'
-    where l' = map (foldr1 Disjunction) l
-
 -- | First 'transform' and then 'reconnect' a 'Formula' but don't require the
 -- transformer to yield 'Formula' results.
 reconnectMap :: (a -> a -> b) -> (Formula t -> a) -> Formula t -> b
 reconnectMap fc fm x = fc (fm $ fst p) (fm $ snd p)
     where p = reconnect (,) x
-
-
--- | From a 'Formula' in the conjunctive normal form create a set (the
--- conjunctions) of sets (the disjunctions) with the atoms at the leafs.
-toSet :: Formula CNF -> Set.Set (Set.Set (Formula CNF))
-toSet x@(Conjunction _ _) = subSets x
-toSet x@(Disjunction _ _) = Set.singleton . setConcat $ subSets x
-toSet x = Set.singleton $ Set.singleton x
-
--- | Create a 'Formula' from a set, created by 'toSet'.
-fromSet :: Set.Set (Set.Set (Formula CNF)) -> Formula CNF
-fromSet set = foldr1 Conjunction set'
-    where set' = Set.map (foldr1 Disjunction) set
-
--- | This function works like 'toSet' but pretends its argument is a
--- 'Conjunction'. It's a helper function of 'toSet'.
-subSets :: Formula CNF -> Set.Set (Set.Set (Formula CNF))
-subSets = reconnectMap Set.union toSet
-
-
--- | List's concat function for Sets.
-setConcat :: (Eq a, Ord a) => Set.Set (Set.Set a) -> Set.Set a
-setConcat = foldr1 Set.union
