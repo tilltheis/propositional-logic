@@ -325,6 +325,22 @@ mkDNFVal x = x
 
 -- * Simplification
 
+-- | Find all the 'SymbolMapping's in a 'TruthTable' for which the Formula
+-- returns true (the models).
+trueMappings :: TruthTable -> [SymbolMapping]
+trueMappings = Map.keys . Map.filter id
+
+-- | Convert a 'TruthTable' to a matching 'Formula'.
+toFormula :: TruthTable -> Formula DNF
+toFormula = outerFold . trueMappings
+    where outerFold :: [SymbolMapping] -> Formula DNF
+          outerFold = foldr1 Disjunction . map innerFold
+          innerFold :: SymbolMapping -> Formula DNF
+          innerFold = foldr1 Conjunction . map toAtom . Map.toList
+          toAtom :: (String, Bool) -> Formula DNF
+          toAtom (s, True) = Symbol s
+          toAtom (s, False) = Negation $ Symbol s
+
 -- | First 'transform' and then 'reconnect' a 'Formula' but don't require the
 -- transformer to yield 'Formula' results.
 reconnectMap :: (a -> a -> b) -> (Formula t -> a) -> Formula t -> b
