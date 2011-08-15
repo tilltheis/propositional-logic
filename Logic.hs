@@ -21,6 +21,8 @@ import Data.Foldable (foldr1)
 import qualified Data.Set as Set
 import qualified Data.Map as Map
 import Data.Maybe (fromJust)
+import Data.List (nub, elemIndices, delete)
+import Data.Function (on)
 
 
 -- | Propositional formulae in any form are represented by the atomic formulae
@@ -346,3 +348,41 @@ toFormula = outerFold . trueMappings
 reconnectMap :: (a -> a -> b) -> (Formula t -> a) -> Formula t -> b
 reconnectMap fc fm x = fc (fm $ fst p) (fm $ snd p)
     where p = reconnect (,) x
+
+
+
+-- | Value representation for the Quine-McCluskey algorithm.
+data QMVal = QMTrue | QMFalse | QMDontCare deriving (Show, Eq)
+
+toQMVal :: Bool -> QMVal
+toQMVal True = QMTrue
+toQMVal False = QMFalse
+
+qmMappings :: [SymbolMapping] -> [[QMVal]]
+qmMappings = map (map toQMVal . Map.elems)
+
+-- | Quine–McCluskey algorithm
+-- (<http://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm>,
+-- <http://www.eetimes.com/discussion/programmer-s-toolbox/4025004/All-about-Quine-McClusky>)
+-- to minimize a given 'Formula'.
+--qm :: Formula t -> Formula t
+qm x = let todo = qmMappings . trueMappings $ truthTable x
+       in qm' [] todo todo []
+
+qm' :: [[QMVal]] -- ^ values we are done with and relevant
+    -> [[QMVal]] -- ^ values we still have to work with
+    -> [[QMVal]] -- ^ values which have not been merged yet
+    -> [[QMVal]] -- ^ values for next round
+    -> [[QMVal]] -- ^ all the relevant values
+qm' done [] unmerged [] = nub $ done ++ unmerged
+qm' done [] unmerged next = qm' (done ++ unmerged) next next []
+qm' done (x:xs) unmerged next = qm' done' xs unmerged'' next'
+    where mergeable = filter (\y -> isComparable x y && diff x y == 1) xs
+          done' = if null mergeable && x `elem` unmerged then x:done else done
+          unmerged' = filter (`notElem` mergeable) unmerged
+          unmerged'' = if null mergeable then unmerged else delete x unmerged'
+          next' = next ++ map (merge x) mergeable
+
+          merge = zipWith (\a b -> if a == b then a else QMDontCare)
+          diff x y = length . filter not $ zipWith (==) x y
+          isComparable = (==) `on` elemIndices QMDontCare
