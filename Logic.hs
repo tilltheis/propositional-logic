@@ -350,6 +350,12 @@ reconnectMap fc fm x = fc (fm $ fst p) (fm $ snd p)
     where p = reconnect (,) x
 
 
+-- | Apply the function @f@ to the argument @x@ if the condition @cond@ holds.
+-- Leave @x@ unchanged otherwise.
+alterIf :: Bool -> (a -> a) -> a -> a
+alterIf cond f x = if cond then f x else x
+
+
 
 -- | Value representation for the Quine-McCluskey algorithm.
 data QMVal = QMTrue | QMFalse | QMDontCare deriving (Show, Eq)
@@ -376,13 +382,12 @@ qm' :: [[QMVal]] -- ^ values we are done with and relevant
     -> [[QMVal]] -- ^ all the relevant values
 qm' done [] unmerged [] = nub $ done ++ unmerged
 qm' done [] unmerged next = qm' (done ++ unmerged) next next []
-qm' done (x:xs) unmerged next = qm' done' xs unmerged'' next'
+qm' done (x:xs) unmerged next = qm' done' xs unmerged' next'
     where mergeable = filter (\y -> isComparable x y && diff x y == 1) xs
-          done' = if null mergeable && x `elem` unmerged then x:done else done
-          unmerged' = filter (`notElem` mergeable) unmerged
-          unmerged'' = if null mergeable then unmerged else delete x unmerged'
-          next' = next ++ map (merge x) mergeable
+          done'     = alterIf (null mergeable && x `elem` unmerged) (x:) done
+          unmerged' = alterIf (not $ null mergeable) (filter (`notElem` x:mergeable)) unmerged
+          next'     = next ++ map (merge x) mergeable
 
-          merge = zipWith (\a b -> if a == b then a else QMDontCare)
-          diff x y = length . filter not $ zipWith (==) x y
+          merge        = zipWith (\a b -> if a == b then a else QMDontCare)
+          diff x y     = length . filter not $ zipWith (==) x y
           isComparable = (==) `on` elemIndices QMDontCare
