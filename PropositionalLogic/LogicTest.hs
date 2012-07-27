@@ -9,7 +9,7 @@ import Test.QuickCheck
 import Test.HUnit
 
 
-import Logic
+import PropositionalLogic.Logic
 
 import Control.Monad (liftM, liftM2)
 

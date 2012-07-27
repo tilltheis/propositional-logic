@@ -13,9 +13,9 @@ Parse a string to a propositional Formula.
 -}
 
 
-module Parser (formula) where
+module PropositionalLogic.Parser (formula) where
 
-import Logic
+import PropositionalLogic.Logic
 
 import Data.Char (toLower, isSpace, isAlpha)
 import Data.Function (on)

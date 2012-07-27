@@ -14,7 +14,7 @@ itself and all the algorithms on it.
 -}
 
 
-module Logic where
+module PropositionalLogic.Logic where
 
 import Prelude hiding (foldr1)
 import Data.Foldable (foldr1)
