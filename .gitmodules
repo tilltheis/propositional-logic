@@ -1,0 +1,3 @@
+[submodule "uhc-js"]
+	path = lib/uhc-js
+	url = https://github.com/UU-ComputerScience/uhc-js.git
