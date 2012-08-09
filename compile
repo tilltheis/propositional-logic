@@ -1,3 +1,3 @@
 #!/bin/sh
 
-uhc -tjs -i 'lib/uhc-js/uhc-js/src;src' -o App.html src/App.hs && perl -pi -e 's/App.html/src\/App.mjs/' App.html
+uhc -tjs -i 'lib/uhc-js/uhc-js/src;src' -o /dev/null src/App.hs
