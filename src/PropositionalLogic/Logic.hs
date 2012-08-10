@@ -319,13 +319,11 @@ simplifyCNF = outerFromL . go [F, Negation T] . innerFromL . map (go [T, Negatio
 
         innerFromL = map (foldr1 Disjunction)
         outerFromL = foldr1 Conjunction
-        
+                
         go shortCircuits xs =
-          if any (`elem` xs) shortCircuits
+          if any (`elem` xs) shortCircuits || or [ isMutualExclusion x y | x <- xs, y <- reverse xs]
             then [ head shortCircuits ]
-            else filterByMutualExclusion $ nub xs
-
-        filterByMutualExclusion xs = foldr (deleteBy isMutualExclusion) xs xs
+            else nub xs
 
         isMutualExclusion T F = True
         isMutualExclusion F T = True
