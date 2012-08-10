@@ -56,6 +56,9 @@
   <link rel="stylesheet" href="foundation.css">
   <style>
   code { font-family: "Consolas", "Menlo", "Courier", monospace; background: none; }
+  table { width: 100%; }
+  th { white-space: nowrap; }
+  td:last-child { width: 99%; }
   </style>
 </head>
 <body>
@@ -99,7 +102,7 @@
           <!-- result -->
           <div class="eight columns pull-four">
             <div class="row">
-              <div class="eleven columns end">
+              <div class="twelve columns">
               <table>
                 <thead><tr><th>Normal Form</th><th>Formula</th></tr></thead>
                 <tr><th>CNF</th><td><code>(¬A ∨ B ↔ A → B) ∨ ¬(¬A ∨ B ↔ A → B)</code></td></tr>
