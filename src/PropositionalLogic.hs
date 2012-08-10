@@ -34,7 +34,7 @@ prettyFormulaString :: Formula a -> String
 prettyFormulaString T = "1"
 prettyFormulaString F = "0"
 prettyFormulaString (Symbol s) = s
-prettyFormulaString (Negation f) = "!" ++ prettyFormulaString f
+prettyFormulaString (Negation f) = "!" ++ parenthesize (const False) f
 prettyFormulaString (Conjunction f g) = parenthesize isConjunction f ++ " ^ " ++ parenthesize isConjunction g
 prettyFormulaString (Disjunction f g) = parenthesize isDisjunction f ++ " v " ++ parenthesize isDisjunction g
 prettyFormulaString (Implication f g) = "(" ++ prettyFormulaString f ++ ") -> (" ++ prettyFormulaString g ++ ")"
