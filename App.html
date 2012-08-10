@@ -67,7 +67,7 @@
   <style>
     code, input { font-family: "Consolas", "Menlo", "Courier", monospace; background: none; }
     table { width: 100%; }
-    th { white-space: nowrap; }
+    th:first-child, td:first-child { white-space: nowrap; }
     td:last-child { width: 99%; }
   </style>
 </head>
@@ -123,6 +123,7 @@
               <table>
                 <thead><tr><th>Normal Form</th><th>Formula</th></tr></thead>
                 <tr><th><span class="has-tip" title="Conjunctive Normal Form">CNF</span></th><td><code id="cnfCode">&nbsp;</code></td></tr>
+                <tr><th>Simplified <span class="has-tip" title="Conjunctive Normal Form">CNF</span></th><td><code id="scnfCode">&nbsp;</code></td></tr>
                 <tr><th><span class="has-tip" title="Disjunctive Normal Form">DNF</span></th><td><code id="dnfCode">&nbsp;</code></td></tr>
                 <tr><th><span class="has-tip" title="Negation Normal Form">NNF</span></th><td><code id="nnfCode">&nbsp;</code></td></tr>
               </table>

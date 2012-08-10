@@ -296,7 +296,7 @@ doubleNegation x = x
 -- | Convert a 'Formula' in the negative normal form to a 'Formula' in the
 -- conjunctive normal form.
 mkCNF :: Formula NNF -> Formula CNF
-mkCNF = simplifyCNF . cnf . deepTransform mkCNFVal
+mkCNF = cnf . deepTransform mkCNFVal
 
 -- | Ensure that no 'Disjunction' contains any 'Conjunction's by making use of
 -- the distributive law (<http://en.wikipedia.org/wiki/Distributivity>).

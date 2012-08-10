@@ -40,14 +40,22 @@ analyzeFormula = do
     Right x -> let normal = mkNormal x
                    nnf    = mkNNF normal
                    cnf    = mkCNF nnf
+                   scnf   = simplifyCNF cnf
                    dnf    = mkDNF nnf
+                   
                in do
                  cnfCode <- documentGetElementById doc "cnfCode"
                  setAttr "innerHTML" (stringToJSString $ prettyFormulaString cnf) cnfCode
+
+                 scnfCode <- documentGetElementById doc "scnfCode"
+                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString scnf) scnfCode
+
                  dnfCode <- documentGetElementById doc "dnfCode"
                  setAttr "innerHTML" (stringToJSString $ prettyFormulaString dnf) dnfCode
+
                  nnfCode <- documentGetElementById doc "nnfCode"
                  setAttr "innerHTML" (stringToJSString $ prettyFormulaString nnf) nnfCode
+
                  return ()
 
     Left (pos, msg) -> alert $ "error at character " ++ show pos ++ ": " ++ msg
