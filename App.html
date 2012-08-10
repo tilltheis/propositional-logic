@@ -49,10 +49,20 @@
   <script src="lib/uhc-js/uhc-js/src/Language/UHC/JScript/ECMA/Language_UHC_JScript_ECMA_String.mjs"></script>
   <script src="lib/uhc-js/uhc-js/src/Language/UHC/JScript/Language_UHC_JScript_Primitives.mjs"></script>
   <script src="lib/uhc-js/uhc-js/src/Language/UHC/JScript/Language_UHC_JScript_Assorted.mjs"></script>
+  <script src="lib/uhc-js/uhc-js/src/Language/UHC/JScript/Language_UHC_JScript_Prelude.mjs"></script>
+  <script src="lib/uhc-js/uhc-js/src/Language/UHC/JScript/ECMA/Language_UHC_JScript_ECMA_Array.mjs"></script>
+  <script src="lib/uhc-js/uhc-js/src/Language/UHC/JScript/ECMA/Language_UHC_JScript_ECMA_Expressions.mjs"></script>
+  <script src="lib/uhc-js/uhc-js/src/Language/UHC/JScript/W3C/Language_UHC_JScript_W3C_HTML5.mjs"></script>
   <script src="src/PropositionalLogic/PropositionalLogic_Logic.mjs"></script>
   <script src="src/PropositionalLogic/PropositionalLogic_Parser.mjs"></script>
   <script src="src/PropositionalLogic.mjs"></script>
   <script src="src/App.mjs"></script>
+  <script>
+    // should have been implemented by the compiler
+    window.primCharToLower = function(charCode) {
+      return String.fromCharCode(charCode).toLowerCase().charCodeAt(0);
+    };
+  </script>
   <link rel="stylesheet" href="foundation.css">
   <style>
   code { font-family: "Consolas", "Menlo", "Courier", monospace; background: none; }
@@ -75,10 +85,10 @@
         <!-- input -->
         <div class="row collapse">
           <div class="nine columns">
-            <input type="text">
+            <input type="text" id="formulaInput">
           </div>
           <div class="three columns">
-            <button class="postfix button">Analyze Formula</button>
+            <button class="postfix button" id="analyzeButton">Analyze Formula</button>
           </div>
         </div>
 
@@ -100,14 +110,14 @@
           </div>
 
           <!-- result -->
-          <div class="eight columns pull-four">
+          <div class="eight columns pull-four" id="result">
             <div class="row">
               <div class="twelve columns">
               <table>
                 <thead><tr><th>Normal Form</th><th>Formula</th></tr></thead>
-                <tr><th>CNF</th><td><code>(¬A ∨ B ↔ A → B) ∨ ¬(¬A ∨ B ↔ A → B)</code></td></tr>
-                <tr><th>DNF</th><td><code>(¬A ∨ B ↔ A → B) ∨ ¬(¬A ∨ B ↔ A → B)</code></td></tr>
-                <tr><th>NNF</th><td><code>(¬A ∨ B ↔ A → B) ∨ ¬(¬A ∨ B ↔ A → B)</code></td></tr>
+                <tr><th>CNF</th><td><code id="cnfCode">(¬A ∨ B ↔ A → B) ∨ ¬(¬A ∨ B ↔ A → B)</code></td></tr>
+                <tr><th>DNF</th><td><code id="dnfCode">(¬A ∨ B ↔ A → B) ∨ ¬(¬A ∨ B ↔ A → B)</code></td></tr>
+                <tr><th>NNF</th><td><code id="nnfCode">(¬A ∨ B ↔ A → B) ∨ ¬(¬A ∨ B ↔ A → B)</code></td></tr>
               </table>
             </div>
             </div>

@@ -24,7 +24,18 @@ module PropositionalLogic
   , mkCNF
   , mkDNF
   , formula
+  , prettyFormulaString
   ) where
 
 import PropositionalLogic.Logic
 import PropositionalLogic.Parser
+
+prettyFormulaString :: Formula a -> String
+prettyFormulaString T = "1"
+prettyFormulaString F = "0"
+prettyFormulaString (Symbol s) = s
+prettyFormulaString (Negation f) = "!" ++ prettyFormulaString f
+prettyFormulaString (Conjunction f g) = "(" ++ prettyFormulaString f ++ ") ^ (" ++ prettyFormulaString g ++ ")"
+prettyFormulaString (Disjunction f g) = "(" ++ prettyFormulaString f ++ ") v (" ++ prettyFormulaString g ++ ")"
+prettyFormulaString (Implication f g) = "(" ++ prettyFormulaString f ++ ") -> (" ++ prettyFormulaString g ++ ")"
+prettyFormulaString (Equivalence f g) = "(" ++ prettyFormulaString f ++ ") <-> (" ++ prettyFormulaString g ++ ")"
