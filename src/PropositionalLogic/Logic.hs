@@ -21,7 +21,7 @@ import Data.Foldable (foldr1)
 import qualified Data.Set as Set
 import qualified Data.Map as Map
 import Data.Maybe (fromJust)
-import Data.List (nub, elemIndices, delete, deleteBy)
+import Data.List (nub, elemIndices, delete, (\\))
 import Data.Function (on)
 
 
@@ -309,7 +309,7 @@ mkCNFVal x = x
 
 -- | Simplify a 'Formula' 'CNF' but retain the CNF properties.
 simplifyCNF :: Formula CNF -> Formula CNF
-simplifyCNF = outerFromL . go [F, Negation T] . innerFromL . map (go [T, Negation F]) . toL
+simplifyCNF = outerFromL . go [F, Negation T] [T, Negation F] . innerFromL . map (go [T, Negation F] [F, Negation T]) . toL
   where toL disj@(Disjunction _ _) = [ innerToL disj ]
         toL (Conjunction x y) = toL x ++ toL y
         toL x = [[x]]
@@ -320,10 +320,10 @@ simplifyCNF = outerFromL . go [F, Negation T] . innerFromL . map (go [T, Negatio
         innerFromL = map (foldr1 Disjunction)
         outerFromL = foldr1 Conjunction
                 
-        go shortCircuits xs =
+        go shortCircuits strippables xs =
           if any (`elem` xs) shortCircuits || or [ isMutualExclusion x y | x <- xs, y <- reverse xs]
             then [ head shortCircuits ]
-            else nub xs
+            else nub xs \\ strippables
 
         isMutualExclusion T F = True
         isMutualExclusion F T = True
