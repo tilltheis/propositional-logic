@@ -16,10 +16,19 @@ main = do
 onLoad :: IO ()
 onLoad = do
   doc <- document
+
   analyzeButton <- documentGetElementById doc "analyzeButton"
   onClickAction <- wrapIO analyzeFormula
   setAttr "onclick" onClickAction analyzeButton
+
+  formulaInput <- documentGetElementById doc "formulaInput"
+  onKeyPressAction <- wrapIO1 analyzeOnEnter
+  setAttr "onkeypress" onKeyPressAction formulaInput
+
   return ()
+
+analyzeOnEnter :: Event -> IO ()
+analyzeOnEnter e = when (eventKeyCode e == 13) analyzeFormula
 
 analyzeFormula :: IO ()
 analyzeFormula = do
@@ -50,3 +59,12 @@ foreign import js "window"
   window :: IO Window
 
 documentGetElementById d = HTML5.documentGetElementById d . stringToJSString
+
+foreign import js "wrapper"
+  wrapIO1 :: (a -> IO ()) -> IO (JSFunPtr (a -> IO ()))
+
+data EventPtr
+type Event = JSPtr EventPtr
+
+foreign import js "%1.keyCode"
+  eventKeyCode :: Event -> Int
