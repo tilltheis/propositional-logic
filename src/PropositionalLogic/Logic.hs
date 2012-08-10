@@ -21,7 +21,7 @@ import Data.Foldable (foldr1)
 import qualified Data.Set as Set
 import qualified Data.Map as Map
 import Data.Maybe (fromJust)
-import Data.List (nub, elemIndices, delete)
+import Data.List (nub, elemIndices, delete, deleteBy)
 import Data.Function (on)
 
 
@@ -40,7 +40,7 @@ data Formula t = T                                   -- ^ Atom (true)
                | Disjunction (Formula t) (Formula t) -- ^ Connective
                | Implication (Formula t) (Formula t) -- ^ Connective
                | Equivalence (Formula t) (Formula t) -- ^ Connective
-               deriving (Show, Ord)
+               deriving (Show, Ord, Eq)
 
 
 
@@ -48,30 +48,30 @@ data Formula t = T                                   -- ^ Atom (true)
 
 -- | Default 'Formula' form type. Formulae of this type don't have any structure
 -- constraints.
-data Fancy  = Fancy deriving Show
+data Fancy  = Fancy deriving (Show, Eq)
 
 -- | 'Formula'e in the 'Normal' form don't include 'Implication's or
 -- 'Equivalence's as those connectives can be created from the other ones.
-data Normal = Normal deriving Show
+data Normal = Normal deriving (Show, Eq)
 
 -- | The negative normal form is similiar to the 'Normal' 'Formula' type but
 -- only allows 'Negation's on atoms.
-data NNF    = NNF deriving Show
+data NNF    = NNF deriving (Show, Eq)
 
 -- | The connective normal form extends the negative normal form in that
 -- 'Disjunction's must not contain any 'Conjunction's.
-data CNF    = CNF deriving Show
+data CNF    = CNF deriving (Show, Eq)
 
 -- | The disjunctive normal form extends the negative normal form in that
 -- 'Conjunction's must not contain any 'Disjunction's.
-data DNF    = DNF deriving Show
+data DNF    = DNF deriving (Show, Eq)
 
 
 
 -- * Equality
 
-instance Eq (Formula t) where
-    x == y = truthTable x == truthTable y
+--instance Eq (Formula t) where
+--    x == y = truthTable x == truthTable y
 
 
 -- | Mapping from the 'Symbol's of a 'Formula' to the boolean values they
@@ -296,7 +296,7 @@ doubleNegation x = x
 -- | Convert a 'Formula' in the negative normal form to a 'Formula' in the
 -- conjunctive normal form.
 mkCNF :: Formula NNF -> Formula CNF
-mkCNF = cnf . deepTransform mkCNFVal
+mkCNF = simplifyCNF . cnf . deepTransform mkCNFVal
 
 -- | Ensure that no 'Disjunction' contains any 'Conjunction's by making use of
 -- the distributive law (<http://en.wikipedia.org/wiki/Distributivity>).
@@ -307,6 +307,31 @@ mkCNFVal (Disjunction x@(Conjunction _ _) y) =
 mkCNFVal (Disjunction y x@(Conjunction _ _)) = mkCNFVal $ Disjunction x y
 mkCNFVal x = x
 
+-- | Simplify a 'Formula' 'CNF' but retain the CNF properties.
+simplifyCNF :: Formula CNF -> Formula CNF
+simplifyCNF = outerFromL . go [F, Negation T] . innerFromL . map (go [T, Negation F]) . toL
+  where toL disj@(Disjunction _ _) = [ innerToL disj ]
+        toL (Conjunction x y) = toL x ++ toL y
+        toL x = [[x]]
+
+        innerToL (Disjunction x y) = innerToL x ++ innerToL y
+        innerToL x = [x]
+
+        innerFromL = map (foldr1 Disjunction)
+        outerFromL = foldr1 Conjunction
+        
+        go shortCircuits xs =
+          if any (`elem` xs) shortCircuits
+            then [ head shortCircuits ]
+            else filterByMutualExclusion $ nub xs
+
+        filterByMutualExclusion xs = foldr (deleteBy isMutualExclusion) xs xs
+
+        isMutualExclusion T F = True
+        isMutualExclusion F T = True
+        isMutualExclusion x (Negation y) = x == y
+        isMutualExclusion (Negation x) y = x == y
+        isMutualExclusion _ _ = False
 
 
 -- | Convert a 'Formula' in the negative normal form to a 'Formula' in the
