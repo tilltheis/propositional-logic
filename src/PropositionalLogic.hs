@@ -35,7 +35,22 @@ prettyFormulaString T = "1"
 prettyFormulaString F = "0"
 prettyFormulaString (Symbol s) = s
 prettyFormulaString (Negation f) = "!" ++ prettyFormulaString f
-prettyFormulaString (Conjunction f g) = "(" ++ prettyFormulaString f ++ ") ^ (" ++ prettyFormulaString g ++ ")"
-prettyFormulaString (Disjunction f g) = "(" ++ prettyFormulaString f ++ ") v (" ++ prettyFormulaString g ++ ")"
+prettyFormulaString (Conjunction f g) = parenthesize isConjunction f ++ " ^ " ++ parenthesize isConjunction g
+prettyFormulaString (Disjunction f g) = parenthesize isDisjunction f ++ " v " ++ parenthesize isDisjunction g
 prettyFormulaString (Implication f g) = "(" ++ prettyFormulaString f ++ ") -> (" ++ prettyFormulaString g ++ ")"
 prettyFormulaString (Equivalence f g) = "(" ++ prettyFormulaString f ++ ") <-> (" ++ prettyFormulaString g ++ ")"
+
+parenthesize p x | isAtom x || p x = prettyFormulaString x
+                 | otherwise       = "(" ++ prettyFormulaString x ++ ")"
+
+isAtom T = True
+isAtom F = True
+isAtom (Symbol _) = True
+isAtom (Negation _) = True
+isAtom _ = False
+
+isConjunction (Conjunction _ _) = True
+isConjunction _ = False
+
+isDisjunction (Disjunction _ _) = True
+isDisjunction _ = False
