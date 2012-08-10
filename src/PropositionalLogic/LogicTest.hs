@@ -7,6 +7,7 @@ import Test.Framework.Providers.QuickCheck2 (testProperty)
 import Test.QuickCheck
 
 
+import PropositionalLogic
 import PropositionalLogic.Logic
 
 import Control.Monad (liftM, liftM2)
@@ -23,6 +24,8 @@ tests =
             prop_cnfNoConjInDisj
         , testProperty "DNF Has No Disjunctions Within Conjunctions\n"
             prop_dnfNoDisjInConj
+        , testProperty "pretty printing and reparsing doesn't change formulae\n"
+            prop_printReadIsId
         ]
     ]
 
@@ -127,3 +130,9 @@ findDisjInConj = foldFormula findDisjInConj' False
 findDisjInConj' (Conjunction (Disjunction _ _) _) _ = True
 findDisjInConj' (Conjunction _ (Disjunction _ _)) _ = True
 findDisjInConj' _ x = x
+
+
+prop_printReadIsId :: Formula Fancy -> Bool
+prop_printReadIsId x = case formula $ prettyFormulaString x of
+                            Right y -> truthTable x == truthTable y
+                            Left _  -> False
