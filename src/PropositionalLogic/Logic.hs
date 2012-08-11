@@ -346,6 +346,30 @@ mkDNFVal (Conjunction x@(Disjunction _ _) y) =
 mkDNFVal (Conjunction y x@(Disjunction _ _)) = mkDNFVal $ Conjunction x y
 mkDNFVal x = x
 
+-- | Simplify a 'Formula' 'DNF' but retain the DNF properties.
+simplifyDNF :: Formula DNF -> Formula DNF
+simplifyDNF = outerFromL . go [T, Negation F] [F, Negation T] . innerFromL . map (go [F, Negation T] [T, Negation F]) . toL
+  where toL disj@(Conjunction _ _) = [ innerToL disj ]
+        toL (Disjunction x y) = toL x ++ toL y
+        toL x = [[x]]
+
+        innerToL (Conjunction x y) = innerToL x ++ innerToL y
+        innerToL x = [x]
+
+        innerFromL = map (foldr1 Conjunction)
+        outerFromL = foldr1 Disjunction
+                
+        go shortCircuits strippables xs =
+          if any (`elem` xs) shortCircuits || or [ isMutualExclusion x y | x <- xs, y <- reverse xs]
+            then [ head shortCircuits ]
+            else nub xs \\ strippables
+
+        isMutualExclusion T F = True
+        isMutualExclusion F T = True
+        isMutualExclusion x (Negation y) = x == y
+        isMutualExclusion (Negation x) y = x == y
+        isMutualExclusion _ _ = False
+
 
 
 -- * Simplification

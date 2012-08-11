@@ -42,7 +42,8 @@ analyzeFormula = do
                    cnf    = mkCNF nnf
                    scnf   = simplifyCNF cnf
                    dnf    = mkDNF nnf
-                   
+                   sdnf   = simplifyDNF dnf
+
                in do
                  cnfCode <- documentGetElementById doc "cnfCode"
                  setAttr "innerHTML" (stringToJSString $ prettyFormulaString cnf) cnfCode
@@ -52,6 +53,9 @@ analyzeFormula = do
 
                  dnfCode <- documentGetElementById doc "dnfCode"
                  setAttr "innerHTML" (stringToJSString $ prettyFormulaString dnf) dnfCode
+
+                 sdnfCode <- documentGetElementById doc "sdnfCode"
+                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString sdnf) sdnfCode
 
                  nnfCode <- documentGetElementById doc "nnfCode"
                  setAttr "innerHTML" (stringToJSString $ prettyFormulaString nnf) nnfCode

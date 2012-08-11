@@ -24,6 +24,7 @@ module PropositionalLogic
   , mkCNF
   , mkDNF
   , simplifyCNF
+  , simplifyDNF
   , formula
   , prettyFormulaString
   ) where
