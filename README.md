@@ -12,9 +12,9 @@ Instructions are given in App.html after building the app.
 
 # License
 ## Dependencies
-* UHC (uhc.js): [BSD](https://github.com/UU-ComputerScience/uhc/blob/master/EHC/LICENSE)
-* UHC-JS (lib/uhc-js): [BSD](https://github.com/UU-ComputerScience/uhc-js/blob/master/uhc-js/LICENSE)
-* Foundation (foundation.css): [MIT](https://github.com/zurb/foundation/blob/master/LICENSE)
+* UHC (uhc.js): [BSD](https://raw.github.com/UU-ComputerScience/uhc/master/EHC/LICENSE)
+* UHC-JS (lib/uhc-js): [BSD](https://raw.github.com/UU-ComputerScience/uhc-js/master/uhc-js/LICENSE)
+* Foundation (foundation.css): [MIT](https://raw.github.com/zurb/foundation/master/LICENSE)
 
 ## My Code
-[BSD](LICENSE)
+[BSD](https://raw.github.com/tilltheis/propositional-logic/master/LICENSE)
