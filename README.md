@@ -1,6 +1,9 @@
 # Propositional Logic
 Convert a propositional formula into the normal forms and simplify it.
 
+# Cloning
+    git clone --recursive git://github.com/tilltheis/propositional-logic.git
+
 # Building
     uhc -tjs -i 'lib/uhc-js/uhc-js/src;src' -o /dev/null src/App.hs && sh combine_dependencies.sh
 
