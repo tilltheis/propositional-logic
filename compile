@@ -1,3 +1,0 @@
-#!/bin/sh
-
-uhc -tjs -i 'lib/uhc-js/uhc-js/src;src' -o /dev/null src/App.hs
