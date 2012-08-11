@@ -599,12 +599,12 @@ var $PropositionalLogic=
  ($PropositionalLogic ? $PropositionalLogic : {});
 $PropositionalLogic.$Logic=
  ($PropositionalLogic.$Logic ? $PropositionalLogic.$Logic : {});
-$PropositionalLogic.$Logic.$__78__3=
+$PropositionalLogic.$Logic.$__30__3=
  new _A_(new _F_(function()
                  {return new _A_($Data.$Map.$filter,[$UHC.$Base.$id]);}),[]);
 $PropositionalLogic.$Logic.$trueMappings=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$Data.$Map.$keys,$PropositionalLogic.$Logic.$__78__3]);}),[]);
+                 {return new _A_($UHC.$Base.$_2e,[$Data.$Map.$keys,$PropositionalLogic.$Logic.$__30__3]);}),[]);
 $PropositionalLogic.$Logic.$reconnect=
  new _F_(function($x1,$x2)
          {var $x23=
@@ -652,13 +652,13 @@ $PropositionalLogic.$Logic.$reconnect=
               $UHC.$Base.$undefined;
              break;}
           return $__swJSW0__0;});
-$PropositionalLogic.$Logic.$__78__29__0=
+$PropositionalLogic.$Logic.$__30__29__0=
  new _F_(function($__,$__2)
          {return [$__,$__2];});
 $PropositionalLogic.$Logic.$reconnectMap=
  new _F_(function($fc,$fm,$x)
          {var $p=
-           new _A_($PropositionalLogic.$Logic.$reconnect,[$PropositionalLogic.$Logic.$__78__29__0,$x]);
+           new _A_($PropositionalLogic.$Logic.$reconnect,[$PropositionalLogic.$Logic.$__30__29__0,$x]);
           var $__=
            new _A_($UHC.$Base.$snd,[$p]);
           var $__6=
@@ -743,10 +743,10 @@ $PropositionalLogic.$Logic.$doubleNegation=
               $x1;
              break;}
           return $__swJSW1__0;});
-$PropositionalLogic.$Logic.$__76__70__0NEW20UNQ116CCN=
+$PropositionalLogic.$Logic.$__28__70__0NEW20UNQ118CCN=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__76__100__0NEW23UNQ117CCN,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__28__100__0NEW23UNQ119CCN,[$__,$__2]);
           var $__4=
            _e_($__2);
           var $__swJSW3__0;
@@ -757,27 +757,27 @@ $PropositionalLogic.$Logic.$__76__70__0NEW20UNQ116CCN=
              break;
             case 1:
              $__swJSW3__0=
-              new _A_($UHC.$Base.$concatMap,[$PropositionalLogic.$Logic.$_24okUNQ132,$__]);
+              new _A_($UHC.$Base.$concatMap,[$PropositionalLogic.$Logic.$_24okUNQ134,$__]);
              break;}
           return $__swJSW3__0;});
-$PropositionalLogic.$Logic.$__76__100__0NEW23UNQ117CCN=
+$PropositionalLogic.$Logic.$__28__100__0NEW23UNQ119CCN=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$_24okUNQ120,[$__2]);
+           new _A_($PropositionalLogic.$Logic.$_24okUNQ122,[$__2]);
           return new _A_($UHC.$Base.$concatMap,[$__3,$__]);});
-$PropositionalLogic.$Logic.$_24okUNQ120=
+$PropositionalLogic.$Logic.$_24okUNQ122=
  new _F_(function($__,$_24x)
          {var $__3=
            new _A_($PropositionalLogic.$Logic.$cartProd,[$__]);
           var $__4=
-           new _A_($PropositionalLogic.$Logic.$_24okUNQ124,[$_24x]);
+           new _A_($PropositionalLogic.$Logic.$_24okUNQ126,[$_24x]);
           return new _A_($UHC.$Base.$concatMap,[$__4,$__3]);});
-$PropositionalLogic.$Logic.$_24okUNQ124=
+$PropositionalLogic.$Logic.$_24okUNQ126=
  new _F_(function($_24x,$_24x2)
          {var $__=
            new _A_($UHC.$Base.$_3a,[$_24x,$_24x2]);
           return new _A_($UHC.$Base.$_3a,[$__,$UHC.$Base.$_5b_5d]);});
-$PropositionalLogic.$Logic.$_24okUNQ132=
+$PropositionalLogic.$Logic.$_24okUNQ134=
  new _F_(function($_24x)
          {var $__=
            new _A_($UHC.$Base.$_3a,[$_24x,$UHC.$Base.$_5b_5d]);
@@ -790,7 +790,7 @@ $PropositionalLogic.$Logic.$cartProd=
           switch($__._tag_)
            {case 0:
              var $__5=
-              new _A_($PropositionalLogic.$Logic.$__76__70__0NEW20UNQ116CCN,[$__._1,$__._2]);
+              new _A_($PropositionalLogic.$Logic.$__28__70__0NEW20UNQ118CCN,[$__._1,$__._2]);
              var $__6=
               _e_($__._1);
              var $__swJSW5__0;
@@ -842,7 +842,7 @@ $PropositionalLogic.$Logic.$alterIf=
               $__5;
              break;}
           return $__swJSW7__0;});
-$PropositionalLogic.$Logic.$__74__9__0DFLUHC_2eBase_2eshowsPrec=
+$PropositionalLogic.$Logic.$__26__9__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($d,$x__1)
          {var $x__13=
            _e_($x__1);
@@ -851,25 +851,25 @@ $PropositionalLogic.$Logic.$__74__9__0DFLUHC_2eBase_2eshowsPrec=
           var $__5=
            new _A_($UHC.$Base.$showString,[$__]);
           return $__5;});
-$PropositionalLogic.$Logic.$__74__9__0NEW44UNQ1844RDC=
+$PropositionalLogic.$Logic.$__26__9__0NEW44UNQ1895RDC=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__74__9__0NEW46UNQ1845EVLRDC,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__26__9__0NEW46UNQ1896EVLRDC,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__74__9__0NEW46UNQ1845EVLRDC=
+$PropositionalLogic.$Logic.$__26__9__0NEW46UNQ1896EVLRDC=
  new _F_(function($__)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__6=
-           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__74__9__0DFLUHC_2eBase_2eshowsPrec};
+           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__26__9__0DFLUHC_2eBase_2eshowsPrec};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__9__0UNQ1844RDC=
+$PropositionalLogic.$Logic.$__26__9__0UNQ1895RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__9__0NEW44UNQ1844RDC,[$PropositionalLogic.$Logic.$__74__9__0UNQ1844RDC]);}),[]);
-$PropositionalLogic.$Logic.$__74__9__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__9__0NEW44UNQ1895RDC,[$PropositionalLogic.$Logic.$__26__9__0UNQ1895RDC]);}),[]);
+$PropositionalLogic.$Logic.$__26__9__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__9__0UNQ1844RDC;}),[]);
-$PropositionalLogic.$Logic.$__74__7__0DFLUHC_2eBase_2eshowsPrec=
+                 {return $PropositionalLogic.$Logic.$__26__9__0UNQ1895RDC;}),[]);
+$PropositionalLogic.$Logic.$__26__7__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($d,$x__1)
          {var $x__13=
            _e_($x__1);
@@ -878,25 +878,25 @@ $PropositionalLogic.$Logic.$__74__7__0DFLUHC_2eBase_2eshowsPrec=
           var $__5=
            new _A_($UHC.$Base.$showString,[$__]);
           return $__5;});
-$PropositionalLogic.$Logic.$__74__7__0NEW55UNQ1561RDC=
+$PropositionalLogic.$Logic.$__26__7__0NEW55UNQ1612RDC=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__74__7__0NEW57UNQ1562EVLRDC,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__26__7__0NEW57UNQ1613EVLRDC,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__74__7__0NEW57UNQ1562EVLRDC=
+$PropositionalLogic.$Logic.$__26__7__0NEW57UNQ1613EVLRDC=
  new _F_(function($__)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__6=
-           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__74__7__0DFLUHC_2eBase_2eshowsPrec};
+           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__26__7__0DFLUHC_2eBase_2eshowsPrec};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__7__0UNQ1561RDC=
+$PropositionalLogic.$Logic.$__26__7__0UNQ1612RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__7__0NEW55UNQ1561RDC,[$PropositionalLogic.$Logic.$__74__7__0UNQ1561RDC]);}),[]);
-$PropositionalLogic.$Logic.$__74__7__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__7__0NEW55UNQ1612RDC,[$PropositionalLogic.$Logic.$__26__7__0UNQ1612RDC]);}),[]);
+$PropositionalLogic.$Logic.$__26__7__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__7__0UNQ1561RDC;}),[]);
-$PropositionalLogic.$Logic.$__74__5__0DFLUHC_2eBase_2eshowsPrec=
+                 {return $PropositionalLogic.$Logic.$__26__7__0UNQ1612RDC;}),[]);
+$PropositionalLogic.$Logic.$__26__5__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($d,$x__1)
          {var $x__13=
            _e_($x__1);
@@ -905,25 +905,74 @@ $PropositionalLogic.$Logic.$__74__5__0DFLUHC_2eBase_2eshowsPrec=
           var $__5=
            new _A_($UHC.$Base.$showString,[$__]);
           return $__5;});
-$PropositionalLogic.$Logic.$__74__5__0NEW66UNQ1543RDC=
+$PropositionalLogic.$Logic.$__26__5__0NEW66UNQ1594RDC=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__74__5__0NEW68UNQ1544EVLRDC,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__26__5__0NEW68UNQ1595EVLRDC,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__74__5__0NEW68UNQ1544EVLRDC=
+$PropositionalLogic.$Logic.$__26__5__0NEW68UNQ1595EVLRDC=
  new _F_(function($__)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__6=
-           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__74__5__0DFLUHC_2eBase_2eshowsPrec};
+           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__26__5__0DFLUHC_2eBase_2eshowsPrec};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__5__0UNQ1543RDC=
+$PropositionalLogic.$Logic.$__26__5__0UNQ1594RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__5__0NEW66UNQ1543RDC,[$PropositionalLogic.$Logic.$__74__5__0UNQ1543RDC]);}),[]);
-$PropositionalLogic.$Logic.$__74__5__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__5__0NEW66UNQ1594RDC,[$PropositionalLogic.$Logic.$__26__5__0UNQ1594RDC]);}),[]);
+$PropositionalLogic.$Logic.$__26__5__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__5__0UNQ1543RDC;}),[]);
-$PropositionalLogic.$Logic.$__74__3__0DFLUHC_2eBase_2eshowsPrec=
+                 {return $PropositionalLogic.$Logic.$__26__5__0UNQ1594RDC;}),[]);
+$PropositionalLogic.$Logic.$__26__40__0DFLUHC_2eBase_2eshowsPrec=
+ new _F_(function($d,$x__1)
+         {var $x__13=
+           _e_($x__1);
+          var $__swJSW14__0;
+          switch($x__13._tag_)
+           {case 0:
+             var $__=
+              new _A_($UHC.$Base.$packedStringToString,["QMDontCare"]);
+             var $__5=
+              new _A_($UHC.$Base.$showString,[$__]);
+             $__swJSW14__0=
+              $__5;
+             break;
+            case 1:
+             var $__=
+              new _A_($UHC.$Base.$packedStringToString,["QMFalse"]);
+             var $__7=
+              new _A_($UHC.$Base.$showString,[$__]);
+             $__swJSW14__0=
+              $__7;
+             break;
+            case 2:
+             var $__=
+              new _A_($UHC.$Base.$packedStringToString,["QMTrue"]);
+             var $__9=
+              new _A_($UHC.$Base.$showString,[$__]);
+             $__swJSW14__0=
+              $__9;
+             break;}
+          return $__swJSW14__0;});
+$PropositionalLogic.$Logic.$__26__40__0NEW81UNQ1570RDC=
+ new _F_(function($__)
+         {var $__2=
+           new _A_($PropositionalLogic.$Logic.$__26__40__0NEW83UNQ1571EVLRDC,[$__]);
+          return $__2;});
+$PropositionalLogic.$Logic.$__26__40__0NEW83UNQ1571EVLRDC=
+ new _F_(function($__)
+         {var $Show__=
+           _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
+          var $__6=
+           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__26__40__0DFLUHC_2eBase_2eshowsPrec};
+          return $__6;});
+$PropositionalLogic.$Logic.$__26__40__0UNQ1570RDC=
+ new _A_(new _F_(function()
+                 {return new _A_($PropositionalLogic.$Logic.$__26__40__0NEW81UNQ1570RDC,[$PropositionalLogic.$Logic.$__26__40__0UNQ1570RDC]);}),[]);
+$PropositionalLogic.$Logic.$__26__40__0=
+ new _A_(new _F_(function()
+                 {return $PropositionalLogic.$Logic.$__26__40__0UNQ1570RDC;}),[]);
+$PropositionalLogic.$Logic.$__26__3__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($d,$x__1)
          {var $x__13=
            _e_($x__1);
@@ -932,74 +981,25 @@ $PropositionalLogic.$Logic.$__74__3__0DFLUHC_2eBase_2eshowsPrec=
           var $__5=
            new _A_($UHC.$Base.$showString,[$__]);
           return $__5;});
-$PropositionalLogic.$Logic.$__74__3__0NEW77UNQ1799RDC=
+$PropositionalLogic.$Logic.$__26__3__0NEW92UNQ1850RDC=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__74__3__0NEW79UNQ1800EVLRDC,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__26__3__0NEW94UNQ1851EVLRDC,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__74__3__0NEW79UNQ1800EVLRDC=
+$PropositionalLogic.$Logic.$__26__3__0NEW94UNQ1851EVLRDC=
  new _F_(function($__)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__6=
-           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__74__3__0DFLUHC_2eBase_2eshowsPrec};
+           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__26__3__0DFLUHC_2eBase_2eshowsPrec};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__3__0UNQ1799RDC=
+$PropositionalLogic.$Logic.$__26__3__0UNQ1850RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__3__0NEW77UNQ1799RDC,[$PropositionalLogic.$Logic.$__74__3__0UNQ1799RDC]);}),[]);
-$PropositionalLogic.$Logic.$__74__3__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__3__0NEW92UNQ1850RDC,[$PropositionalLogic.$Logic.$__26__3__0UNQ1850RDC]);}),[]);
+$PropositionalLogic.$Logic.$__26__3__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__3__0UNQ1799RDC;}),[]);
-$PropositionalLogic.$Logic.$__74__39__0DFLUHC_2eBase_2eshowsPrec=
- new _F_(function($d,$x__1)
-         {var $x__13=
-           _e_($x__1);
-          var $__swJSW16__0;
-          switch($x__13._tag_)
-           {case 0:
-             var $__=
-              new _A_($UHC.$Base.$packedStringToString,["QMDontCare"]);
-             var $__5=
-              new _A_($UHC.$Base.$showString,[$__]);
-             $__swJSW16__0=
-              $__5;
-             break;
-            case 1:
-             var $__=
-              new _A_($UHC.$Base.$packedStringToString,["QMFalse"]);
-             var $__7=
-              new _A_($UHC.$Base.$showString,[$__]);
-             $__swJSW16__0=
-              $__7;
-             break;
-            case 2:
-             var $__=
-              new _A_($UHC.$Base.$packedStringToString,["QMTrue"]);
-             var $__9=
-              new _A_($UHC.$Base.$showString,[$__]);
-             $__swJSW16__0=
-              $__9;
-             break;}
-          return $__swJSW16__0;});
-$PropositionalLogic.$Logic.$__74__39__0NEW92UNQ1519RDC=
- new _F_(function($__)
-         {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__74__39__0NEW94UNQ1520EVLRDC,[$__]);
-          return $__2;});
-$PropositionalLogic.$Logic.$__74__39__0NEW94UNQ1520EVLRDC=
- new _F_(function($__)
-         {var $Show__=
-           _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
-          var $__6=
-           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__74__39__0DFLUHC_2eBase_2eshowsPrec};
-          return $__6;});
-$PropositionalLogic.$Logic.$__74__39__0UNQ1519RDC=
- new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__39__0NEW92UNQ1519RDC,[$PropositionalLogic.$Logic.$__74__39__0UNQ1519RDC]);}),[]);
-$PropositionalLogic.$Logic.$__74__39__0=
- new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__39__0UNQ1519RDC;}),[]);
-$PropositionalLogic.$Logic.$__74__11__0DFLUHC_2eBase_2eshowsPrec=
+                 {return $PropositionalLogic.$Logic.$__26__3__0UNQ1850RDC;}),[]);
+$PropositionalLogic.$Logic.$__26__11__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($d,$x__1)
          {var $x__13=
            _e_($x__1);
@@ -1008,39 +1008,39 @@ $PropositionalLogic.$Logic.$__74__11__0DFLUHC_2eBase_2eshowsPrec=
           var $__5=
            new _A_($UHC.$Base.$showString,[$__]);
           return $__5;});
-$PropositionalLogic.$Logic.$__74__11__0NEW103UNQ1817RDC=
+$PropositionalLogic.$Logic.$__26__11__0NEW103UNQ1868RDC=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__74__11__0NEW105UNQ1818EVLRDC,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__26__11__0NEW105UNQ1869EVLRDC,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__74__11__0NEW105UNQ1818EVLRDC=
+$PropositionalLogic.$Logic.$__26__11__0NEW105UNQ1869EVLRDC=
  new _F_(function($__)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__6=
-           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__74__11__0DFLUHC_2eBase_2eshowsPrec};
+           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Logic.$__26__11__0DFLUHC_2eBase_2eshowsPrec};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__11__0UNQ1817RDC=
+$PropositionalLogic.$Logic.$__26__11__0UNQ1868RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__11__0NEW103UNQ1817RDC,[$PropositionalLogic.$Logic.$__74__11__0UNQ1817RDC]);}),[]);
-$PropositionalLogic.$Logic.$__74__11__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__11__0NEW103UNQ1868RDC,[$PropositionalLogic.$Logic.$__26__11__0UNQ1868RDC]);}),[]);
+$PropositionalLogic.$Logic.$__26__11__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__11__0UNQ1817RDC;}),[]);
-$PropositionalLogic.$Logic.$__74__0__0NEW111UNQ1580RDC=
+                 {return $PropositionalLogic.$Logic.$__26__11__0UNQ1868RDC;}),[]);
+$PropositionalLogic.$Logic.$__26__0__0NEW111UNQ1631RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__74__0__0NEW114UNQ1592EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__0__0NEW114UNQ1643EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Logic.$__74__0__0NEW114UNQ1592EVLRDC=
+$PropositionalLogic.$Logic.$__26__0__0NEW114UNQ1643EVLRDC=
  new _F_(function($__,$__2)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__7=
-           new _A_($PropositionalLogic.$Logic.$__74__0__0DFLUHC_2eBase_2eshowsPrec,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__0__0DFLUHC_2eBase_2eshowsPrec,[$__,$__2]);
           var $__8=
            {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$__7};
           return $__8;});
-$PropositionalLogic.$Logic.$__74__0__0DFLUHC_2eBase_2eshowsPrec=
+$PropositionalLogic.$Logic.$__26__0__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($__,$__2,$d,$x__1)
          {var $x__15=
            _e_($x__1);
@@ -1199,13 +1199,13 @@ $PropositionalLogic.$Logic.$__74__0__0DFLUHC_2eBase_2eshowsPrec=
               $__75;
              break;}
           return $__swJSW21__0;});
-$PropositionalLogic.$Logic.$__74__0__0=
+$PropositionalLogic.$Logic.$__26__0__0=
  new _F_(function($__)
          {var $__2=
            new _A_($UHC.$Base.$Show__DCT73__87__0,[$UHC.$Base.$Show__DCT73__65__0]);
           var $__3=
            _i_();
-          _i_set_($__3,new _A_($PropositionalLogic.$Logic.$__74__0__0NEW111UNQ1580RDC,[$__3,$__2]));
+          _i_set_($__3,new _A_($PropositionalLogic.$Logic.$__26__0__0NEW111UNQ1631RDC,[$__3,$__2]));
           return $__3;});
 $PropositionalLogic.$Logic.$T__=
  new _A_(new _F_(function()
@@ -1234,15 +1234,15 @@ $PropositionalLogic.$Logic.$toQMVal=
               $PropositionalLogic.$Logic.$QMTrue__;
              break;}
           return $__swJSW22__0;});
-$PropositionalLogic.$Logic.$__78__352=
+$PropositionalLogic.$Logic.$__30__352=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$map,[$PropositionalLogic.$Logic.$toQMVal]);}),[]);
-$PropositionalLogic.$Logic.$__78__350=
+$PropositionalLogic.$Logic.$__30__350=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$__78__352,$Data.$Map.$elems]);}),[]);
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$__30__352,$Data.$Map.$elems]);}),[]);
 $PropositionalLogic.$Logic.$qmMappings=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$map,[$PropositionalLogic.$Logic.$__78__350]);}),[]);
+                 {return new _A_($UHC.$Base.$map,[$PropositionalLogic.$Logic.$__30__350]);}),[]);
 $PropositionalLogic.$Logic.$QMDontCare__=
  new _A_(new _F_(function()
                  {return {_tag_:0};}),[]);
@@ -1320,61 +1320,61 @@ $PropositionalLogic.$Logic.$__Rep0QMValDFLUHC_2eBase_2efrom0GENRepresentable0=
               $__13;
              break;}
           return $__swJSW28__0;});
-$PropositionalLogic.$Logic.$__Rep0QMValNEW211UNQ147SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0QMValNEW211UNQ149SDCGENRepresentable0=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep0QMValNEW213UNQ148EVLSDCGENRepresentable0,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep0QMValNEW213UNQ150EVLSDCGENRepresentable0,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep0QMValNEW213UNQ148EVLSDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0QMValNEW213UNQ150EVLSDCGENRepresentable0=
  new _F_(function($__)
          {var $Representable0__=
            _e_(new _A_($UHC.$Base.$Representable0__CLS73__371__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep0QMValDFLUHC_2eBase_2efrom0GENRepresentable0,_2:$PropositionalLogic.$Logic.$__Rep0QMValDFLUHC_2eBase_2eto0GENRepresentable0};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep0QMValUNQ147SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0QMValUNQ149SDCGENRepresentable0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep0QMValNEW211UNQ147SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0QMValUNQ147SDCGENRepresentable0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep0QMValNEW211UNQ149SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0QMValUNQ149SDCGENRepresentable0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep0QMValGENRepresentable0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep0QMValUNQ147SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Logic.$__76__8359__2__1UNQ1537=
+                 {return $PropositionalLogic.$Logic.$__Rep0QMValUNQ149SDCGENRepresentable0;}),[]);
+$PropositionalLogic.$Logic.$__28__9042__2__1UNQ1588=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);}),[]);
-$PropositionalLogic.$Logic.$__76__8359__2__4UNQ1534=
+$PropositionalLogic.$Logic.$__28__9042__2__4UNQ1585=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Logic.$__76__8359__2__1UNQ1537,$PropositionalLogic.$Logic.$__76__8359__2__1UNQ1537]);}),[]);
-$PropositionalLogic.$Logic.$__76__8359__2__7UNQ1531=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Logic.$__28__9042__2__1UNQ1588,$PropositionalLogic.$Logic.$__28__9042__2__1UNQ1588]);}),[]);
+$PropositionalLogic.$Logic.$__28__9042__2__7UNQ1582=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Logic.$__76__8359__2__1UNQ1537,$PropositionalLogic.$Logic.$__76__8359__2__4UNQ1534]);}),[]);
-$PropositionalLogic.$Logic.$__76__8367__0__5__0UNQ1529=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Logic.$__28__9042__2__1UNQ1588,$PropositionalLogic.$Logic.$__28__9042__2__4UNQ1585]);}),[]);
+$PropositionalLogic.$Logic.$__28__9050__0__5__0UNQ1580=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__76__8359__2__7UNQ1531]);}),[]);
-$PropositionalLogic.$Logic.$__74__40__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__28__9042__2__7UNQ1582]);}),[]);
+$PropositionalLogic.$Logic.$__26__41__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0QMValGENRepresentable0,$PropositionalLogic.$Logic.$__76__8367__0__5__0UNQ1529,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Logic.$__74__40__0NEW223UNQ1528RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0QMValGENRepresentable0,$PropositionalLogic.$Logic.$__28__9050__0__5__0UNQ1580,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Logic.$__26__41__0NEW223UNQ1579RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__74__40__0NEW226UNQ1539EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__41__0NEW226UNQ1590EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Logic.$__74__40__0NEW226UNQ1539EVLRDC=
+$PropositionalLogic.$Logic.$__26__41__0NEW226UNQ1590EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__40__0UNQ1528RDC=
+$PropositionalLogic.$Logic.$__26__41__0UNQ1579RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__40__0NEW223UNQ1528RDC,[$PropositionalLogic.$Logic.$__74__40__0UNQ1528RDC,$PropositionalLogic.$Logic.$__74__40__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Logic.$__74__40__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__41__0NEW223UNQ1579RDC,[$PropositionalLogic.$Logic.$__26__41__0UNQ1579RDC,$PropositionalLogic.$Logic.$__26__41__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Logic.$__26__41__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__40__0UNQ1528RDC;}),[]);
-$PropositionalLogic.$Logic.$__76__776__1__0=
+                 {return $PropositionalLogic.$Logic.$__26__41__0UNQ1579RDC;}),[]);
+$PropositionalLogic.$Logic.$__28__776__1__0=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq__DCT73__396__0,[$PropositionalLogic.$Logic.$__74__40__0]);}),[]);
-$PropositionalLogic.$Logic.$diffUNQ246=
+                 {return new _A_($UHC.$Base.$Eq__DCT73__396__0,[$PropositionalLogic.$Logic.$__26__41__0]);}),[]);
+$PropositionalLogic.$Logic.$diffUNQ248=
  new _F_(function($__,$x,$y)
          {var $__4=
            new _A_($UHC.$Base.$_3d_3d,[$__]);
@@ -1385,10 +1385,10 @@ $PropositionalLogic.$Logic.$diffUNQ246=
           var $__7=
            new _A_($UHC.$Base.$_2e,[$UHC.$Base.$length,$__6]);
           return new _A_($UHC.$Base.$_24,[$__7,$__5]);});
-$PropositionalLogic.$Logic.$__78__448__0=
+$PropositionalLogic.$Logic.$__30__448__0=
  new _F_(function($a,$b)
          {var $__=
-           new _A_($UHC.$Base.$_3d_3d,[$PropositionalLogic.$Logic.$__74__40__0,$a,$b]);
+           new _A_($UHC.$Base.$_3d_3d,[$PropositionalLogic.$Logic.$__26__41__0,$a,$b]);
           var $__4=
            _e_($__);
           var $__swJSW31__0;
@@ -1402,20 +1402,20 @@ $PropositionalLogic.$Logic.$__78__448__0=
               $a;
              break;}
           return $__swJSW31__0;});
-$PropositionalLogic.$Logic.$__78__469__0=
+$PropositionalLogic.$Logic.$__30__469__0=
  new _F_(function($isComparable,$x,$y)
          {var $__=
-           new _A_($PropositionalLogic.$Logic.$diffUNQ246,[$PropositionalLogic.$Logic.$__74__40__0,$x,$y]);
+           new _A_($PropositionalLogic.$Logic.$diffUNQ248,[$PropositionalLogic.$Logic.$__26__41__0,$x,$y]);
           var $__5=
            new _A_($UHC.$Base.$_3d_3d,[$UHC.$Base.$Eq__DCT73__88__0,$__,1]);
           var $__6=
            new _A_($isComparable,[$x,$y]);
           return new _A_($UHC.$Base.$_26_26,[$__6,$__5]);});
-$PropositionalLogic.$Logic.$__78__506__0=
- new _F_(function($__,$mergeable,$x,$_24x__75__145__0)
+$PropositionalLogic.$Logic.$__30__506__0=
+ new _F_(function($__,$mergeable,$x,$_24x__27__154__0)
          {var $__5=
            new _A_($UHC.$Base.$_3a,[$x,$mergeable]);
-          return new _A_($UHC.$Base.$notElem,[$__,$_24x__75__145__0,$__5]);});
+          return new _A_($UHC.$Base.$notElem,[$__,$_24x__27__154__0,$__5]);});
 $PropositionalLogic.$Logic.$qm_27=
  new _F_(function($x1,$x2,$x3,$x4)
          {var $x25=
@@ -1424,21 +1424,21 @@ $PropositionalLogic.$Logic.$qm_27=
           switch($x25._tag_)
            {case 0:
              var $__=
-              new _A_($UHC.$Base.$Eq__DCT73__396__0,[$PropositionalLogic.$Logic.$__74__40__0]);
+              new _A_($UHC.$Base.$Eq__DCT73__396__0,[$PropositionalLogic.$Logic.$__26__41__0]);
              var $__9=
-              new _A_($UHC.$Base.$Eq__DCT73__396__0,[$PropositionalLogic.$Logic.$__74__40__0]);
+              new _A_($UHC.$Base.$Eq__DCT73__396__0,[$PropositionalLogic.$Logic.$__26__41__0]);
              var $merge=
-              new _A_($UHC.$Base.$zipWith,[$PropositionalLogic.$Logic.$__78__448__0]);
+              new _A_($UHC.$Base.$zipWith,[$PropositionalLogic.$Logic.$__30__448__0]);
              var $__11=
               new _A_($UHC.$Base.$Eq__DCT73__396__0,[$UHC.$Base.$Eq__DCT73__88__0]);
              var $__12=
-              new _A_($Data.$List.$elemIndices,[$PropositionalLogic.$Logic.$__74__40__0,$PropositionalLogic.$Logic.$QMDontCare__]);
+              new _A_($Data.$List.$elemIndices,[$PropositionalLogic.$Logic.$__26__41__0,$PropositionalLogic.$Logic.$QMDontCare__]);
              var $__13=
               new _A_($UHC.$Base.$_3d_3d,[$__11]);
              var $isComparable=
               new _A_($Data.$Function.$on,[$__13,$__12]);
              var $__15=
-              new _A_($PropositionalLogic.$Logic.$__78__469__0,[$isComparable,$x25._1]);
+              new _A_($PropositionalLogic.$Logic.$__30__469__0,[$isComparable,$x25._1]);
              var $mergeable=
               new _A_($UHC.$Base.$filter,[$__15,$x25._2]);
              var $__17=
@@ -1458,7 +1458,7 @@ $PropositionalLogic.$Logic.$qm_27=
              var $next_27=
               new _A_($UHC.$Base.$_2b_2b,[$x4,$__23]);
              var $__25=
-              new _A_($PropositionalLogic.$Logic.$__78__506__0,[$__,$mergeable,$x25._1]);
+              new _A_($PropositionalLogic.$Logic.$__30__506__0,[$__,$mergeable,$x25._1]);
              var $__26=
               new _A_($UHC.$Base.$filter,[$__25]);
              var $__27=
@@ -1487,7 +1487,7 @@ $PropositionalLogic.$Logic.$qm_27=
                 var $__35=
                  new _A_($UHC.$Base.$_2b_2b,[$x1,$x3]);
                 var $__36=
-                 new _A_($Data.$List.$nub,[$PropositionalLogic.$Logic.$__76__776__1__0]);
+                 new _A_($Data.$List.$nub,[$PropositionalLogic.$Logic.$__28__776__1__0]);
                 var $__37=
                  new _A_($UHC.$Base.$_24,[$__36,$__35]);
                 $__swJSW33__0=
@@ -1514,51 +1514,51 @@ $PropositionalLogic.$Logic.$__Rep0NormalDFLUHC_2eBase_2efrom0GENRepresentable0=
           var $__4=
            new _A_($UHC.$Base.$M1__,[$__]);
           return $__4;});
-$PropositionalLogic.$Logic.$__Rep0NormalNEW282UNQ283SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0NormalNEW282UNQ285SDCGENRepresentable0=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep0NormalNEW284UNQ284EVLSDCGENRepresentable0,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep0NormalNEW284UNQ286EVLSDCGENRepresentable0,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep0NormalNEW284UNQ284EVLSDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0NormalNEW284UNQ286EVLSDCGENRepresentable0=
  new _F_(function($__)
          {var $Representable0__=
            _e_(new _A_($UHC.$Base.$Representable0__CLS73__371__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep0NormalDFLUHC_2eBase_2efrom0GENRepresentable0,_2:$PropositionalLogic.$Logic.$__Rep0NormalDFLUHC_2eBase_2eto0GENRepresentable0};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep0NormalUNQ283SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0NormalUNQ285SDCGENRepresentable0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep0NormalNEW282UNQ283SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0NormalUNQ283SDCGENRepresentable0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep0NormalNEW282UNQ285SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0NormalUNQ285SDCGENRepresentable0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep0NormalGENRepresentable0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep0NormalUNQ283SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Logic.$__76__8397__2__1UNQ1555=
+                 {return $PropositionalLogic.$Logic.$__Rep0NormalUNQ285SDCGENRepresentable0;}),[]);
+$PropositionalLogic.$Logic.$__28__9080__2__1UNQ1606=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);}),[]);
-$PropositionalLogic.$Logic.$__76__8405__0__5__0UNQ1553=
+$PropositionalLogic.$Logic.$__28__9088__0__5__0UNQ1604=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__76__8397__2__1UNQ1555]);}),[]);
-$PropositionalLogic.$Logic.$__74__6__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__28__9080__2__1UNQ1606]);}),[]);
+$PropositionalLogic.$Logic.$__26__6__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0NormalGENRepresentable0,$PropositionalLogic.$Logic.$__76__8405__0__5__0UNQ1553,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Logic.$__74__6__0NEW292UNQ1552RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0NormalGENRepresentable0,$PropositionalLogic.$Logic.$__28__9088__0__5__0UNQ1604,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Logic.$__26__6__0NEW292UNQ1603RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__74__6__0NEW295UNQ1557EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__6__0NEW295UNQ1608EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Logic.$__74__6__0NEW295UNQ1557EVLRDC=
+$PropositionalLogic.$Logic.$__26__6__0NEW295UNQ1608EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__6__0UNQ1552RDC=
+$PropositionalLogic.$Logic.$__26__6__0UNQ1603RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__6__0NEW292UNQ1552RDC,[$PropositionalLogic.$Logic.$__74__6__0UNQ1552RDC,$PropositionalLogic.$Logic.$__74__6__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Logic.$__74__6__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__6__0NEW292UNQ1603RDC,[$PropositionalLogic.$Logic.$__26__6__0UNQ1603RDC,$PropositionalLogic.$Logic.$__26__6__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Logic.$__26__6__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__6__0UNQ1552RDC;}),[]);
+                 {return $PropositionalLogic.$Logic.$__26__6__0UNQ1603RDC;}),[]);
 $PropositionalLogic.$Logic.$Negation__=
  new _F_(function($x1)
          {return {_tag_:5,_1:$x1};});
@@ -1579,51 +1579,51 @@ $PropositionalLogic.$Logic.$__Rep0NNFDFLUHC_2eBase_2efrom0GENRepresentable0=
           var $__4=
            new _A_($UHC.$Base.$M1__,[$__]);
           return $__4;});
-$PropositionalLogic.$Logic.$__Rep0NNFNEW309UNQ311SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0NNFNEW309UNQ313SDCGENRepresentable0=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep0NNFNEW311UNQ312EVLSDCGENRepresentable0,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep0NNFNEW311UNQ314EVLSDCGENRepresentable0,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep0NNFNEW311UNQ312EVLSDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0NNFNEW311UNQ314EVLSDCGENRepresentable0=
  new _F_(function($__)
          {var $Representable0__=
            _e_(new _A_($UHC.$Base.$Representable0__CLS73__371__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep0NNFDFLUHC_2eBase_2efrom0GENRepresentable0,_2:$PropositionalLogic.$Logic.$__Rep0NNFDFLUHC_2eBase_2eto0GENRepresentable0};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep0NNFUNQ311SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0NNFUNQ313SDCGENRepresentable0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep0NNFNEW309UNQ311SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0NNFUNQ311SDCGENRepresentable0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep0NNFNEW309UNQ313SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0NNFUNQ313SDCGENRepresentable0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep0NNFGENRepresentable0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep0NNFUNQ311SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Logic.$__76__8435__2__1UNQ1573=
+                 {return $PropositionalLogic.$Logic.$__Rep0NNFUNQ313SDCGENRepresentable0;}),[]);
+$PropositionalLogic.$Logic.$__28__9118__2__1UNQ1624=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);}),[]);
-$PropositionalLogic.$Logic.$__76__8443__0__5__0UNQ1571=
+$PropositionalLogic.$Logic.$__28__9126__0__5__0UNQ1622=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__76__8435__2__1UNQ1573]);}),[]);
-$PropositionalLogic.$Logic.$__74__8__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__28__9118__2__1UNQ1624]);}),[]);
+$PropositionalLogic.$Logic.$__26__8__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0NNFGENRepresentable0,$PropositionalLogic.$Logic.$__76__8443__0__5__0UNQ1571,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Logic.$__74__8__0NEW319UNQ1570RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0NNFGENRepresentable0,$PropositionalLogic.$Logic.$__28__9126__0__5__0UNQ1622,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Logic.$__26__8__0NEW319UNQ1621RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__74__8__0NEW322UNQ1575EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__8__0NEW322UNQ1626EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Logic.$__74__8__0NEW322UNQ1575EVLRDC=
+$PropositionalLogic.$Logic.$__26__8__0NEW322UNQ1626EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__8__0UNQ1570RDC=
+$PropositionalLogic.$Logic.$__26__8__0UNQ1621RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__8__0NEW319UNQ1570RDC,[$PropositionalLogic.$Logic.$__74__8__0UNQ1570RDC,$PropositionalLogic.$Logic.$__74__8__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Logic.$__74__8__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__8__0NEW319UNQ1621RDC,[$PropositionalLogic.$Logic.$__26__8__0UNQ1621RDC,$PropositionalLogic.$Logic.$__26__8__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Logic.$__26__8__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__8__0UNQ1570RDC;}),[]);
+                 {return $PropositionalLogic.$Logic.$__26__8__0UNQ1621RDC;}),[]);
 $PropositionalLogic.$Logic.$Implication__=
  new _F_(function($x1,$x2)
          {return {_tag_:4,_1:$x1,_2:$x2};});
@@ -1644,51 +1644,51 @@ $PropositionalLogic.$Logic.$__Rep0FancyDFLUHC_2eBase_2efrom0GENRepresentable0=
           var $__4=
            new _A_($UHC.$Base.$M1__,[$__]);
           return $__4;});
-$PropositionalLogic.$Logic.$__Rep0FancyNEW336UNQ669SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0FancyNEW336UNQ671SDCGENRepresentable0=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep0FancyNEW338UNQ670EVLSDCGENRepresentable0,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep0FancyNEW338UNQ672EVLSDCGENRepresentable0,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep0FancyNEW338UNQ670EVLSDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0FancyNEW338UNQ672EVLSDCGENRepresentable0=
  new _F_(function($__)
          {var $Representable0__=
            _e_(new _A_($UHC.$Base.$Representable0__CLS73__371__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep0FancyDFLUHC_2eBase_2efrom0GENRepresentable0,_2:$PropositionalLogic.$Logic.$__Rep0FancyDFLUHC_2eBase_2eto0GENRepresentable0};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep0FancyUNQ669SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0FancyUNQ671SDCGENRepresentable0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep0FancyNEW336UNQ669SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0FancyUNQ669SDCGENRepresentable0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep0FancyNEW336UNQ671SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0FancyUNQ671SDCGENRepresentable0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep0FancyGENRepresentable0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep0FancyUNQ669SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Logic.$__76__8548__2__1UNQ1811=
+                 {return $PropositionalLogic.$Logic.$__Rep0FancyUNQ671SDCGENRepresentable0;}),[]);
+$PropositionalLogic.$Logic.$__28__9231__2__1UNQ1862=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);}),[]);
-$PropositionalLogic.$Logic.$__76__8556__0__5__0UNQ1809=
+$PropositionalLogic.$Logic.$__28__9239__0__5__0UNQ1860=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__76__8548__2__1UNQ1811]);}),[]);
-$PropositionalLogic.$Logic.$__74__4__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__28__9231__2__1UNQ1862]);}),[]);
+$PropositionalLogic.$Logic.$__26__4__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0FancyGENRepresentable0,$PropositionalLogic.$Logic.$__76__8556__0__5__0UNQ1809,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Logic.$__74__4__0NEW346UNQ1808RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0FancyGENRepresentable0,$PropositionalLogic.$Logic.$__28__9239__0__5__0UNQ1860,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Logic.$__26__4__0NEW346UNQ1859RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__74__4__0NEW349UNQ1813EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__4__0NEW349UNQ1864EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Logic.$__74__4__0NEW349UNQ1813EVLRDC=
+$PropositionalLogic.$Logic.$__26__4__0NEW349UNQ1864EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__4__0UNQ1808RDC=
+$PropositionalLogic.$Logic.$__26__4__0UNQ1859RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__4__0NEW346UNQ1808RDC,[$PropositionalLogic.$Logic.$__74__4__0UNQ1808RDC,$PropositionalLogic.$Logic.$__74__4__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Logic.$__74__4__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__4__0NEW346UNQ1859RDC,[$PropositionalLogic.$Logic.$__26__4__0UNQ1859RDC,$PropositionalLogic.$Logic.$__26__4__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Logic.$__26__4__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__4__0UNQ1808RDC;}),[]);
+                 {return $PropositionalLogic.$Logic.$__26__4__0UNQ1859RDC;}),[]);
 $PropositionalLogic.$Logic.$F__=
  new _A_(new _F_(function()
                  {return {_tag_:3};}),[]);
@@ -1754,7 +1754,7 @@ $PropositionalLogic.$Logic.$foldFormula=
               $__;
              break;}
           return $__swJSW46__0;});
-$PropositionalLogic.$Logic.$insertUNQ1301=
+$PropositionalLogic.$Logic.$insertUNQ1303=
  new _F_(function($__,$x1,$x2)
          {var $x14=
            _e_($x1);
@@ -1800,7 +1800,7 @@ $PropositionalLogic.$Logic.$symbols=
                  {var $__=
                    new _A_($UHC.$Base.$Ord__DCT73__84__0,[$UHC.$Base.$Ord__DCT73__58__0]);
                   var $__2=
-                   new _A_($PropositionalLogic.$Logic.$insertUNQ1301,[$__]);
+                   new _A_($PropositionalLogic.$Logic.$insertUNQ1303,[$__]);
                   return new _A_($PropositionalLogic.$Logic.$foldFormula,[$__2,$Data.$Set.$empty]);}),[]);
 $PropositionalLogic.$Logic.$Equivalence__=
  new _F_(function($x1,$x2)
@@ -1825,51 +1825,51 @@ $PropositionalLogic.$Logic.$__Rep0DNFDFLUHC_2eBase_2efrom0GENRepresentable0=
           var $__4=
            new _A_($UHC.$Base.$M1__,[$__]);
           return $__4;});
-$PropositionalLogic.$Logic.$__Rep0DNFNEW383UNQ697SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0DNFNEW383UNQ699SDCGENRepresentable0=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep0DNFNEW385UNQ698EVLSDCGENRepresentable0,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep0DNFNEW385UNQ700EVLSDCGENRepresentable0,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep0DNFNEW385UNQ698EVLSDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0DNFNEW385UNQ700EVLSDCGENRepresentable0=
  new _F_(function($__)
          {var $Representable0__=
            _e_(new _A_($UHC.$Base.$Representable0__CLS73__371__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep0DNFDFLUHC_2eBase_2efrom0GENRepresentable0,_2:$PropositionalLogic.$Logic.$__Rep0DNFDFLUHC_2eBase_2eto0GENRepresentable0};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep0DNFUNQ697SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0DNFUNQ699SDCGENRepresentable0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep0DNFNEW383UNQ697SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0DNFUNQ697SDCGENRepresentable0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep0DNFNEW383UNQ699SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0DNFUNQ699SDCGENRepresentable0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep0DNFGENRepresentable0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep0DNFUNQ697SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Logic.$__76__8586__2__1UNQ1829=
+                 {return $PropositionalLogic.$Logic.$__Rep0DNFUNQ699SDCGENRepresentable0;}),[]);
+$PropositionalLogic.$Logic.$__28__9269__2__1UNQ1880=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);}),[]);
-$PropositionalLogic.$Logic.$__76__8594__0__5__0UNQ1827=
+$PropositionalLogic.$Logic.$__28__9277__0__5__0UNQ1878=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__76__8586__2__1UNQ1829]);}),[]);
-$PropositionalLogic.$Logic.$__74__12__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__28__9269__2__1UNQ1880]);}),[]);
+$PropositionalLogic.$Logic.$__26__12__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0DNFGENRepresentable0,$PropositionalLogic.$Logic.$__76__8594__0__5__0UNQ1827,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Logic.$__74__12__0NEW393UNQ1826RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0DNFGENRepresentable0,$PropositionalLogic.$Logic.$__28__9277__0__5__0UNQ1878,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Logic.$__26__12__0NEW393UNQ1877RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__74__12__0NEW396UNQ1831EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__12__0NEW396UNQ1882EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Logic.$__74__12__0NEW396UNQ1831EVLRDC=
+$PropositionalLogic.$Logic.$__26__12__0NEW396UNQ1882EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__12__0UNQ1826RDC=
+$PropositionalLogic.$Logic.$__26__12__0UNQ1877RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__12__0NEW393UNQ1826RDC,[$PropositionalLogic.$Logic.$__74__12__0UNQ1826RDC,$PropositionalLogic.$Logic.$__74__12__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Logic.$__74__12__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__12__0NEW393UNQ1877RDC,[$PropositionalLogic.$Logic.$__26__12__0UNQ1877RDC,$PropositionalLogic.$Logic.$__26__12__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Logic.$__26__12__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__12__0UNQ1826RDC;}),[]);
+                 {return $PropositionalLogic.$Logic.$__26__12__0UNQ1877RDC;}),[]);
 $PropositionalLogic.$Logic.$Conjunction__=
  new _F_(function($x1,$x2)
          {return {_tag_:0,_1:$x1,_2:$x2};});
@@ -2151,37 +2151,37 @@ $PropositionalLogic.$Logic.$__Rep0FormulaDFLUHC_2eBase_2efrom0GENRepresentable0=
               $__76;
              break;}
           return $__swJSW65__0;});
-$PropositionalLogic.$Logic.$__Rep0FormulaNEW489UNQ349SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0FormulaNEW489UNQ351SDCGENRepresentable0=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep0FormulaNEW491UNQ350EVLSDCGENRepresentable0,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep0FormulaNEW491UNQ352EVLSDCGENRepresentable0,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep0FormulaNEW491UNQ350EVLSDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0FormulaNEW491UNQ352EVLSDCGENRepresentable0=
  new _F_(function($__)
          {var $Representable0__=
            _e_(new _A_($UHC.$Base.$Representable0__CLS73__371__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep0FormulaDFLUHC_2eBase_2efrom0GENRepresentable0,_2:$PropositionalLogic.$Logic.$__Rep0FormulaDFLUHC_2eBase_2eto0GENRepresentable0};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep0FormulaUNQ349SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0FormulaUNQ351SDCGENRepresentable0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep0FormulaNEW489UNQ349SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0FormulaUNQ349SDCGENRepresentable0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep0FormulaNEW489UNQ351SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0FormulaUNQ351SDCGENRepresentable0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep0FormulaGENRepresentable0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep0FormulaUNQ349SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Logic.$__74__2__0NEW502UNQ1749RDC=
+                 {return $PropositionalLogic.$Logic.$__Rep0FormulaUNQ351SDCGENRepresentable0;}),[]);
+$PropositionalLogic.$Logic.$__26__2__0NEW502UNQ1800RDC=
  new _F_(function($__,$__2,$__3,$__4,$__5,$__6,$__7,$__8,$__9,$__10,$__11,$__12,$__13,$__14,$__15)
          {var $__16=
-           new _A_($PropositionalLogic.$Logic.$__74__2__0NEW518UNQ1795EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__2__0NEW518UNQ1846EVLRDC,[$__,$__2]);
           return $__16;});
-$PropositionalLogic.$Logic.$__74__2__0NEW518UNQ1795EVLRDC=
+$PropositionalLogic.$Logic.$__26__2__0NEW518UNQ1846EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__2__0=
+$PropositionalLogic.$Logic.$__26__2__0=
  new _F_(function($__)
          {var $__2=
            new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);
@@ -2197,7 +2197,7 @@ $PropositionalLogic.$Logic.$__74__2__0=
            new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$__6]);
           var $__8=
            _i_();
-          var $__74__2__0DFLUHC_2eBase_2e_3d_3d=
+          var $__26__2__0DFLUHC_2eBase_2e_3d_3d=
            _i_();
           var $__9=
            _i_();
@@ -2221,8 +2221,8 @@ $PropositionalLogic.$Logic.$__74__2__0=
            _i_();
           var $__19=
            _i_();
-          _i_set_($__8,new _A_($PropositionalLogic.$Logic.$__74__2__0NEW502UNQ1749RDC,[$__8,$__74__2__0DFLUHC_2eBase_2e_3d_3d,$__15,$__14,$__17,$__16,$__13,$__7,$__12,$__19,$__3,$__11,$__10,$__18,$__9]));
-          _i_set_($__74__2__0DFLUHC_2eBase_2e_3d_3d,new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0FormulaGENRepresentable0,$__9,$UHC.$Base.$undefined]));
+          _i_set_($__8,new _A_($PropositionalLogic.$Logic.$__26__2__0NEW502UNQ1800RDC,[$__8,$__26__2__0DFLUHC_2eBase_2e_3d_3d,$__15,$__14,$__17,$__16,$__13,$__7,$__12,$__19,$__3,$__11,$__10,$__18,$__9]));
+          _i_set_($__26__2__0DFLUHC_2eBase_2e_3d_3d,new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0FormulaGENRepresentable0,$__9,$UHC.$Base.$undefined]));
           _i_set_($__9,new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$__10]));
           _i_set_($__10,new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$__11,$__16]));
           _i_set_($__11,new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$__3,$__12]));
@@ -2235,26 +2235,26 @@ $PropositionalLogic.$Logic.$__74__2__0=
           _i_set_($__18,new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$__19]));
           _i_set_($__19,new _A_($UHC.$Base.$Eq_27__DCT73__395__0,[$__14,$__14]));
           return $__8;});
-$PropositionalLogic.$Logic.$__76__8477__2__0NEW537UNQ1612=
+$PropositionalLogic.$Logic.$__28__9160__2__0NEW537UNQ1663=
  new _F_(function($__)
          {var $Eq__=
            _e_($__);
           return $Eq__._5;});
-$PropositionalLogic.$Logic.$__74__1__0NEW541UNQ1611RDC=
+$PropositionalLogic.$Logic.$__26__1__0NEW541UNQ1662RDC=
  new _F_(function($__,$__2,$__3)
          {var $__4=
-           new _A_($PropositionalLogic.$Logic.$__74__1__0NEW545UNQ1624EVLRDC,[$__,$__2,$__3]);
+           new _A_($PropositionalLogic.$Logic.$__26__1__0NEW545UNQ1675EVLRDC,[$__,$__2,$__3]);
           return $__4;});
-$PropositionalLogic.$Logic.$__74__1__0NEW545UNQ1624EVLRDC=
+$PropositionalLogic.$Logic.$__26__1__0NEW545UNQ1675EVLRDC=
  new _F_(function($__,$__2,$__3)
          {var $Ord__=
            _e_(new _A_($UHC.$Base.$Ord__CLS73__5__0,[$__2]));
           var $__13=
-           new _A_($PropositionalLogic.$Logic.$__74__1__0DFLUHC_2eBase_2ecompare,[$__2,$__3]);
+           new _A_($PropositionalLogic.$Logic.$__26__1__0DFLUHC_2eBase_2ecompare,[$__2,$__3]);
           var $__14=
            {_tag_:0,_1:$Ord__._1,_2:$Ord__._2,_3:$Ord__._3,_4:$Ord__._4,_5:$__,_6:$__13,_7:$Ord__._7,_8:$Ord__._8};
           return $__14;});
-$PropositionalLogic.$Logic.$__74__1__0DFLUHC_2eBase_2ecompare=
+$PropositionalLogic.$Logic.$__26__1__0DFLUHC_2eBase_2ecompare=
  new _F_(function($__,$__2,$x__1,$x__2)
          {var $x__15=
            _e_($x__1);
@@ -2657,21 +2657,21 @@ $PropositionalLogic.$Logic.$__74__1__0DFLUHC_2eBase_2ecompare=
               $__swJSW82__0;
              break;}
           return $__swJSW70__0;});
-$PropositionalLogic.$Logic.$__74__1__0=
+$PropositionalLogic.$Logic.$__26__1__0=
  new _F_(function($__)
          {var $__2=
            new _A_($UHC.$Base.$Ord__DCT73__84__0,[$UHC.$Base.$Ord__DCT73__58__0]);
           var $__3=
-           new _A_($PropositionalLogic.$Logic.$__76__8477__2__0NEW537UNQ1612,[$__]);
-          var $__76__8478__3=
-           new _A_($PropositionalLogic.$Logic.$__74__2__0,[$__3]);
+           new _A_($PropositionalLogic.$Logic.$__28__9160__2__0NEW537UNQ1663,[$__]);
+          var $__28__9161__3=
+           new _A_($PropositionalLogic.$Logic.$__26__2__0,[$__3]);
           var $__4=
            _i_();
-          _i_set_($__4,new _A_($PropositionalLogic.$Logic.$__74__1__0NEW541UNQ1611RDC,[$__76__8478__3,$__4,$__2]));
+          _i_set_($__4,new _A_($PropositionalLogic.$Logic.$__26__1__0NEW541UNQ1662RDC,[$__28__9161__3,$__4,$__2]));
           return $__4;});
-$PropositionalLogic.$Logic.$__76__8057__3__0=
+$PropositionalLogic.$Logic.$__28__8855__3__0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__2__0,[$PropositionalLogic.$Logic.$__74__12__0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__26__2__0,[$PropositionalLogic.$Logic.$__26__12__0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep1FormulaDFLUHC_2eBase_2eto1GENRepresentable1=
  new _F_(function($proj__1)
          {var $proj__2=
@@ -2950,272 +2950,353 @@ $PropositionalLogic.$Logic.$__Rep1FormulaDFLUHC_2eBase_2efrom1GENRepresentable1=
               $__76;
              break;}
           return $__swJSW96__0;});
-$PropositionalLogic.$Logic.$__Rep1FormulaNEW659UNQ460SDCGENRepresentable1=
+$PropositionalLogic.$Logic.$__Rep1FormulaNEW659UNQ462SDCGENRepresentable1=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep1FormulaNEW661UNQ461EVLSDCGENRepresentable1,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep1FormulaNEW661UNQ463EVLSDCGENRepresentable1,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep1FormulaNEW661UNQ461EVLSDCGENRepresentable1=
+$PropositionalLogic.$Logic.$__Rep1FormulaNEW661UNQ463EVLSDCGENRepresentable1=
  new _F_(function($__)
          {var $Representable1__=
            _e_(new _A_($UHC.$Base.$Representable1__CLS73__372__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep1FormulaDFLUHC_2eBase_2efrom1GENRepresentable1,_2:$PropositionalLogic.$Logic.$__Rep1FormulaDFLUHC_2eBase_2eto1GENRepresentable1};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep1FormulaUNQ460SDCGENRepresentable1=
+$PropositionalLogic.$Logic.$__Rep1FormulaUNQ462SDCGENRepresentable1=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep1FormulaNEW659UNQ460SDCGENRepresentable1,[$PropositionalLogic.$Logic.$__Rep1FormulaUNQ460SDCGENRepresentable1]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep1FormulaNEW659UNQ462SDCGENRepresentable1,[$PropositionalLogic.$Logic.$__Rep1FormulaUNQ462SDCGENRepresentable1]);}),[]);
 $PropositionalLogic.$Logic.$__Rep1FormulaGENRepresentable1=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep1FormulaUNQ460SDCGENRepresentable1;}),[]);
-$PropositionalLogic.$Logic.$outerFromLUNQ1369=
+                 {return $PropositionalLogic.$Logic.$__Rep1FormulaUNQ462SDCGENRepresentable1;}),[]);
+$PropositionalLogic.$Logic.$goUNQ1332=
+ new _F_(function($x1,$x2)
+         {var $x13=
+           _e_($x1);
+          var $__6=
+           _e_($x13[1]);
+          var $__swJSW99__0;
+          switch($__6._tag_)
+           {case 0:
+             $__swJSW99__0=
+              $x2;
+             break;
+            case 1:
+             var $__7=
+              new _A_($PropositionalLogic.$Logic.$Symbol__,[$x13[0]]);
+             var $__8=
+              new _A_($PropositionalLogic.$Logic.$Negation__,[$__7]);
+             var $__9=
+              new _A_($UHC.$Base.$_3a,[$__8,$x2]);
+             $__swJSW99__0=
+              $__9;
+             break;
+            case 2:
+             var $__10=
+              new _A_($PropositionalLogic.$Logic.$Symbol__,[$x13[0]]);
+             var $__11=
+              new _A_($UHC.$Base.$_3a,[$__10,$x2]);
+             $__swJSW99__0=
+              $__11;
+             break;}
+          return $__swJSW99__0;});
+$PropositionalLogic.$Logic.$fromLUNQ1335=
+ new _F_(function($x1)
+         {var $__=
+           new _A_($Data.$Foldable.$foldr1,[$Data.$Foldable.$Foldable__DCT121__3__0,$PropositionalLogic.$Logic.$Conjunction__]);
+          var $__3=
+           new _A_($UHC.$Base.$map,[$__]);
+          var $__4=
+           new _A_($Data.$Foldable.$foldr1,[$Data.$Foldable.$Foldable__DCT121__3__0,$PropositionalLogic.$Logic.$Disjunction__]);
+          var $__5=
+           new _A_($UHC.$Base.$_2e,[$__4,$__3]);
+          var $__6=
+           new _A_($UHC.$Base.$_24,[$__5,$x1]);
+          var $__7=
+           _e_($x1);
+          var $__swJSW100__0;
+          switch($__7._tag_)
+           {case 0:
+             $__swJSW100__0=
+              $__6;
+             break;
+            case 1:
+             $__swJSW100__0=
+              $PropositionalLogic.$Logic.$T__;
+             break;}
+          return $__swJSW100__0;});
+$PropositionalLogic.$Logic.$qmMappingsToFormula=
+ new _F_(function($initialFormula,$mappings)
+         {var $__=
+           new _A_($UHC.$Base.$foldr,[$PropositionalLogic.$Logic.$goUNQ1332,$UHC.$Base.$_5b_5d]);
+          var $__4=
+           new _A_($UHC.$Base.$map,[$__]);
+          var $__5=
+           new _A_($UHC.$Base.$_2e,[$UHC.$Base.$not,$UHC.$Base.$null]);
+          var $__6=
+           new _A_($UHC.$Base.$filter,[$__5]);
+          var $disjunctions=
+           new _A_($UHC.$Base.$_2e,[$__6,$__4]);
+          var $__8=
+           new _A_($PropositionalLogic.$Logic.$symbols,[$initialFormula]);
+          var $__9=
+           new _A_($UHC.$Base.$_24,[$Data.$Set.$toList,$__8]);
+          var $__10=
+           new _A_($UHC.$Base.$_24,[$UHC.$Base.$zip,$__9]);
+          var $disjAList=
+           new _A_($UHC.$Base.$map,[$__10]);
+          var $__12=
+           new _A_($UHC.$Base.$_2e,[$disjunctions,$disjAList]);
+          var $__13=
+           new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$fromLUNQ1335,$__12]);
+          return new _A_($UHC.$Base.$_24,[$__13,$mappings]);});
+$PropositionalLogic.$Logic.$outerFromLUNQ1420=
  new _F_(function($__)
          {return new _A_($Data.$Foldable.$foldr1,[$__,$PropositionalLogic.$Logic.$Disjunction__]);});
-$PropositionalLogic.$Logic.$isMutualExclusionUNQ1365=
+$PropositionalLogic.$Logic.$isMutualExclusionUNQ1416=
  new _F_(function($__,$x1,$x2)
          {var $__4=
-           new _A_($PropositionalLogic.$Logic.$__76__7292__0NEW668UNQ1394CCN,[$__,$x1,$x2]);
+           new _A_($PropositionalLogic.$Logic.$__28__7975__0NEW695UNQ1445CCN,[$__,$x1,$x2]);
           var $x15=
            _e_($x1);
-          var $__swJSW98__0;
+          var $__swJSW101__0;
           switch($x15._tag_)
            {case 0:
-             $__swJSW98__0=
+             $__swJSW101__0=
               $__4;
              break;
             case 1:
-             $__swJSW98__0=
+             $__swJSW101__0=
               $__4;
              break;
             case 2:
-             $__swJSW98__0=
+             $__swJSW101__0=
               $__4;
              break;
             case 3:
              var $x212=
               _e_($x2);
-             var $__swJSW99__0;
+             var $__swJSW102__0;
              switch($x212._tag_)
               {case 0:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $__4;
                 break;
                case 1:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $__4;
                 break;
                case 2:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $__4;
                 break;
                case 3:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $__4;
                 break;
                case 4:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $__4;
                 break;
                case 5:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $__4;
                 break;
                case 6:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $__4;
                 break;
                case 7:
-                $__swJSW99__0=
+                $__swJSW102__0=
                  $UHC.$Base.$True__;
                 break;}
-             $__swJSW98__0=
-              $__swJSW99__0;
+             $__swJSW101__0=
+              $__swJSW102__0;
              break;
             case 4:
-             $__swJSW98__0=
+             $__swJSW101__0=
               $__4;
              break;
             case 5:
-             $__swJSW98__0=
+             $__swJSW101__0=
               $__4;
              break;
             case 6:
-             $__swJSW98__0=
+             $__swJSW101__0=
               $__4;
              break;
             case 7:
              var $x227=
               _e_($x2);
-             var $__swJSW100__0;
+             var $__swJSW103__0;
              switch($x227._tag_)
               {case 0:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $__4;
                 break;
                case 1:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $__4;
                 break;
                case 2:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $__4;
                 break;
                case 3:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $UHC.$Base.$True__;
                 break;
                case 4:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $__4;
                 break;
                case 5:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $__4;
                 break;
                case 6:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $__4;
                 break;
                case 7:
-                $__swJSW100__0=
+                $__swJSW103__0=
                  $__4;
                 break;}
-             $__swJSW98__0=
-              $__swJSW100__0;
+             $__swJSW101__0=
+              $__swJSW103__0;
              break;}
-          return $__swJSW98__0;});
-$PropositionalLogic.$Logic.$__76__7292__0NEW668UNQ1394CCN=
+          return $__swJSW101__0;});
+$PropositionalLogic.$Logic.$__28__7975__0NEW695UNQ1445CCN=
  new _F_(function($__,$x1,$x2)
          {var $x=
-           new _A_($PropositionalLogic.$Logic.$xNEW672UNQ1395CCN,[$__,$x1,$x2]);
+           new _A_($PropositionalLogic.$Logic.$xNEW699UNQ1446CCN,[$__,$x1,$x2]);
           var $x25=
            _e_($x2);
-          var $__swJSW101__0;
+          var $__swJSW104__0;
           switch($x25._tag_)
            {case 0:
-             $__swJSW101__0=
+             $__swJSW104__0=
               $x;
              break;
             case 1:
-             $__swJSW101__0=
+             $__swJSW104__0=
               $x;
              break;
             case 2:
-             $__swJSW101__0=
+             $__swJSW104__0=
               $x;
              break;
             case 3:
-             $__swJSW101__0=
+             $__swJSW104__0=
               $x;
              break;
             case 4:
-             $__swJSW101__0=
+             $__swJSW104__0=
               $x;
              break;
             case 5:
              var $__15=
               new _A_($UHC.$Base.$_3d_3d,[$__,$x1,$x25._1]);
-             $__swJSW101__0=
+             $__swJSW104__0=
               $__15;
              break;
             case 6:
-             $__swJSW101__0=
+             $__swJSW104__0=
               $x;
              break;
             case 7:
-             $__swJSW101__0=
+             $__swJSW104__0=
               $x;
              break;}
-          return $__swJSW101__0;});
-$PropositionalLogic.$Logic.$xNEW672UNQ1395CCN=
+          return $__swJSW104__0;});
+$PropositionalLogic.$Logic.$xNEW699UNQ1446CCN=
  new _F_(function($__,$x1,$x2)
          {var $x14=
            _e_($x1);
-          var $__swJSW102__0;
+          var $__swJSW105__0;
           switch($x14._tag_)
            {case 0:
-             $__swJSW102__0=
+             $__swJSW105__0=
               $UHC.$Base.$False__;
              break;
             case 1:
-             $__swJSW102__0=
+             $__swJSW105__0=
               $UHC.$Base.$False__;
              break;
             case 2:
-             $__swJSW102__0=
+             $__swJSW105__0=
               $UHC.$Base.$False__;
              break;
             case 3:
-             $__swJSW102__0=
+             $__swJSW105__0=
               $UHC.$Base.$False__;
              break;
             case 4:
-             $__swJSW102__0=
+             $__swJSW105__0=
               $UHC.$Base.$False__;
              break;
             case 5:
              var $__14=
               new _A_($UHC.$Base.$_3d_3d,[$__,$x14._1,$x2]);
-             $__swJSW102__0=
+             $__swJSW105__0=
               $__14;
              break;
             case 6:
-             $__swJSW102__0=
+             $__swJSW105__0=
               $UHC.$Base.$False__;
              break;
             case 7:
-             $__swJSW102__0=
+             $__swJSW105__0=
               $UHC.$Base.$False__;
              break;}
-          return $__swJSW102__0;});
-$PropositionalLogic.$Logic.$innerToLUNQ1366=
+          return $__swJSW105__0;});
+$PropositionalLogic.$Logic.$innerToLUNQ1417=
  new _F_(function($x1)
          {var $__=
            new _A_($UHC.$Base.$_3a,[$x1,$UHC.$Base.$_5b_5d]);
           var $__3=
            _e_($x1);
-          var $__swJSW103__0;
+          var $__swJSW106__0;
           switch($__3._tag_)
            {case 0:
              var $__6=
-              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1366,[$__3._2]);
+              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1417,[$__3._2]);
              var $__7=
-              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1366,[$__3._1]);
+              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1417,[$__3._1]);
              var $__8=
               new _A_($UHC.$Base.$_2b_2b,[$__7,$__6]);
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__8;
              break;
             case 1:
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__;
              break;
             case 2:
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__;
              break;
             case 3:
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__;
              break;
             case 4:
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__;
              break;
             case 5:
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__;
              break;
             case 6:
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__;
              break;
             case 7:
-             $__swJSW103__0=
+             $__swJSW106__0=
               $__;
              break;}
-          return $__swJSW103__0;});
-$PropositionalLogic.$Logic.$toLUNQ1367=
+          return $__swJSW106__0;});
+$PropositionalLogic.$Logic.$toLUNQ1418=
  new _F_(function($x1)
          {var $__=
            new _A_($UHC.$Base.$_3a,[$x1,$UHC.$Base.$_5b_5d]);
@@ -3223,71 +3304,71 @@ $PropositionalLogic.$Logic.$toLUNQ1367=
            new _A_($UHC.$Base.$_3a,[$__,$UHC.$Base.$_5b_5d]);
           var $__4=
            _e_($x1);
-          var $__swJSW104__0;
+          var $__swJSW107__0;
           switch($__4._tag_)
            {case 0:
              var $__7=
-              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1366,[$__4]);
+              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1417,[$__4]);
              var $__8=
               new _A_($UHC.$Base.$_3a,[$__7,$UHC.$Base.$_5b_5d]);
-             $__swJSW104__0=
+             $__swJSW107__0=
               $__8;
              break;
             case 1:
              var $__11=
-              new _A_($PropositionalLogic.$Logic.$toLUNQ1367,[$__4._2]);
+              new _A_($PropositionalLogic.$Logic.$toLUNQ1418,[$__4._2]);
              var $__12=
-              new _A_($PropositionalLogic.$Logic.$toLUNQ1367,[$__4._1]);
+              new _A_($PropositionalLogic.$Logic.$toLUNQ1418,[$__4._1]);
              var $__13=
               new _A_($UHC.$Base.$_2b_2b,[$__12,$__11]);
-             $__swJSW104__0=
+             $__swJSW107__0=
               $__13;
              break;
             case 2:
-             $__swJSW104__0=
+             $__swJSW107__0=
               $disj;
              break;
             case 3:
-             $__swJSW104__0=
+             $__swJSW107__0=
               $disj;
              break;
             case 4:
-             $__swJSW104__0=
+             $__swJSW107__0=
               $disj;
              break;
             case 5:
-             $__swJSW104__0=
+             $__swJSW107__0=
               $disj;
              break;
             case 6:
-             $__swJSW104__0=
+             $__swJSW107__0=
               $disj;
              break;
             case 7:
-             $__swJSW104__0=
+             $__swJSW107__0=
               $disj;
              break;}
-          return $__swJSW104__0;});
-$PropositionalLogic.$Logic.$innerFromLUNQ1370=
+          return $__swJSW107__0;});
+$PropositionalLogic.$Logic.$innerFromLUNQ1421=
  new _F_(function($__)
          {var $__2=
            new _A_($Data.$Foldable.$foldr1,[$__,$PropositionalLogic.$Logic.$Conjunction__]);
           return new _A_($UHC.$Base.$map,[$__2]);});
-$PropositionalLogic.$Logic.$goUNQ1368=
+$PropositionalLogic.$Logic.$goUNQ1419=
  new _F_(function($__,$shortCircuits,$strippables,$xs)
          {var $__5=
-           new _A_($PropositionalLogic.$Logic.$__78__1242NEW701,[$__,$xs]);
+           new _A_($PropositionalLogic.$Logic.$__30__1300NEW728,[$__,$xs]);
           var $__6=
            new _A_($UHC.$Base.$or,[$__5]);
           var $__7=
-           new _A_($PropositionalLogic.$Logic.$__78__1236__0,[$__,$xs]);
+           new _A_($PropositionalLogic.$Logic.$__30__1294__0,[$__,$xs]);
           var $__8=
            new _A_($UHC.$Base.$any,[$__7,$shortCircuits]);
           var $__9=
            new _A_($UHC.$Base.$_7c_7c,[$__8,$__6]);
           var $__10=
            _e_($__9);
-          var $__swJSW105__0;
+          var $__swJSW108__0;
           switch($__10._tag_)
            {case 0:
              var $__11=
@@ -3296,10 +3377,10 @@ $PropositionalLogic.$Logic.$goUNQ1368=
               new _A_($Data.$List.$_5c_5c,[$__,$__11,$strippables]);
              var $__13=
               _e_($__12);
-             var $__swJSW106__0;
+             var $__swJSW109__0;
              switch($__13._tag_)
               {case 0:
-                $__swJSW106__0=
+                $__swJSW109__0=
                  $__12;
                 break;
                case 1:
@@ -3307,41 +3388,41 @@ $PropositionalLogic.$Logic.$goUNQ1368=
                  new _A_($UHC.$Base.$head,[$strippables]);
                 var $__17=
                  new _A_($UHC.$Base.$_3a,[$__16,$UHC.$Base.$_5b_5d]);
-                $__swJSW106__0=
+                $__swJSW109__0=
                  $__17;
                 break;}
-             $__swJSW105__0=
-              $__swJSW106__0;
+             $__swJSW108__0=
+              $__swJSW109__0;
              break;
             case 1:
              var $__18=
               new _A_($UHC.$Base.$head,[$shortCircuits]);
              var $__19=
               new _A_($UHC.$Base.$_3a,[$__18,$UHC.$Base.$_5b_5d]);
-             $__swJSW105__0=
+             $__swJSW108__0=
               $__19;
              break;}
-          return $__swJSW105__0;});
-$PropositionalLogic.$Logic.$__78__1242NEW701=
+          return $__swJSW108__0;});
+$PropositionalLogic.$Logic.$__30__1300NEW728=
  new _F_(function($__,$xs)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$_24okUNQ1500,[$__,$xs]);
+           new _A_($PropositionalLogic.$Logic.$_24okUNQ1551,[$__,$xs]);
           return new _A_($UHC.$Base.$concatMap,[$__3,$xs]);});
-$PropositionalLogic.$Logic.$_24okUNQ1500=
+$PropositionalLogic.$Logic.$_24okUNQ1551=
  new _F_(function($__,$xs,$_24x)
          {var $__4=
            new _A_($UHC.$Base.$reverse,[$xs]);
           var $__5=
-           new _A_($PropositionalLogic.$Logic.$_24okUNQ1504,[$__,$_24x]);
+           new _A_($PropositionalLogic.$Logic.$_24okUNQ1555,[$__,$_24x]);
           return new _A_($UHC.$Base.$concatMap,[$__5,$__4]);});
-$PropositionalLogic.$Logic.$_24okUNQ1504=
+$PropositionalLogic.$Logic.$_24okUNQ1555=
  new _F_(function($__,$_24x,$_24x3)
          {var $__4=
-           new _A_($PropositionalLogic.$Logic.$isMutualExclusionUNQ1365,[$__,$_24x,$_24x3]);
+           new _A_($PropositionalLogic.$Logic.$isMutualExclusionUNQ1416,[$__,$_24x,$_24x3]);
           return new _A_($UHC.$Base.$_3a,[$__4,$UHC.$Base.$_5b_5d]);});
-$PropositionalLogic.$Logic.$__78__1236__0=
- new _F_(function($__,$xs,$_24x__75__115__0)
-         {return new _A_($UHC.$Base.$elem,[$__,$_24x__75__115__0,$xs]);});
+$PropositionalLogic.$Logic.$__30__1294__0=
+ new _F_(function($__,$xs,$_24x__27__115__0)
+         {return new _A_($UHC.$Base.$elem,[$__,$_24x__27__115__0,$xs]);});
 $PropositionalLogic.$Logic.$simplifyDNF=
  new _A_(new _F_(function()
                  {var $__=
@@ -3357,13 +3438,13 @@ $PropositionalLogic.$Logic.$simplifyDNF=
                   var $__6=
                    new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Logic.$F__,$__5]);
                   var $__7=
-                   new _A_($PropositionalLogic.$Logic.$goUNQ1368,[$PropositionalLogic.$Logic.$__76__8057__3__0,$__6,$__3]);
+                   new _A_($PropositionalLogic.$Logic.$goUNQ1419,[$PropositionalLogic.$Logic.$__28__8855__3__0,$__6,$__3]);
                   var $__8=
                    new _A_($UHC.$Base.$map,[$__7]);
                   var $__9=
-                   new _A_($UHC.$Base.$_2e,[$__8,$PropositionalLogic.$Logic.$toLUNQ1367]);
+                   new _A_($UHC.$Base.$_2e,[$__8,$PropositionalLogic.$Logic.$toLUNQ1418]);
                   var $__10=
-                   new _A_($PropositionalLogic.$Logic.$innerFromLUNQ1370,[$Data.$Foldable.$Foldable__DCT121__3__0]);
+                   new _A_($PropositionalLogic.$Logic.$innerFromLUNQ1421,[$Data.$Foldable.$Foldable__DCT121__3__0]);
                   var $__11=
                    new _A_($UHC.$Base.$_2e,[$__10,$__9]);
                   var $__12=
@@ -3379,39 +3460,39 @@ $PropositionalLogic.$Logic.$simplifyDNF=
                   var $__17=
                    new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Logic.$T__,$__16]);
                   var $__18=
-                   new _A_($PropositionalLogic.$Logic.$goUNQ1368,[$PropositionalLogic.$Logic.$__76__8057__3__0,$__17,$__14]);
+                   new _A_($PropositionalLogic.$Logic.$goUNQ1419,[$PropositionalLogic.$Logic.$__28__8855__3__0,$__17,$__14]);
                   var $__19=
                    new _A_($UHC.$Base.$_2e,[$__18,$__11]);
                   var $__20=
-                   new _A_($PropositionalLogic.$Logic.$outerFromLUNQ1369,[$Data.$Foldable.$Foldable__DCT121__3__0]);
+                   new _A_($PropositionalLogic.$Logic.$outerFromLUNQ1420,[$Data.$Foldable.$Foldable__DCT121__3__0]);
                   return new _A_($UHC.$Base.$_2e,[$__20,$__19]);}),[]);
-$PropositionalLogic.$Logic.$toAtomUNQ1342=
+$PropositionalLogic.$Logic.$toAtomUNQ1393=
  new _F_(function($x1)
          {var $__=
            _e_($x1);
           var $__5=
            _e_($__[1]);
-          var $__swJSW108__0;
+          var $__swJSW111__0;
           switch($__5._tag_)
            {case 0:
              var $__6=
               new _A_($PropositionalLogic.$Logic.$Symbol__,[$__[0]]);
              var $__7=
               new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$Negation__,$__6]);
-             $__swJSW108__0=
+             $__swJSW111__0=
               $__7;
              break;
             case 1:
              var $__8=
               new _A_($PropositionalLogic.$Logic.$Symbol__,[$__[0]]);
-             $__swJSW108__0=
+             $__swJSW111__0=
               $__8;
              break;}
-          return $__swJSW108__0;});
+          return $__swJSW111__0;});
 $PropositionalLogic.$Logic.$toFormula=
  new _A_(new _F_(function()
                  {var $__=
-                   new _A_($UHC.$Base.$map,[$PropositionalLogic.$Logic.$toAtomUNQ1342]);
+                   new _A_($UHC.$Base.$map,[$PropositionalLogic.$Logic.$toAtomUNQ1393]);
                   var $__2=
                    new _A_($UHC.$Base.$_2e,[$__,$Data.$Map.$toList]);
                   var $__3=
@@ -3429,7 +3510,7 @@ $PropositionalLogic.$Logic.$transform=
  new _F_(function($x1,$x2)
          {var $x23=
            _e_($x2);
-          var $__swJSW109__0;
+          var $__swJSW112__0;
           switch($x23._tag_)
            {case 0:
              var $__=
@@ -3438,7 +3519,7 @@ $PropositionalLogic.$Logic.$transform=
               new _A_($x1,[$x23._1]);
              var $__8=
               new _A_($PropositionalLogic.$Logic.$Conjunction__,[$__7,$__]);
-             $__swJSW109__0=
+             $__swJSW112__0=
               $__8;
              break;
             case 1:
@@ -3448,7 +3529,7 @@ $PropositionalLogic.$Logic.$transform=
               new _A_($x1,[$x23._1]);
              var $__13=
               new _A_($PropositionalLogic.$Logic.$Disjunction__,[$__12,$__]);
-             $__swJSW109__0=
+             $__swJSW112__0=
               $__13;
              break;
             case 2:
@@ -3458,11 +3539,11 @@ $PropositionalLogic.$Logic.$transform=
               new _A_($x1,[$x23._1]);
              var $__18=
               new _A_($PropositionalLogic.$Logic.$Equivalence__,[$__17,$__]);
-             $__swJSW109__0=
+             $__swJSW112__0=
               $__18;
              break;
             case 3:
-             $__swJSW109__0=
+             $__swJSW112__0=
               $PropositionalLogic.$Logic.$F__;
              break;
             case 4:
@@ -3472,7 +3553,7 @@ $PropositionalLogic.$Logic.$transform=
               new _A_($x1,[$x23._1]);
              var $__23=
               new _A_($PropositionalLogic.$Logic.$Implication__,[$__22,$__]);
-             $__swJSW109__0=
+             $__swJSW112__0=
               $__23;
              break;
             case 5:
@@ -3480,20 +3561,20 @@ $PropositionalLogic.$Logic.$transform=
               new _A_($x1,[$x23._1]);
              var $__26=
               new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$Negation__,$__]);
-             $__swJSW109__0=
+             $__swJSW112__0=
               $__26;
              break;
             case 6:
              var $__=
               new _A_($PropositionalLogic.$Logic.$Symbol__,[$x23._1]);
-             $__swJSW109__0=
+             $__swJSW112__0=
               $__;
              break;
             case 7:
-             $__swJSW109__0=
+             $__swJSW112__0=
               $PropositionalLogic.$Logic.$T__;
              break;}
-          return $__swJSW109__0;});
+          return $__swJSW112__0;});
 $PropositionalLogic.$Logic.$cast=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Logic.$transform,[$PropositionalLogic.$Logic.$cast]);}),[]);
@@ -3516,32 +3597,32 @@ $PropositionalLogic.$Logic.$deMorgan=
  new _F_(function($x1)
          {var $__=
            _e_($x1);
-          var $__swJSW110__0;
+          var $__swJSW113__0;
           switch($__._tag_)
            {case 0:
-             $__swJSW110__0=
+             $__swJSW113__0=
               $x1;
              break;
             case 1:
-             $__swJSW110__0=
+             $__swJSW113__0=
               $x1;
              break;
             case 2:
-             $__swJSW110__0=
+             $__swJSW113__0=
               $x1;
              break;
             case 3:
-             $__swJSW110__0=
+             $__swJSW113__0=
               $x1;
              break;
             case 4:
-             $__swJSW110__0=
+             $__swJSW113__0=
               $x1;
              break;
             case 5:
              var $__12=
               _e_($__._1);
-             var $__swJSW111__0;
+             var $__swJSW114__0;
              switch($__12._tag_)
               {case 0:
                 var $__15=
@@ -3554,7 +3635,7 @@ $PropositionalLogic.$Logic.$deMorgan=
                  new _A_($PropositionalLogic.$Logic.$transform,[$PropositionalLogic.$Logic.$deMorgan]);
                 var $__19=
                  new _A_($UHC.$Base.$_24,[$__18,$__17]);
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $__19;
                 break;
                case 1:
@@ -3568,180 +3649,35 @@ $PropositionalLogic.$Logic.$deMorgan=
                  new _A_($PropositionalLogic.$Logic.$transform,[$PropositionalLogic.$Logic.$deMorgan]);
                 var $__26=
                  new _A_($UHC.$Base.$_24,[$__25,$__24]);
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $__26;
                 break;
                case 2:
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $x1;
                 break;
                case 3:
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $x1;
                 break;
                case 4:
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $x1;
                 break;
                case 5:
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $x1;
                 break;
                case 6:
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $x1;
                 break;
                case 7:
-                $__swJSW111__0=
+                $__swJSW114__0=
                  $x1;
-                break;}
-             $__swJSW110__0=
-              $__swJSW111__0;
-             break;
-            case 6:
-             $__swJSW110__0=
-              $x1;
-             break;
-            case 7:
-             $__swJSW110__0=
-              $x1;
-             break;}
-          return $__swJSW110__0;});
-$PropositionalLogic.$Logic.$deepTransform=
- new _F_(function($f,$x)
-         {var $__=
-           new _A_($PropositionalLogic.$Logic.$deepTransform,[$f]);
-          var $__4=
-           new _A_($PropositionalLogic.$Logic.$transform,[$__,$x]);
-          return new _A_($f,[$__4]);});
-$PropositionalLogic.$Logic.$__78__1409=
- new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$deMorgan]);}),[]);
-$PropositionalLogic.$Logic.$__78__1408=
- new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$doubleNegation]);}),[]);
-$PropositionalLogic.$Logic.$__78__1406=
- new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$__78__1408,$PropositionalLogic.$Logic.$__78__1409]);}),[]);
-$PropositionalLogic.$Logic.$mkNNF=
- new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$nnf,$PropositionalLogic.$Logic.$__78__1406]);}),[]);
-$PropositionalLogic.$Logic.$xNEW799UNQ971CCN=
- new _F_(function($x1,$x,$y)
-         {var $y4=
-           _e_($y);
-          var $__swJSW112__0;
-          switch($y4._tag_)
-           {case 0:
-             var $__7=
-              new _A_($PropositionalLogic.$Logic.$Disjunction__,[$y4,$x]);
-             var $__8=
-              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$mkCNFVal,$__7]);
-             $__swJSW112__0=
-              $__8;
-             break;
-            case 1:
-             $__swJSW112__0=
-              $x1;
-             break;
-            case 2:
-             $__swJSW112__0=
-              $x1;
-             break;
-            case 3:
-             $__swJSW112__0=
-              $x1;
-             break;
-            case 4:
-             $__swJSW112__0=
-              $x1;
-             break;
-            case 5:
-             $__swJSW112__0=
-              $x1;
-             break;
-            case 6:
-             $__swJSW112__0=
-              $x1;
-             break;
-            case 7:
-             $__swJSW112__0=
-              $x1;
-             break;}
-          return $__swJSW112__0;});
-$PropositionalLogic.$Logic.$mkCNFVal=
- new _F_(function($x1)
-         {var $__=
-           _e_($x1);
-          var $__swJSW113__0;
-          switch($__._tag_)
-           {case 0:
-             $__swJSW113__0=
-              $x1;
-             break;
-            case 1:
-             var $x7=
-              new _A_($PropositionalLogic.$Logic.$xNEW799UNQ971CCN,[$x1,$__._1,$__._2]);
-             var $x8=
-              _e_($__._1);
-             var $__swJSW114__0;
-             switch($x8._tag_)
-              {case 0:
-                var $__11=
-                 new _A_($PropositionalLogic.$Logic.$Disjunction__,[$__._2]);
-                var $__12=
-                 new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$mkCNFVal,$__11]);
-                var $__13=
-                 new _A_($PropositionalLogic.$Logic.$transform,[$__12,$x8]);
-                $__swJSW114__0=
-                 $__13;
-                break;
-               case 1:
-                $__swJSW114__0=
-                 $x7;
-                break;
-               case 2:
-                $__swJSW114__0=
-                 $x7;
-                break;
-               case 3:
-                $__swJSW114__0=
-                 $x7;
-                break;
-               case 4:
-                $__swJSW114__0=
-                 $x7;
-                break;
-               case 5:
-                $__swJSW114__0=
-                 $x7;
-                break;
-               case 6:
-                $__swJSW114__0=
-                 $x7;
-                break;
-               case 7:
-                $__swJSW114__0=
-                 $x7;
                 break;}
              $__swJSW113__0=
               $__swJSW114__0;
-             break;
-            case 2:
-             $__swJSW113__0=
-              $x1;
-             break;
-            case 3:
-             $__swJSW113__0=
-              $x1;
-             break;
-            case 4:
-             $__swJSW113__0=
-              $x1;
-             break;
-            case 5:
-             $__swJSW113__0=
-              $x1;
              break;
             case 6:
              $__swJSW113__0=
@@ -3752,29 +3688,42 @@ $PropositionalLogic.$Logic.$mkCNFVal=
               $x1;
              break;}
           return $__swJSW113__0;});
-$PropositionalLogic.$Logic.$__78__1432=
+$PropositionalLogic.$Logic.$deepTransform=
+ new _F_(function($f,$x)
+         {var $__=
+           new _A_($PropositionalLogic.$Logic.$deepTransform,[$f]);
+          var $__4=
+           new _A_($PropositionalLogic.$Logic.$transform,[$__,$x]);
+          return new _A_($f,[$__4]);});
+$PropositionalLogic.$Logic.$__30__1467=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$mkCNFVal]);}),[]);
-$PropositionalLogic.$Logic.$mkCNF=
+                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$deMorgan]);}),[]);
+$PropositionalLogic.$Logic.$__30__1466=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$cnf,$PropositionalLogic.$Logic.$__78__1432]);}),[]);
-$PropositionalLogic.$Logic.$xNEW814UNQ1011CCN=
+                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$doubleNegation]);}),[]);
+$PropositionalLogic.$Logic.$__30__1464=
+ new _A_(new _F_(function()
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$__30__1466,$PropositionalLogic.$Logic.$__30__1467]);}),[]);
+$PropositionalLogic.$Logic.$mkNNF=
+ new _A_(new _F_(function()
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$nnf,$PropositionalLogic.$Logic.$__30__1464]);}),[]);
+$PropositionalLogic.$Logic.$xNEW826UNQ973CCN=
  new _F_(function($x1,$x,$y)
          {var $y4=
            _e_($y);
           var $__swJSW115__0;
           switch($y4._tag_)
            {case 0:
+             var $__7=
+              new _A_($PropositionalLogic.$Logic.$Disjunction__,[$y4,$x]);
+             var $__8=
+              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$mkCNFVal,$__7]);
              $__swJSW115__0=
-              $x1;
+              $__8;
              break;
             case 1:
-             var $__9=
-              new _A_($PropositionalLogic.$Logic.$Conjunction__,[$y4,$x]);
-             var $__10=
-              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$mkDNFVal,$__9]);
              $__swJSW115__0=
-              $__10;
+              $x1;
              break;
             case 2:
              $__swJSW115__0=
@@ -3801,63 +3750,63 @@ $PropositionalLogic.$Logic.$xNEW814UNQ1011CCN=
               $x1;
              break;}
           return $__swJSW115__0;});
-$PropositionalLogic.$Logic.$mkDNFVal=
+$PropositionalLogic.$Logic.$mkCNFVal=
  new _F_(function($x1)
          {var $__=
            _e_($x1);
           var $__swJSW116__0;
           switch($__._tag_)
            {case 0:
-             var $x5=
-              new _A_($PropositionalLogic.$Logic.$xNEW814UNQ1011CCN,[$x1,$__._1,$__._2]);
-             var $x6=
+             $__swJSW116__0=
+              $x1;
+             break;
+            case 1:
+             var $x7=
+              new _A_($PropositionalLogic.$Logic.$xNEW826UNQ973CCN,[$x1,$__._1,$__._2]);
+             var $x8=
               _e_($__._1);
              var $__swJSW117__0;
-             switch($x6._tag_)
+             switch($x8._tag_)
               {case 0:
-                $__swJSW117__0=
-                 $x5;
-                break;
-               case 1:
                 var $__11=
-                 new _A_($PropositionalLogic.$Logic.$Conjunction__,[$__._2]);
+                 new _A_($PropositionalLogic.$Logic.$Disjunction__,[$__._2]);
                 var $__12=
-                 new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$mkDNFVal,$__11]);
+                 new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$mkCNFVal,$__11]);
                 var $__13=
-                 new _A_($PropositionalLogic.$Logic.$transform,[$__12,$x6]);
+                 new _A_($PropositionalLogic.$Logic.$transform,[$__12,$x8]);
                 $__swJSW117__0=
                  $__13;
                 break;
+               case 1:
+                $__swJSW117__0=
+                 $x7;
+                break;
                case 2:
                 $__swJSW117__0=
-                 $x5;
+                 $x7;
                 break;
                case 3:
                 $__swJSW117__0=
-                 $x5;
+                 $x7;
                 break;
                case 4:
                 $__swJSW117__0=
-                 $x5;
+                 $x7;
                 break;
                case 5:
                 $__swJSW117__0=
-                 $x5;
+                 $x7;
                 break;
                case 6:
                 $__swJSW117__0=
-                 $x5;
+                 $x7;
                 break;
                case 7:
                 $__swJSW117__0=
-                 $x5;
+                 $x7;
                 break;}
              $__swJSW116__0=
               $__swJSW117__0;
-             break;
-            case 1:
-             $__swJSW116__0=
-              $x1;
              break;
             case 2:
              $__swJSW116__0=
@@ -3884,51 +3833,41 @@ $PropositionalLogic.$Logic.$mkDNFVal=
               $x1;
              break;}
           return $__swJSW116__0;});
-$PropositionalLogic.$Logic.$__78__1455=
+$PropositionalLogic.$Logic.$__30__1490=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$mkDNFVal]);}),[]);
-$PropositionalLogic.$Logic.$mkDNF=
+                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$mkCNFVal]);}),[]);
+$PropositionalLogic.$Logic.$mkCNF=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$dnf,$PropositionalLogic.$Logic.$__78__1455]);}),[]);
-$PropositionalLogic.$Logic.$mkNormalVal=
- new _F_(function($x1)
-         {var $__=
-           _e_($x1);
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$cnf,$PropositionalLogic.$Logic.$__30__1490]);}),[]);
+$PropositionalLogic.$Logic.$xNEW841UNQ1013CCN=
+ new _F_(function($x1,$x,$y)
+         {var $y4=
+           _e_($y);
           var $__swJSW118__0;
-          switch($__._tag_)
+          switch($y4._tag_)
            {case 0:
              $__swJSW118__0=
               $x1;
              break;
             case 1:
+             var $__9=
+              new _A_($PropositionalLogic.$Logic.$Conjunction__,[$y4,$x]);
+             var $__10=
+              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$mkDNFVal,$__9]);
              $__swJSW118__0=
-              $x1;
+              $__10;
              break;
             case 2:
-             var $__9=
-              new _A_($PropositionalLogic.$Logic.$Implication__,[$__._2,$__._1]);
-             var $__10=
-              new _A_($PropositionalLogic.$Logic.$Implication__,[$__._1,$__._2]);
-             var $__11=
-              new _A_($PropositionalLogic.$Logic.$Conjunction__,[$__10,$__9]);
-             var $__12=
-              new _A_($PropositionalLogic.$Logic.$transform,[$PropositionalLogic.$Logic.$mkNormalVal]);
-             var $__13=
-              new _A_($UHC.$Base.$_24,[$__12,$__11]);
              $__swJSW118__0=
-              $__13;
+              $x1;
              break;
             case 3:
              $__swJSW118__0=
               $x1;
              break;
             case 4:
-             var $__16=
-              new _A_($PropositionalLogic.$Logic.$Negation__,[$__._1]);
-             var $__17=
-              new _A_($PropositionalLogic.$Logic.$Disjunction__,[$__16,$__._2]);
              $__swJSW118__0=
-              $__17;
+              $x1;
              break;
             case 5:
              $__swJSW118__0=
@@ -3943,61 +3882,203 @@ $PropositionalLogic.$Logic.$mkNormalVal=
               $x1;
              break;}
           return $__swJSW118__0;});
-$PropositionalLogic.$Logic.$toBoolUNQ1066=
+$PropositionalLogic.$Logic.$mkDNFVal=
  new _F_(function($x1)
          {var $__=
            _e_($x1);
           var $__swJSW119__0;
           switch($__._tag_)
            {case 0:
+             var $x5=
+              new _A_($PropositionalLogic.$Logic.$xNEW841UNQ1013CCN,[$x1,$__._1,$__._2]);
+             var $x6=
+              _e_($__._1);
+             var $__swJSW120__0;
+             switch($x6._tag_)
+              {case 0:
+                $__swJSW120__0=
+                 $x5;
+                break;
+               case 1:
+                var $__11=
+                 new _A_($PropositionalLogic.$Logic.$Conjunction__,[$__._2]);
+                var $__12=
+                 new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$mkDNFVal,$__11]);
+                var $__13=
+                 new _A_($PropositionalLogic.$Logic.$transform,[$__12,$x6]);
+                $__swJSW120__0=
+                 $__13;
+                break;
+               case 2:
+                $__swJSW120__0=
+                 $x5;
+                break;
+               case 3:
+                $__swJSW120__0=
+                 $x5;
+                break;
+               case 4:
+                $__swJSW120__0=
+                 $x5;
+                break;
+               case 5:
+                $__swJSW120__0=
+                 $x5;
+                break;
+               case 6:
+                $__swJSW120__0=
+                 $x5;
+                break;
+               case 7:
+                $__swJSW120__0=
+                 $x5;
+                break;}
              $__swJSW119__0=
-              $UHC.$Base.$undefined;
+              $__swJSW120__0;
              break;
             case 1:
              $__swJSW119__0=
-              $UHC.$Base.$undefined;
+              $x1;
              break;
             case 2:
              $__swJSW119__0=
-              $UHC.$Base.$undefined;
+              $x1;
              break;
             case 3:
              $__swJSW119__0=
-              $UHC.$Base.$False__;
+              $x1;
              break;
             case 4:
              $__swJSW119__0=
-              $UHC.$Base.$undefined;
+              $x1;
              break;
             case 5:
              $__swJSW119__0=
-              $UHC.$Base.$undefined;
+              $x1;
              break;
             case 6:
              $__swJSW119__0=
-              $UHC.$Base.$undefined;
+              $x1;
              break;
             case 7:
              $__swJSW119__0=
-              $UHC.$Base.$True__;
+              $x1;
              break;}
           return $__swJSW119__0;});
-$PropositionalLogic.$Logic.$fromBoolUNQ1067=
+$PropositionalLogic.$Logic.$__30__1513=
+ new _A_(new _F_(function()
+                 {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$mkDNFVal]);}),[]);
+$PropositionalLogic.$Logic.$mkDNF=
+ new _A_(new _F_(function()
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$dnf,$PropositionalLogic.$Logic.$__30__1513]);}),[]);
+$PropositionalLogic.$Logic.$mkNormalVal=
  new _F_(function($x1)
          {var $__=
            _e_($x1);
-          var $__swJSW120__0;
+          var $__swJSW121__0;
           switch($__._tag_)
            {case 0:
-             $__swJSW120__0=
+             $__swJSW121__0=
+              $x1;
+             break;
+            case 1:
+             $__swJSW121__0=
+              $x1;
+             break;
+            case 2:
+             var $__9=
+              new _A_($PropositionalLogic.$Logic.$Implication__,[$__._2,$__._1]);
+             var $__10=
+              new _A_($PropositionalLogic.$Logic.$Implication__,[$__._1,$__._2]);
+             var $__11=
+              new _A_($PropositionalLogic.$Logic.$Conjunction__,[$__10,$__9]);
+             var $__12=
+              new _A_($PropositionalLogic.$Logic.$transform,[$PropositionalLogic.$Logic.$mkNormalVal]);
+             var $__13=
+              new _A_($UHC.$Base.$_24,[$__12,$__11]);
+             $__swJSW121__0=
+              $__13;
+             break;
+            case 3:
+             $__swJSW121__0=
+              $x1;
+             break;
+            case 4:
+             var $__16=
+              new _A_($PropositionalLogic.$Logic.$Negation__,[$__._1]);
+             var $__17=
+              new _A_($PropositionalLogic.$Logic.$Disjunction__,[$__16,$__._2]);
+             $__swJSW121__0=
+              $__17;
+             break;
+            case 5:
+             $__swJSW121__0=
+              $x1;
+             break;
+            case 6:
+             $__swJSW121__0=
+              $x1;
+             break;
+            case 7:
+             $__swJSW121__0=
+              $x1;
+             break;}
+          return $__swJSW121__0;});
+$PropositionalLogic.$Logic.$toBoolUNQ1068=
+ new _F_(function($x1)
+         {var $__=
+           _e_($x1);
+          var $__swJSW122__0;
+          switch($__._tag_)
+           {case 0:
+             $__swJSW122__0=
+              $UHC.$Base.$undefined;
+             break;
+            case 1:
+             $__swJSW122__0=
+              $UHC.$Base.$undefined;
+             break;
+            case 2:
+             $__swJSW122__0=
+              $UHC.$Base.$undefined;
+             break;
+            case 3:
+             $__swJSW122__0=
+              $UHC.$Base.$False__;
+             break;
+            case 4:
+             $__swJSW122__0=
+              $UHC.$Base.$undefined;
+             break;
+            case 5:
+             $__swJSW122__0=
+              $UHC.$Base.$undefined;
+             break;
+            case 6:
+             $__swJSW122__0=
+              $UHC.$Base.$undefined;
+             break;
+            case 7:
+             $__swJSW122__0=
+              $UHC.$Base.$True__;
+             break;}
+          return $__swJSW122__0;});
+$PropositionalLogic.$Logic.$fromBoolUNQ1069=
+ new _F_(function($x1)
+         {var $__=
+           _e_($x1);
+          var $__swJSW123__0;
+          switch($__._tag_)
+           {case 0:
+             $__swJSW123__0=
               $PropositionalLogic.$Logic.$F__;
              break;
             case 1:
-             $__swJSW120__0=
+             $__swJSW123__0=
               $PropositionalLogic.$Logic.$T__;
              break;}
-          return $__swJSW120__0;});
-$PropositionalLogic.$Logic.$reduceUNQ1070=
+          return $__swJSW123__0;});
+$PropositionalLogic.$Logic.$reduceUNQ1072=
  new _F_(function($__,$mapping,$x1)
          {var $__4=
            new _A_($UHC.$Base.$packedStringToString,["Logic.eval.reduce: Impossible"]);
@@ -4005,22 +4086,22 @@ $PropositionalLogic.$Logic.$reduceUNQ1070=
            new _A_($UHC.$Base.$error,[$__4]);
           var $__6=
            _e_($x1);
-          var $__swJSW121__0;
+          var $__swJSW124__0;
           switch($__6._tag_)
            {case 0:
              var $__9=
-              new _A_($PropositionalLogic.$Logic.$reconnectMap,[$UHC.$Base.$_26_26,$PropositionalLogic.$Logic.$toBoolUNQ1066,$__6]);
+              new _A_($PropositionalLogic.$Logic.$reconnectMap,[$UHC.$Base.$_26_26,$PropositionalLogic.$Logic.$toBoolUNQ1068,$__6]);
              var $__10=
-              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$fromBoolUNQ1067,$__9]);
-             $__swJSW121__0=
+              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$fromBoolUNQ1069,$__9]);
+             $__swJSW124__0=
               $__10;
              break;
             case 1:
              var $__13=
-              new _A_($PropositionalLogic.$Logic.$reconnectMap,[$UHC.$Base.$_7c_7c,$PropositionalLogic.$Logic.$toBoolUNQ1066,$__6]);
+              new _A_($PropositionalLogic.$Logic.$reconnectMap,[$UHC.$Base.$_7c_7c,$PropositionalLogic.$Logic.$toBoolUNQ1068,$__6]);
              var $__14=
-              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$fromBoolUNQ1067,$__13]);
-             $__swJSW121__0=
+              new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Logic.$fromBoolUNQ1069,$__13]);
+             $__swJSW124__0=
               $__14;
              break;
             case 2:
@@ -4029,14 +4110,14 @@ $PropositionalLogic.$Logic.$reduceUNQ1070=
              var $__18=
               new _A_($PropositionalLogic.$Logic.$eval,[$mapping]);
              var $__19=
-              new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$fromBoolUNQ1067,$__18]);
+              new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$fromBoolUNQ1069,$__18]);
              var $__20=
               new _A_($UHC.$Base.$_24,[$__19,$__17]);
-             $__swJSW121__0=
+             $__swJSW124__0=
               $__20;
              break;
             case 3:
-             $__swJSW121__0=
+             $__swJSW124__0=
               $PropositionalLogic.$Logic.$F__;
              break;
             case 4:
@@ -4045,77 +4126,77 @@ $PropositionalLogic.$Logic.$reduceUNQ1070=
              var $__24=
               new _A_($PropositionalLogic.$Logic.$eval,[$mapping]);
              var $__25=
-              new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$fromBoolUNQ1067,$__24]);
+              new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$fromBoolUNQ1069,$__24]);
              var $__26=
               new _A_($UHC.$Base.$_24,[$__25,$__23]);
-             $__swJSW121__0=
+             $__swJSW124__0=
               $__26;
              break;
             case 5:
              var $__28=
               _e_($__6._1);
-             var $__swJSW122__0;
+             var $__swJSW125__0;
              switch($__28._tag_)
               {case 0:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $__5;
                 break;
                case 1:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $__5;
                 break;
                case 2:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $__5;
                 break;
                case 3:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $PropositionalLogic.$Logic.$T__;
                 break;
                case 4:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $__5;
                 break;
                case 5:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $__5;
                 break;
                case 6:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $__5;
                 break;
                case 7:
-                $__swJSW122__0=
+                $__swJSW125__0=
                  $PropositionalLogic.$Logic.$F__;
                 break;}
-             $__swJSW121__0=
-              $__swJSW122__0;
+             $__swJSW124__0=
+              $__swJSW125__0;
              break;
             case 6:
              var $__40=
               new _A_($Data.$Map.$lookup,[$__,$__6._1,$mapping]);
              var $__41=
-              new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$fromBoolUNQ1067,$Data.$Maybe.$fromJust]);
+              new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$fromBoolUNQ1069,$Data.$Maybe.$fromJust]);
              var $__42=
               new _A_($UHC.$Base.$_24,[$__41,$__40]);
-             $__swJSW121__0=
+             $__swJSW124__0=
               $__42;
              break;
             case 7:
-             $__swJSW121__0=
+             $__swJSW124__0=
               $PropositionalLogic.$Logic.$T__;
              break;}
-          return $__swJSW121__0;});
+          return $__swJSW124__0;});
 $PropositionalLogic.$Logic.$eval=
  new _F_(function($mapping)
          {var $__=
            new _A_($UHC.$Base.$Ord__DCT73__84__0,[$UHC.$Base.$Ord__DCT73__58__0]);
           var $__3=
-           new _A_($PropositionalLogic.$Logic.$reduceUNQ1070,[$__,$mapping]);
+           new _A_($PropositionalLogic.$Logic.$reduceUNQ1072,[$__,$mapping]);
           var $__4=
            new _A_($PropositionalLogic.$Logic.$deepTransform,[$__3]);
-          return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$toBoolUNQ1066,$__4]);});
-$PropositionalLogic.$Logic.$combosUNQ1334=
+          return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$toBoolUNQ1068,$__4]);});
+$PropositionalLogic.$Logic.$combosUNQ1385=
  new _F_(function($syms)
          {var $__=
            new _A_($UHC.$Base.$_3a,[$UHC.$Base.$False__,$UHC.$Base.$_5b_5d]);
@@ -4130,16 +4211,16 @@ $PropositionalLogic.$Logic.$combosUNQ1334=
           var $__7=
            new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$cartProd,$__6]);
           return new _A_($UHC.$Base.$_24,[$__7,$__4]);});
-$PropositionalLogic.$Logic.$mappingMapsUNQ1335=
+$PropositionalLogic.$Logic.$mappingMapsUNQ1386=
  new _F_(function($syms)
          {var $__=
-           new _A_($PropositionalLogic.$Logic.$combosUNQ1334,[$syms]);
+           new _A_($PropositionalLogic.$Logic.$combosUNQ1385,[$syms]);
           var $__3=
            new _A_($UHC.$Base.$zipWith,[$Data.$Map.$singleton,$syms]);
           var $__4=
            new _A_($UHC.$Base.$map,[$__3]);
           return new _A_($UHC.$Base.$_24,[$__4,$__]);});
-$PropositionalLogic.$Logic.$insertUNQ1333=
+$PropositionalLogic.$Logic.$insertUNQ1384=
  new _F_(function($__,$x,$k)
          {var $__4=
            new _A_($PropositionalLogic.$Logic.$eval,[$k,$x]);
@@ -4155,7 +4236,7 @@ $PropositionalLogic.$Logic.$truthTable=
           var $__5=
            new _A_($UHC.$Base.$map,[$__4]);
           var $mappings=
-           new _A_($UHC.$Base.$_2e,[$__5,$PropositionalLogic.$Logic.$mappingMapsUNQ1335]);
+           new _A_($UHC.$Base.$_2e,[$__5,$PropositionalLogic.$Logic.$mappingMapsUNQ1386]);
           var $__7=
            new _A_($UHC.$Base.$Ord__DCT73__84__0,[$UHC.$Base.$Ord__DCT73__58__0]);
           var $__8=
@@ -4165,7 +4246,7 @@ $PropositionalLogic.$Logic.$truthTable=
           var $__10=
            new _A_($UHC.$Base.$_24,[$Data.$Set.$toList,$__9]);
           var $__11=
-           new _A_($PropositionalLogic.$Logic.$insertUNQ1333,[$__8,$x]);
+           new _A_($PropositionalLogic.$Logic.$insertUNQ1384,[$__8,$x]);
           var $__12=
            new _A_($UHC.$Base.$foldr,[$__11,$Data.$Map.$empty]);
           var $__13=
@@ -4179,13 +4260,20 @@ $PropositionalLogic.$Logic.$qm=
            new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$qmMappings,$PropositionalLogic.$Logic.$trueMappings]);
           var $todo=
            new _A_($UHC.$Base.$_24,[$__3,$__]);
-          return new _A_($PropositionalLogic.$Logic.$qm_27,[$UHC.$Base.$_5b_5d,$todo,$todo,$UHC.$Base.$_5b_5d]);});
-$PropositionalLogic.$Logic.$__78__1603=
+          var $__5=
+           new _A_($PropositionalLogic.$Logic.$qm_27,[$UHC.$Base.$_5b_5d,$todo,$todo,$UHC.$Base.$_5b_5d]);
+          var $__6=
+           new _A_($PropositionalLogic.$Logic.$qmMappingsToFormula,[$x]);
+          return new _A_($UHC.$Base.$_24,[$__6,$__5]);});
+$PropositionalLogic.$Logic.$simplify=
+ new _A_(new _F_(function()
+                 {return $PropositionalLogic.$Logic.$qm;}),[]);
+$PropositionalLogic.$Logic.$__30__1665=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Logic.$deepTransform,[$PropositionalLogic.$Logic.$mkNormalVal]);}),[]);
 $PropositionalLogic.$Logic.$mkNormal=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$normal,$PropositionalLogic.$Logic.$__78__1603]);}),[]);
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$normal,$PropositionalLogic.$Logic.$__30__1665]);}),[]);
 $PropositionalLogic.$Logic.$CNF__=
  new _A_(new _F_(function()
                  {return {_tag_:0};}),[]);
@@ -4203,302 +4291,302 @@ $PropositionalLogic.$Logic.$__Rep0CNFDFLUHC_2eBase_2efrom0GENRepresentable0=
           var $__4=
            new _A_($UHC.$Base.$M1__,[$__]);
           return $__4;});
-$PropositionalLogic.$Logic.$__Rep0CNFNEW902UNQ1117SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0CNFNEW932UNQ1119SDCGENRepresentable0=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Logic.$__Rep0CNFNEW904UNQ1118EVLSDCGENRepresentable0,[$__]);
+           new _A_($PropositionalLogic.$Logic.$__Rep0CNFNEW934UNQ1120EVLSDCGENRepresentable0,[$__]);
           return $__2;});
-$PropositionalLogic.$Logic.$__Rep0CNFNEW904UNQ1118EVLSDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0CNFNEW934UNQ1120EVLSDCGENRepresentable0=
  new _F_(function($__)
          {var $Representable0__=
            _e_(new _A_($UHC.$Base.$Representable0__CLS73__371__0,[$__]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$__Rep0CNFDFLUHC_2eBase_2efrom0GENRepresentable0,_2:$PropositionalLogic.$Logic.$__Rep0CNFDFLUHC_2eBase_2eto0GENRepresentable0};
           return $__5;});
-$PropositionalLogic.$Logic.$__Rep0CNFUNQ1117SDCGENRepresentable0=
+$PropositionalLogic.$Logic.$__Rep0CNFUNQ1119SDCGENRepresentable0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__Rep0CNFNEW902UNQ1117SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0CNFUNQ1117SDCGENRepresentable0]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$__Rep0CNFNEW932UNQ1119SDCGENRepresentable0,[$PropositionalLogic.$Logic.$__Rep0CNFUNQ1119SDCGENRepresentable0]);}),[]);
 $PropositionalLogic.$Logic.$__Rep0CNFGENRepresentable0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__Rep0CNFUNQ1117SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Logic.$__76__8605__2__1UNQ1838=
+                 {return $PropositionalLogic.$Logic.$__Rep0CNFUNQ1119SDCGENRepresentable0;}),[]);
+$PropositionalLogic.$Logic.$__28__9288__2__1UNQ1889=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);}),[]);
-$PropositionalLogic.$Logic.$__76__8613__0__5__0UNQ1836=
+$PropositionalLogic.$Logic.$__28__9296__0__5__0UNQ1887=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__76__8605__2__1UNQ1838]);}),[]);
-$PropositionalLogic.$Logic.$__74__10__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Logic.$__28__9288__2__1UNQ1889]);}),[]);
+$PropositionalLogic.$Logic.$__26__10__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0CNFGENRepresentable0,$PropositionalLogic.$Logic.$__76__8613__0__5__0UNQ1836,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Logic.$__74__10__0NEW912UNQ1835RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Logic.$__Rep0CNFGENRepresentable0,$PropositionalLogic.$Logic.$__28__9296__0__5__0UNQ1887,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Logic.$__26__10__0NEW942UNQ1886RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$__74__10__0NEW915UNQ1840EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Logic.$__26__10__0NEW945UNQ1891EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Logic.$__74__10__0NEW915UNQ1840EVLRDC=
+$PropositionalLogic.$Logic.$__26__10__0NEW945UNQ1891EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Logic.$__74__10__0UNQ1835RDC=
+$PropositionalLogic.$Logic.$__26__10__0UNQ1886RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__10__0NEW912UNQ1835RDC,[$PropositionalLogic.$Logic.$__74__10__0UNQ1835RDC,$PropositionalLogic.$Logic.$__74__10__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Logic.$__74__10__0=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__10__0NEW942UNQ1886RDC,[$PropositionalLogic.$Logic.$__26__10__0UNQ1886RDC,$PropositionalLogic.$Logic.$__26__10__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Logic.$__26__10__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$__74__10__0UNQ1835RDC;}),[]);
-$PropositionalLogic.$Logic.$__76__5479__3__0=
+                 {return $PropositionalLogic.$Logic.$__26__10__0UNQ1886RDC;}),[]);
+$PropositionalLogic.$Logic.$__28__5594__3__0=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$__74__2__0,[$PropositionalLogic.$Logic.$__74__10__0]);}),[]);
-$PropositionalLogic.$Logic.$outerFromLUNQ1149=
+                 {return new _A_($PropositionalLogic.$Logic.$__26__2__0,[$PropositionalLogic.$Logic.$__26__10__0]);}),[]);
+$PropositionalLogic.$Logic.$outerFromLUNQ1151=
  new _F_(function($__)
          {return new _A_($Data.$Foldable.$foldr1,[$__,$PropositionalLogic.$Logic.$Conjunction__]);});
-$PropositionalLogic.$Logic.$isMutualExclusionUNQ1145=
+$PropositionalLogic.$Logic.$isMutualExclusionUNQ1147=
  new _F_(function($__,$x1,$x2)
          {var $__4=
-           new _A_($PropositionalLogic.$Logic.$__76__4714__0NEW924UNQ1174CCN,[$__,$x1,$x2]);
+           new _A_($PropositionalLogic.$Logic.$__28__4714__0NEW954UNQ1176CCN,[$__,$x1,$x2]);
           var $x15=
            _e_($x1);
-          var $__swJSW127__0;
+          var $__swJSW130__0;
           switch($x15._tag_)
            {case 0:
-             $__swJSW127__0=
+             $__swJSW130__0=
               $__4;
              break;
             case 1:
-             $__swJSW127__0=
+             $__swJSW130__0=
               $__4;
              break;
             case 2:
-             $__swJSW127__0=
+             $__swJSW130__0=
               $__4;
              break;
             case 3:
              var $x212=
               _e_($x2);
-             var $__swJSW128__0;
+             var $__swJSW131__0;
              switch($x212._tag_)
               {case 0:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $__4;
                 break;
                case 1:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $__4;
                 break;
                case 2:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $__4;
                 break;
                case 3:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $__4;
                 break;
                case 4:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $__4;
                 break;
                case 5:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $__4;
                 break;
                case 6:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $__4;
                 break;
                case 7:
-                $__swJSW128__0=
+                $__swJSW131__0=
                  $UHC.$Base.$True__;
                 break;}
-             $__swJSW127__0=
-              $__swJSW128__0;
+             $__swJSW130__0=
+              $__swJSW131__0;
              break;
             case 4:
-             $__swJSW127__0=
+             $__swJSW130__0=
               $__4;
              break;
             case 5:
-             $__swJSW127__0=
+             $__swJSW130__0=
               $__4;
              break;
             case 6:
-             $__swJSW127__0=
+             $__swJSW130__0=
               $__4;
              break;
             case 7:
              var $x227=
               _e_($x2);
-             var $__swJSW129__0;
+             var $__swJSW132__0;
              switch($x227._tag_)
               {case 0:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $__4;
                 break;
                case 1:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $__4;
                 break;
                case 2:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $__4;
                 break;
                case 3:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $UHC.$Base.$True__;
                 break;
                case 4:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $__4;
                 break;
                case 5:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $__4;
                 break;
                case 6:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $__4;
                 break;
                case 7:
-                $__swJSW129__0=
+                $__swJSW132__0=
                  $__4;
                 break;}
-             $__swJSW127__0=
-              $__swJSW129__0;
+             $__swJSW130__0=
+              $__swJSW132__0;
              break;}
-          return $__swJSW127__0;});
-$PropositionalLogic.$Logic.$__76__4714__0NEW924UNQ1174CCN=
+          return $__swJSW130__0;});
+$PropositionalLogic.$Logic.$__28__4714__0NEW954UNQ1176CCN=
  new _F_(function($__,$x1,$x2)
          {var $x=
-           new _A_($PropositionalLogic.$Logic.$xNEW928UNQ1175CCN,[$__,$x1,$x2]);
+           new _A_($PropositionalLogic.$Logic.$xNEW958UNQ1177CCN,[$__,$x1,$x2]);
           var $x25=
            _e_($x2);
-          var $__swJSW130__0;
+          var $__swJSW133__0;
           switch($x25._tag_)
            {case 0:
-             $__swJSW130__0=
+             $__swJSW133__0=
               $x;
              break;
             case 1:
-             $__swJSW130__0=
+             $__swJSW133__0=
               $x;
              break;
             case 2:
-             $__swJSW130__0=
+             $__swJSW133__0=
               $x;
              break;
             case 3:
-             $__swJSW130__0=
+             $__swJSW133__0=
               $x;
              break;
             case 4:
-             $__swJSW130__0=
+             $__swJSW133__0=
               $x;
              break;
             case 5:
              var $__15=
               new _A_($UHC.$Base.$_3d_3d,[$__,$x1,$x25._1]);
-             $__swJSW130__0=
+             $__swJSW133__0=
               $__15;
              break;
             case 6:
-             $__swJSW130__0=
+             $__swJSW133__0=
               $x;
              break;
             case 7:
-             $__swJSW130__0=
+             $__swJSW133__0=
               $x;
              break;}
-          return $__swJSW130__0;});
-$PropositionalLogic.$Logic.$xNEW928UNQ1175CCN=
+          return $__swJSW133__0;});
+$PropositionalLogic.$Logic.$xNEW958UNQ1177CCN=
  new _F_(function($__,$x1,$x2)
          {var $x14=
            _e_($x1);
-          var $__swJSW131__0;
+          var $__swJSW134__0;
           switch($x14._tag_)
            {case 0:
-             $__swJSW131__0=
+             $__swJSW134__0=
               $UHC.$Base.$False__;
              break;
             case 1:
-             $__swJSW131__0=
+             $__swJSW134__0=
               $UHC.$Base.$False__;
              break;
             case 2:
-             $__swJSW131__0=
+             $__swJSW134__0=
               $UHC.$Base.$False__;
              break;
             case 3:
-             $__swJSW131__0=
+             $__swJSW134__0=
               $UHC.$Base.$False__;
              break;
             case 4:
-             $__swJSW131__0=
+             $__swJSW134__0=
               $UHC.$Base.$False__;
              break;
             case 5:
              var $__14=
               new _A_($UHC.$Base.$_3d_3d,[$__,$x14._1,$x2]);
-             $__swJSW131__0=
+             $__swJSW134__0=
               $__14;
              break;
             case 6:
-             $__swJSW131__0=
+             $__swJSW134__0=
               $UHC.$Base.$False__;
              break;
             case 7:
-             $__swJSW131__0=
+             $__swJSW134__0=
               $UHC.$Base.$False__;
              break;}
-          return $__swJSW131__0;});
-$PropositionalLogic.$Logic.$innerToLUNQ1146=
+          return $__swJSW134__0;});
+$PropositionalLogic.$Logic.$innerToLUNQ1148=
  new _F_(function($x1)
          {var $__=
            new _A_($UHC.$Base.$_3a,[$x1,$UHC.$Base.$_5b_5d]);
           var $__3=
            _e_($x1);
-          var $__swJSW132__0;
+          var $__swJSW135__0;
           switch($__3._tag_)
            {case 0:
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__;
              break;
             case 1:
              var $__8=
-              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1146,[$__3._2]);
+              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1148,[$__3._2]);
              var $__9=
-              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1146,[$__3._1]);
+              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1148,[$__3._1]);
              var $__10=
               new _A_($UHC.$Base.$_2b_2b,[$__9,$__8]);
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__10;
              break;
             case 2:
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__;
              break;
             case 3:
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__;
              break;
             case 4:
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__;
              break;
             case 5:
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__;
              break;
             case 6:
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__;
              break;
             case 7:
-             $__swJSW132__0=
+             $__swJSW135__0=
               $__;
              break;}
-          return $__swJSW132__0;});
-$PropositionalLogic.$Logic.$toLUNQ1147=
+          return $__swJSW135__0;});
+$PropositionalLogic.$Logic.$toLUNQ1149=
  new _F_(function($x1)
          {var $__=
            new _A_($UHC.$Base.$_3a,[$x1,$UHC.$Base.$_5b_5d]);
@@ -4506,71 +4594,71 @@ $PropositionalLogic.$Logic.$toLUNQ1147=
            new _A_($UHC.$Base.$_3a,[$__,$UHC.$Base.$_5b_5d]);
           var $__4=
            _e_($x1);
-          var $__swJSW133__0;
+          var $__swJSW136__0;
           switch($__4._tag_)
            {case 0:
              var $__7=
-              new _A_($PropositionalLogic.$Logic.$toLUNQ1147,[$__4._2]);
+              new _A_($PropositionalLogic.$Logic.$toLUNQ1149,[$__4._2]);
              var $__8=
-              new _A_($PropositionalLogic.$Logic.$toLUNQ1147,[$__4._1]);
+              new _A_($PropositionalLogic.$Logic.$toLUNQ1149,[$__4._1]);
              var $__9=
               new _A_($UHC.$Base.$_2b_2b,[$__8,$__7]);
-             $__swJSW133__0=
+             $__swJSW136__0=
               $__9;
              break;
             case 1:
              var $__12=
-              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1146,[$__4]);
+              new _A_($PropositionalLogic.$Logic.$innerToLUNQ1148,[$__4]);
              var $__13=
               new _A_($UHC.$Base.$_3a,[$__12,$UHC.$Base.$_5b_5d]);
-             $__swJSW133__0=
+             $__swJSW136__0=
               $__13;
              break;
             case 2:
-             $__swJSW133__0=
+             $__swJSW136__0=
               $disj;
              break;
             case 3:
-             $__swJSW133__0=
+             $__swJSW136__0=
               $disj;
              break;
             case 4:
-             $__swJSW133__0=
+             $__swJSW136__0=
               $disj;
              break;
             case 5:
-             $__swJSW133__0=
+             $__swJSW136__0=
               $disj;
              break;
             case 6:
-             $__swJSW133__0=
+             $__swJSW136__0=
               $disj;
              break;
             case 7:
-             $__swJSW133__0=
+             $__swJSW136__0=
               $disj;
              break;}
-          return $__swJSW133__0;});
-$PropositionalLogic.$Logic.$innerFromLUNQ1150=
+          return $__swJSW136__0;});
+$PropositionalLogic.$Logic.$innerFromLUNQ1152=
  new _F_(function($__)
          {var $__2=
            new _A_($Data.$Foldable.$foldr1,[$__,$PropositionalLogic.$Logic.$Disjunction__]);
           return new _A_($UHC.$Base.$map,[$__2]);});
-$PropositionalLogic.$Logic.$goUNQ1148=
+$PropositionalLogic.$Logic.$goUNQ1150=
  new _F_(function($__,$shortCircuits,$strippables,$xs)
          {var $__5=
-           new _A_($PropositionalLogic.$Logic.$__78__1729NEW957,[$__,$xs]);
+           new _A_($PropositionalLogic.$Logic.$__30__1791NEW987,[$__,$xs]);
           var $__6=
            new _A_($UHC.$Base.$or,[$__5]);
           var $__7=
-           new _A_($PropositionalLogic.$Logic.$__78__1723__0,[$__,$xs]);
+           new _A_($PropositionalLogic.$Logic.$__30__1785__0,[$__,$xs]);
           var $__8=
            new _A_($UHC.$Base.$any,[$__7,$shortCircuits]);
           var $__9=
            new _A_($UHC.$Base.$_7c_7c,[$__8,$__6]);
           var $__10=
            _e_($__9);
-          var $__swJSW134__0;
+          var $__swJSW137__0;
           switch($__10._tag_)
            {case 0:
              var $__11=
@@ -4579,10 +4667,10 @@ $PropositionalLogic.$Logic.$goUNQ1148=
               new _A_($Data.$List.$_5c_5c,[$__,$__11,$strippables]);
              var $__13=
               _e_($__12);
-             var $__swJSW135__0;
+             var $__swJSW138__0;
              switch($__13._tag_)
               {case 0:
-                $__swJSW135__0=
+                $__swJSW138__0=
                  $__12;
                 break;
                case 1:
@@ -4590,41 +4678,41 @@ $PropositionalLogic.$Logic.$goUNQ1148=
                  new _A_($UHC.$Base.$head,[$strippables]);
                 var $__17=
                  new _A_($UHC.$Base.$_3a,[$__16,$UHC.$Base.$_5b_5d]);
-                $__swJSW135__0=
+                $__swJSW138__0=
                  $__17;
                 break;}
-             $__swJSW134__0=
-              $__swJSW135__0;
+             $__swJSW137__0=
+              $__swJSW138__0;
              break;
             case 1:
              var $__18=
               new _A_($UHC.$Base.$head,[$shortCircuits]);
              var $__19=
               new _A_($UHC.$Base.$_3a,[$__18,$UHC.$Base.$_5b_5d]);
-             $__swJSW134__0=
+             $__swJSW137__0=
               $__19;
              break;}
-          return $__swJSW134__0;});
-$PropositionalLogic.$Logic.$__78__1729NEW957=
+          return $__swJSW137__0;});
+$PropositionalLogic.$Logic.$__30__1791NEW987=
  new _F_(function($__,$xs)
          {var $__3=
-           new _A_($PropositionalLogic.$Logic.$_24okUNQ1280,[$__,$xs]);
+           new _A_($PropositionalLogic.$Logic.$_24okUNQ1282,[$__,$xs]);
           return new _A_($UHC.$Base.$concatMap,[$__3,$xs]);});
-$PropositionalLogic.$Logic.$_24okUNQ1280=
+$PropositionalLogic.$Logic.$_24okUNQ1282=
  new _F_(function($__,$xs,$_24x)
          {var $__4=
            new _A_($UHC.$Base.$reverse,[$xs]);
           var $__5=
-           new _A_($PropositionalLogic.$Logic.$_24okUNQ1284,[$__,$_24x]);
+           new _A_($PropositionalLogic.$Logic.$_24okUNQ1286,[$__,$_24x]);
           return new _A_($UHC.$Base.$concatMap,[$__5,$__4]);});
-$PropositionalLogic.$Logic.$_24okUNQ1284=
+$PropositionalLogic.$Logic.$_24okUNQ1286=
  new _F_(function($__,$_24x,$_24x3)
          {var $__4=
-           new _A_($PropositionalLogic.$Logic.$isMutualExclusionUNQ1145,[$__,$_24x,$_24x3]);
+           new _A_($PropositionalLogic.$Logic.$isMutualExclusionUNQ1147,[$__,$_24x,$_24x3]);
           return new _A_($UHC.$Base.$_3a,[$__4,$UHC.$Base.$_5b_5d]);});
-$PropositionalLogic.$Logic.$__78__1723__0=
- new _F_(function($__,$xs,$_24x__75__95__0)
-         {return new _A_($UHC.$Base.$elem,[$__,$_24x__75__95__0,$xs]);});
+$PropositionalLogic.$Logic.$__30__1785__0=
+ new _F_(function($__,$xs,$_24x__27__95__0)
+         {return new _A_($UHC.$Base.$elem,[$__,$_24x__27__95__0,$xs]);});
 $PropositionalLogic.$Logic.$simplifyCNF=
  new _A_(new _F_(function()
                  {var $__=
@@ -4640,13 +4728,13 @@ $PropositionalLogic.$Logic.$simplifyCNF=
                   var $__6=
                    new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Logic.$T__,$__5]);
                   var $__7=
-                   new _A_($PropositionalLogic.$Logic.$goUNQ1148,[$PropositionalLogic.$Logic.$__76__5479__3__0,$__6,$__3]);
+                   new _A_($PropositionalLogic.$Logic.$goUNQ1150,[$PropositionalLogic.$Logic.$__28__5594__3__0,$__6,$__3]);
                   var $__8=
                    new _A_($UHC.$Base.$map,[$__7]);
                   var $__9=
-                   new _A_($UHC.$Base.$_2e,[$__8,$PropositionalLogic.$Logic.$toLUNQ1147]);
+                   new _A_($UHC.$Base.$_2e,[$__8,$PropositionalLogic.$Logic.$toLUNQ1149]);
                   var $__10=
-                   new _A_($PropositionalLogic.$Logic.$innerFromLUNQ1150,[$Data.$Foldable.$Foldable__DCT121__3__0]);
+                   new _A_($PropositionalLogic.$Logic.$innerFromLUNQ1152,[$Data.$Foldable.$Foldable__DCT121__3__0]);
                   var $__11=
                    new _A_($UHC.$Base.$_2e,[$__10,$__9]);
                   var $__12=
@@ -4662,11 +4750,11 @@ $PropositionalLogic.$Logic.$simplifyCNF=
                   var $__17=
                    new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Logic.$F__,$__16]);
                   var $__18=
-                   new _A_($PropositionalLogic.$Logic.$goUNQ1148,[$PropositionalLogic.$Logic.$__76__5479__3__0,$__17,$__14]);
+                   new _A_($PropositionalLogic.$Logic.$goUNQ1150,[$PropositionalLogic.$Logic.$__28__5594__3__0,$__17,$__14]);
                   var $__19=
                    new _A_($UHC.$Base.$_2e,[$__18,$__11]);
                   var $__20=
-                   new _A_($PropositionalLogic.$Logic.$outerFromLUNQ1149,[$Data.$Foldable.$Foldable__DCT121__3__0]);
+                   new _A_($PropositionalLogic.$Logic.$outerFromLUNQ1151,[$Data.$Foldable.$Foldable__DCT121__3__0]);
                   return new _A_($UHC.$Base.$_2e,[$__20,$__19]);}),[]);
 $PropositionalLogic.$Logic.$_24D__QMValDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
@@ -4674,504 +4762,504 @@ $PropositionalLogic.$Logic.$_24D__QMValDFLUHC_2eBase_2emoduleNameGENDatatype=
 $PropositionalLogic.$Logic.$_24D__QMValDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["QMVal"]);});
-$PropositionalLogic.$Logic.$_24D__QMValNEW999UNQ172SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__QMValNEW1029UNQ174SDCGENDatatype=
  new _F_(function($_24D__QMVal)
          {var $_24D__QMVal2=
-           new _A_($PropositionalLogic.$Logic.$_24D__QMValNEW1001UNQ173EVLSDCGENDatatype,[$_24D__QMVal]);
+           new _A_($PropositionalLogic.$Logic.$_24D__QMValNEW1031UNQ175EVLSDCGENDatatype,[$_24D__QMVal]);
           return $_24D__QMVal2;});
-$PropositionalLogic.$Logic.$_24D__QMValNEW1001UNQ173EVLSDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__QMValNEW1031UNQ175EVLSDCGENDatatype=
  new _F_(function($_24D__QMVal)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__QMVal]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$_24D__QMValDFLUHC_2eBase_2edatatypeNameGENDatatype,_2:$PropositionalLogic.$Logic.$_24D__QMValDFLUHC_2eBase_2emoduleNameGENDatatype};
           return $__5;});
-$PropositionalLogic.$Logic.$_24D__QMValUNQ172SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__QMValUNQ174SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24D__QMValNEW999UNQ172SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__QMValUNQ172SDCGENDatatype]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24D__QMValNEW1029UNQ174SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__QMValUNQ174SDCGENDatatype]);}),[]);
 $PropositionalLogic.$Logic.$_24D__QMValGENDatatype=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24D__QMValUNQ172SDCGENDatatype;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24D__QMValUNQ174SDCGENDatatype;}),[]);
 $PropositionalLogic.$Logic.$_24D__NormalDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["PropositionalLogic.Logic"]);});
 $PropositionalLogic.$Logic.$_24D__NormalDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Normal"]);});
-$PropositionalLogic.$Logic.$_24D__NormalNEW1008UNQ296SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__NormalNEW1038UNQ298SDCGENDatatype=
  new _F_(function($_24D__Normal)
          {var $_24D__Normal2=
-           new _A_($PropositionalLogic.$Logic.$_24D__NormalNEW1010UNQ297EVLSDCGENDatatype,[$_24D__Normal]);
+           new _A_($PropositionalLogic.$Logic.$_24D__NormalNEW1040UNQ299EVLSDCGENDatatype,[$_24D__Normal]);
           return $_24D__Normal2;});
-$PropositionalLogic.$Logic.$_24D__NormalNEW1010UNQ297EVLSDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__NormalNEW1040UNQ299EVLSDCGENDatatype=
  new _F_(function($_24D__Normal)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__Normal]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$_24D__NormalDFLUHC_2eBase_2edatatypeNameGENDatatype,_2:$PropositionalLogic.$Logic.$_24D__NormalDFLUHC_2eBase_2emoduleNameGENDatatype};
           return $__5;});
-$PropositionalLogic.$Logic.$_24D__NormalUNQ296SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__NormalUNQ298SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24D__NormalNEW1008UNQ296SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__NormalUNQ296SDCGENDatatype]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24D__NormalNEW1038UNQ298SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__NormalUNQ298SDCGENDatatype]);}),[]);
 $PropositionalLogic.$Logic.$_24D__NormalGENDatatype=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24D__NormalUNQ296SDCGENDatatype;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24D__NormalUNQ298SDCGENDatatype;}),[]);
 $PropositionalLogic.$Logic.$_24D__NNFDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["PropositionalLogic.Logic"]);});
 $PropositionalLogic.$Logic.$_24D__NNFDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["NNF"]);});
-$PropositionalLogic.$Logic.$_24D__NNFNEW1017UNQ324SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__NNFNEW1047UNQ326SDCGENDatatype=
  new _F_(function($_24D__NNF)
          {var $_24D__NNF2=
-           new _A_($PropositionalLogic.$Logic.$_24D__NNFNEW1019UNQ325EVLSDCGENDatatype,[$_24D__NNF]);
+           new _A_($PropositionalLogic.$Logic.$_24D__NNFNEW1049UNQ327EVLSDCGENDatatype,[$_24D__NNF]);
           return $_24D__NNF2;});
-$PropositionalLogic.$Logic.$_24D__NNFNEW1019UNQ325EVLSDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__NNFNEW1049UNQ327EVLSDCGENDatatype=
  new _F_(function($_24D__NNF)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__NNF]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$_24D__NNFDFLUHC_2eBase_2edatatypeNameGENDatatype,_2:$PropositionalLogic.$Logic.$_24D__NNFDFLUHC_2eBase_2emoduleNameGENDatatype};
           return $__5;});
-$PropositionalLogic.$Logic.$_24D__NNFUNQ324SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__NNFUNQ326SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24D__NNFNEW1017UNQ324SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__NNFUNQ324SDCGENDatatype]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24D__NNFNEW1047UNQ326SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__NNFUNQ326SDCGENDatatype]);}),[]);
 $PropositionalLogic.$Logic.$_24D__NNFGENDatatype=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24D__NNFUNQ324SDCGENDatatype;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24D__NNFUNQ326SDCGENDatatype;}),[]);
 $PropositionalLogic.$Logic.$_24D__FormulaDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["PropositionalLogic.Logic"]);});
 $PropositionalLogic.$Logic.$_24D__FormulaDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Formula"]);});
-$PropositionalLogic.$Logic.$_24D__FormulaNEW1026UNQ571SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__FormulaNEW1056UNQ573SDCGENDatatype=
  new _F_(function($_24D__Formula)
          {var $_24D__Formula2=
-           new _A_($PropositionalLogic.$Logic.$_24D__FormulaNEW1028UNQ572EVLSDCGENDatatype,[$_24D__Formula]);
+           new _A_($PropositionalLogic.$Logic.$_24D__FormulaNEW1058UNQ574EVLSDCGENDatatype,[$_24D__Formula]);
           return $_24D__Formula2;});
-$PropositionalLogic.$Logic.$_24D__FormulaNEW1028UNQ572EVLSDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__FormulaNEW1058UNQ574EVLSDCGENDatatype=
  new _F_(function($_24D__Formula)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__Formula]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$_24D__FormulaDFLUHC_2eBase_2edatatypeNameGENDatatype,_2:$PropositionalLogic.$Logic.$_24D__FormulaDFLUHC_2eBase_2emoduleNameGENDatatype};
           return $__5;});
-$PropositionalLogic.$Logic.$_24D__FormulaUNQ571SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__FormulaUNQ573SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24D__FormulaNEW1026UNQ571SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__FormulaUNQ571SDCGENDatatype]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24D__FormulaNEW1056UNQ573SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__FormulaUNQ573SDCGENDatatype]);}),[]);
 $PropositionalLogic.$Logic.$_24D__FormulaGENDatatype=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24D__FormulaUNQ571SDCGENDatatype;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24D__FormulaUNQ573SDCGENDatatype;}),[]);
 $PropositionalLogic.$Logic.$_24D__FancyDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["PropositionalLogic.Logic"]);});
 $PropositionalLogic.$Logic.$_24D__FancyDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Fancy"]);});
-$PropositionalLogic.$Logic.$_24D__FancyNEW1035UNQ682SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__FancyNEW1065UNQ684SDCGENDatatype=
  new _F_(function($_24D__Fancy)
          {var $_24D__Fancy2=
-           new _A_($PropositionalLogic.$Logic.$_24D__FancyNEW1037UNQ683EVLSDCGENDatatype,[$_24D__Fancy]);
+           new _A_($PropositionalLogic.$Logic.$_24D__FancyNEW1067UNQ685EVLSDCGENDatatype,[$_24D__Fancy]);
           return $_24D__Fancy2;});
-$PropositionalLogic.$Logic.$_24D__FancyNEW1037UNQ683EVLSDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__FancyNEW1067UNQ685EVLSDCGENDatatype=
  new _F_(function($_24D__Fancy)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__Fancy]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$_24D__FancyDFLUHC_2eBase_2edatatypeNameGENDatatype,_2:$PropositionalLogic.$Logic.$_24D__FancyDFLUHC_2eBase_2emoduleNameGENDatatype};
           return $__5;});
-$PropositionalLogic.$Logic.$_24D__FancyUNQ682SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__FancyUNQ684SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24D__FancyNEW1035UNQ682SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__FancyUNQ682SDCGENDatatype]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24D__FancyNEW1065UNQ684SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__FancyUNQ684SDCGENDatatype]);}),[]);
 $PropositionalLogic.$Logic.$_24D__FancyGENDatatype=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24D__FancyUNQ682SDCGENDatatype;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24D__FancyUNQ684SDCGENDatatype;}),[]);
 $PropositionalLogic.$Logic.$_24D__DNFDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["PropositionalLogic.Logic"]);});
 $PropositionalLogic.$Logic.$_24D__DNFDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["DNF"]);});
-$PropositionalLogic.$Logic.$_24D__DNFNEW1044UNQ710SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__DNFNEW1074UNQ712SDCGENDatatype=
  new _F_(function($_24D__DNF)
          {var $_24D__DNF2=
-           new _A_($PropositionalLogic.$Logic.$_24D__DNFNEW1046UNQ711EVLSDCGENDatatype,[$_24D__DNF]);
+           new _A_($PropositionalLogic.$Logic.$_24D__DNFNEW1076UNQ713EVLSDCGENDatatype,[$_24D__DNF]);
           return $_24D__DNF2;});
-$PropositionalLogic.$Logic.$_24D__DNFNEW1046UNQ711EVLSDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__DNFNEW1076UNQ713EVLSDCGENDatatype=
  new _F_(function($_24D__DNF)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__DNF]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$_24D__DNFDFLUHC_2eBase_2edatatypeNameGENDatatype,_2:$PropositionalLogic.$Logic.$_24D__DNFDFLUHC_2eBase_2emoduleNameGENDatatype};
           return $__5;});
-$PropositionalLogic.$Logic.$_24D__DNFUNQ710SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__DNFUNQ712SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24D__DNFNEW1044UNQ710SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__DNFUNQ710SDCGENDatatype]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24D__DNFNEW1074UNQ712SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__DNFUNQ712SDCGENDatatype]);}),[]);
 $PropositionalLogic.$Logic.$_24D__DNFGENDatatype=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24D__DNFUNQ710SDCGENDatatype;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24D__DNFUNQ712SDCGENDatatype;}),[]);
 $PropositionalLogic.$Logic.$_24D__CNFDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["PropositionalLogic.Logic"]);});
 $PropositionalLogic.$Logic.$_24D__CNFDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["CNF"]);});
-$PropositionalLogic.$Logic.$_24D__CNFNEW1053UNQ1130SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__CNFNEW1083UNQ1132SDCGENDatatype=
  new _F_(function($_24D__CNF)
          {var $_24D__CNF2=
-           new _A_($PropositionalLogic.$Logic.$_24D__CNFNEW1055UNQ1131EVLSDCGENDatatype,[$_24D__CNF]);
+           new _A_($PropositionalLogic.$Logic.$_24D__CNFNEW1085UNQ1133EVLSDCGENDatatype,[$_24D__CNF]);
           return $_24D__CNF2;});
-$PropositionalLogic.$Logic.$_24D__CNFNEW1055UNQ1131EVLSDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__CNFNEW1085UNQ1133EVLSDCGENDatatype=
  new _F_(function($_24D__CNF)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__CNF]));
           var $__5=
            {_tag_:0,_1:$PropositionalLogic.$Logic.$_24D__CNFDFLUHC_2eBase_2edatatypeNameGENDatatype,_2:$PropositionalLogic.$Logic.$_24D__CNFDFLUHC_2eBase_2emoduleNameGENDatatype};
           return $__5;});
-$PropositionalLogic.$Logic.$_24D__CNFUNQ1130SDCGENDatatype=
+$PropositionalLogic.$Logic.$_24D__CNFUNQ1132SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24D__CNFNEW1053UNQ1130SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__CNFUNQ1130SDCGENDatatype]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24D__CNFNEW1083UNQ1132SDCGENDatatype,[$PropositionalLogic.$Logic.$_24D__CNFUNQ1132SDCGENDatatype]);}),[]);
 $PropositionalLogic.$Logic.$_24D__CNFGENDatatype=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24D__CNFUNQ1130SDCGENDatatype;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24D__CNFUNQ1132SDCGENDatatype;}),[]);
 $PropositionalLogic.$Logic.$_24C__TDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["T"]);});
-$PropositionalLogic.$Logic.$_24C__TNEW1061UNQ578SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__TNEW1091UNQ580SDCGENConstructor=
  new _F_(function($_24C__T)
          {var $_24C__T2=
-           new _A_($PropositionalLogic.$Logic.$_24C__TNEW1063UNQ579EVLSDCGENConstructor,[$_24C__T]);
+           new _A_($PropositionalLogic.$Logic.$_24C__TNEW1093UNQ581EVLSDCGENConstructor,[$_24C__T]);
           return $_24C__T2;});
-$PropositionalLogic.$Logic.$_24C__TNEW1063UNQ579EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__TNEW1093UNQ581EVLSDCGENConstructor=
  new _F_(function($_24C__T)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__T]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__TDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__TUNQ578SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__TUNQ580SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__TNEW1061UNQ578SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__TUNQ578SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__TNEW1091UNQ580SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__TUNQ580SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__TGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__TUNQ578SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__TUNQ580SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__SymbolDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Symbol"]);});
-$PropositionalLogic.$Logic.$_24C__SymbolNEW1069UNQ594SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__SymbolNEW1099UNQ596SDCGENConstructor=
  new _F_(function($_24C__Symbol)
          {var $_24C__Symbol2=
-           new _A_($PropositionalLogic.$Logic.$_24C__SymbolNEW1071UNQ595EVLSDCGENConstructor,[$_24C__Symbol]);
+           new _A_($PropositionalLogic.$Logic.$_24C__SymbolNEW1101UNQ597EVLSDCGENConstructor,[$_24C__Symbol]);
           return $_24C__Symbol2;});
-$PropositionalLogic.$Logic.$_24C__SymbolNEW1071UNQ595EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__SymbolNEW1101UNQ597EVLSDCGENConstructor=
  new _F_(function($_24C__Symbol)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Symbol]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__SymbolDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__SymbolUNQ594SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__SymbolUNQ596SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__SymbolNEW1069UNQ594SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__SymbolUNQ594SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__SymbolNEW1099UNQ596SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__SymbolUNQ596SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__SymbolGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__SymbolUNQ594SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__SymbolUNQ596SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__QMTrueDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["QMTrue"]);});
-$PropositionalLogic.$Logic.$_24C__QMTrueNEW1077UNQ179SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMTrueNEW1107UNQ181SDCGENConstructor=
  new _F_(function($_24C__QMTrue)
          {var $_24C__QMTrue2=
-           new _A_($PropositionalLogic.$Logic.$_24C__QMTrueNEW1079UNQ180EVLSDCGENConstructor,[$_24C__QMTrue]);
+           new _A_($PropositionalLogic.$Logic.$_24C__QMTrueNEW1109UNQ182EVLSDCGENConstructor,[$_24C__QMTrue]);
           return $_24C__QMTrue2;});
-$PropositionalLogic.$Logic.$_24C__QMTrueNEW1079UNQ180EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMTrueNEW1109UNQ182EVLSDCGENConstructor=
  new _F_(function($_24C__QMTrue)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__QMTrue]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__QMTrueDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__QMTrueUNQ179SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMTrueUNQ181SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__QMTrueNEW1077UNQ179SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__QMTrueUNQ179SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__QMTrueNEW1107UNQ181SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__QMTrueUNQ181SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__QMTrueGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__QMTrueUNQ179SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__QMTrueUNQ181SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__QMFalseDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["QMFalse"]);});
-$PropositionalLogic.$Logic.$_24C__QMFalseNEW1085UNQ187SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMFalseNEW1115UNQ189SDCGENConstructor=
  new _F_(function($_24C__QMFalse)
          {var $_24C__QMFalse2=
-           new _A_($PropositionalLogic.$Logic.$_24C__QMFalseNEW1087UNQ188EVLSDCGENConstructor,[$_24C__QMFalse]);
+           new _A_($PropositionalLogic.$Logic.$_24C__QMFalseNEW1117UNQ190EVLSDCGENConstructor,[$_24C__QMFalse]);
           return $_24C__QMFalse2;});
-$PropositionalLogic.$Logic.$_24C__QMFalseNEW1087UNQ188EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMFalseNEW1117UNQ190EVLSDCGENConstructor=
  new _F_(function($_24C__QMFalse)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__QMFalse]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__QMFalseDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__QMFalseUNQ187SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMFalseUNQ189SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__QMFalseNEW1085UNQ187SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__QMFalseUNQ187SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__QMFalseNEW1115UNQ189SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__QMFalseUNQ189SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__QMFalseGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__QMFalseUNQ187SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__QMFalseUNQ189SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__QMDontCareDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["QMDontCare"]);});
-$PropositionalLogic.$Logic.$_24C__QMDontCareNEW1093UNQ195SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMDontCareNEW1123UNQ197SDCGENConstructor=
  new _F_(function($_24C__QMDontCare)
          {var $_24C__QMDontCare2=
-           new _A_($PropositionalLogic.$Logic.$_24C__QMDontCareNEW1095UNQ196EVLSDCGENConstructor,[$_24C__QMDontCare]);
+           new _A_($PropositionalLogic.$Logic.$_24C__QMDontCareNEW1125UNQ198EVLSDCGENConstructor,[$_24C__QMDontCare]);
           return $_24C__QMDontCare2;});
-$PropositionalLogic.$Logic.$_24C__QMDontCareNEW1095UNQ196EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMDontCareNEW1125UNQ198EVLSDCGENConstructor=
  new _F_(function($_24C__QMDontCare)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__QMDontCare]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__QMDontCareDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__QMDontCareUNQ195SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__QMDontCareUNQ197SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__QMDontCareNEW1093UNQ195SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__QMDontCareUNQ195SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__QMDontCareNEW1123UNQ197SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__QMDontCareUNQ197SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__QMDontCareGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__QMDontCareUNQ195SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__QMDontCareUNQ197SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__NormalDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Normal"]);});
-$PropositionalLogic.$Logic.$_24C__NormalNEW1101UNQ303SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NormalNEW1131UNQ305SDCGENConstructor=
  new _F_(function($_24C__Normal)
          {var $_24C__Normal2=
-           new _A_($PropositionalLogic.$Logic.$_24C__NormalNEW1103UNQ304EVLSDCGENConstructor,[$_24C__Normal]);
+           new _A_($PropositionalLogic.$Logic.$_24C__NormalNEW1133UNQ306EVLSDCGENConstructor,[$_24C__Normal]);
           return $_24C__Normal2;});
-$PropositionalLogic.$Logic.$_24C__NormalNEW1103UNQ304EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NormalNEW1133UNQ306EVLSDCGENConstructor=
  new _F_(function($_24C__Normal)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Normal]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__NormalDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__NormalUNQ303SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NormalUNQ305SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__NormalNEW1101UNQ303SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__NormalUNQ303SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__NormalNEW1131UNQ305SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__NormalUNQ305SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__NormalGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__NormalUNQ303SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__NormalUNQ305SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__NegationDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Negation"]);});
-$PropositionalLogic.$Logic.$_24C__NegationNEW1109UNQ602SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NegationNEW1139UNQ604SDCGENConstructor=
  new _F_(function($_24C__Negation)
          {var $_24C__Negation2=
-           new _A_($PropositionalLogic.$Logic.$_24C__NegationNEW1111UNQ603EVLSDCGENConstructor,[$_24C__Negation]);
+           new _A_($PropositionalLogic.$Logic.$_24C__NegationNEW1141UNQ605EVLSDCGENConstructor,[$_24C__Negation]);
           return $_24C__Negation2;});
-$PropositionalLogic.$Logic.$_24C__NegationNEW1111UNQ603EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NegationNEW1141UNQ605EVLSDCGENConstructor=
  new _F_(function($_24C__Negation)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Negation]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__NegationDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__NegationUNQ602SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NegationUNQ604SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__NegationNEW1109UNQ602SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__NegationUNQ602SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__NegationNEW1139UNQ604SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__NegationUNQ604SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__NegationGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__NegationUNQ602SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__NegationUNQ604SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__NNFDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["NNF"]);});
-$PropositionalLogic.$Logic.$_24C__NNFNEW1117UNQ331SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NNFNEW1147UNQ333SDCGENConstructor=
  new _F_(function($_24C__NNF)
          {var $_24C__NNF2=
-           new _A_($PropositionalLogic.$Logic.$_24C__NNFNEW1119UNQ332EVLSDCGENConstructor,[$_24C__NNF]);
+           new _A_($PropositionalLogic.$Logic.$_24C__NNFNEW1149UNQ334EVLSDCGENConstructor,[$_24C__NNF]);
           return $_24C__NNF2;});
-$PropositionalLogic.$Logic.$_24C__NNFNEW1119UNQ332EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NNFNEW1149UNQ334EVLSDCGENConstructor=
  new _F_(function($_24C__NNF)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__NNF]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__NNFDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__NNFUNQ331SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__NNFUNQ333SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__NNFNEW1117UNQ331SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__NNFUNQ331SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__NNFNEW1147UNQ333SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__NNFUNQ333SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__NNFGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__NNFUNQ331SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__NNFUNQ333SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__ImplicationDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Implication"]);});
-$PropositionalLogic.$Logic.$_24C__ImplicationNEW1125UNQ626SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__ImplicationNEW1155UNQ628SDCGENConstructor=
  new _F_(function($_24C__Implication)
          {var $_24C__Implication2=
-           new _A_($PropositionalLogic.$Logic.$_24C__ImplicationNEW1127UNQ627EVLSDCGENConstructor,[$_24C__Implication]);
+           new _A_($PropositionalLogic.$Logic.$_24C__ImplicationNEW1157UNQ629EVLSDCGENConstructor,[$_24C__Implication]);
           return $_24C__Implication2;});
-$PropositionalLogic.$Logic.$_24C__ImplicationNEW1127UNQ627EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__ImplicationNEW1157UNQ629EVLSDCGENConstructor=
  new _F_(function($_24C__Implication)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Implication]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__ImplicationDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__ImplicationUNQ626SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__ImplicationUNQ628SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__ImplicationNEW1125UNQ626SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__ImplicationUNQ626SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__ImplicationNEW1155UNQ628SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__ImplicationUNQ628SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__ImplicationGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__ImplicationUNQ626SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__ImplicationUNQ628SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__FancyDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Fancy"]);});
-$PropositionalLogic.$Logic.$_24C__FancyNEW1133UNQ689SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__FancyNEW1163UNQ691SDCGENConstructor=
  new _F_(function($_24C__Fancy)
          {var $_24C__Fancy2=
-           new _A_($PropositionalLogic.$Logic.$_24C__FancyNEW1135UNQ690EVLSDCGENConstructor,[$_24C__Fancy]);
+           new _A_($PropositionalLogic.$Logic.$_24C__FancyNEW1165UNQ692EVLSDCGENConstructor,[$_24C__Fancy]);
           return $_24C__Fancy2;});
-$PropositionalLogic.$Logic.$_24C__FancyNEW1135UNQ690EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__FancyNEW1165UNQ692EVLSDCGENConstructor=
  new _F_(function($_24C__Fancy)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Fancy]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__FancyDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__FancyUNQ689SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__FancyUNQ691SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__FancyNEW1133UNQ689SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__FancyUNQ689SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__FancyNEW1163UNQ691SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__FancyUNQ691SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__FancyGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__FancyUNQ689SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__FancyUNQ691SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__FDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["F"]);});
-$PropositionalLogic.$Logic.$_24C__FNEW1141UNQ586SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__FNEW1171UNQ588SDCGENConstructor=
  new _F_(function($_24C__F)
          {var $_24C__F2=
-           new _A_($PropositionalLogic.$Logic.$_24C__FNEW1143UNQ587EVLSDCGENConstructor,[$_24C__F]);
+           new _A_($PropositionalLogic.$Logic.$_24C__FNEW1173UNQ589EVLSDCGENConstructor,[$_24C__F]);
           return $_24C__F2;});
-$PropositionalLogic.$Logic.$_24C__FNEW1143UNQ587EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__FNEW1173UNQ589EVLSDCGENConstructor=
  new _F_(function($_24C__F)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__F]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__FDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__FUNQ586SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__FUNQ588SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__FNEW1141UNQ586SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__FUNQ586SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__FNEW1171UNQ588SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__FUNQ588SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__FGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__FUNQ586SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__FUNQ588SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__EquivalenceDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Equivalence"]);});
-$PropositionalLogic.$Logic.$_24C__EquivalenceNEW1149UNQ634SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__EquivalenceNEW1179UNQ636SDCGENConstructor=
  new _F_(function($_24C__Equivalence)
          {var $_24C__Equivalence2=
-           new _A_($PropositionalLogic.$Logic.$_24C__EquivalenceNEW1151UNQ635EVLSDCGENConstructor,[$_24C__Equivalence]);
+           new _A_($PropositionalLogic.$Logic.$_24C__EquivalenceNEW1181UNQ637EVLSDCGENConstructor,[$_24C__Equivalence]);
           return $_24C__Equivalence2;});
-$PropositionalLogic.$Logic.$_24C__EquivalenceNEW1151UNQ635EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__EquivalenceNEW1181UNQ637EVLSDCGENConstructor=
  new _F_(function($_24C__Equivalence)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Equivalence]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__EquivalenceDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__EquivalenceUNQ634SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__EquivalenceUNQ636SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__EquivalenceNEW1149UNQ634SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__EquivalenceUNQ634SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__EquivalenceNEW1179UNQ636SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__EquivalenceUNQ636SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__EquivalenceGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__EquivalenceUNQ634SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__EquivalenceUNQ636SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__DisjunctionDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Disjunction"]);});
-$PropositionalLogic.$Logic.$_24C__DisjunctionNEW1157UNQ618SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__DisjunctionNEW1187UNQ620SDCGENConstructor=
  new _F_(function($_24C__Disjunction)
          {var $_24C__Disjunction2=
-           new _A_($PropositionalLogic.$Logic.$_24C__DisjunctionNEW1159UNQ619EVLSDCGENConstructor,[$_24C__Disjunction]);
+           new _A_($PropositionalLogic.$Logic.$_24C__DisjunctionNEW1189UNQ621EVLSDCGENConstructor,[$_24C__Disjunction]);
           return $_24C__Disjunction2;});
-$PropositionalLogic.$Logic.$_24C__DisjunctionNEW1159UNQ619EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__DisjunctionNEW1189UNQ621EVLSDCGENConstructor=
  new _F_(function($_24C__Disjunction)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Disjunction]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__DisjunctionDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__DisjunctionUNQ618SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__DisjunctionUNQ620SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__DisjunctionNEW1157UNQ618SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__DisjunctionUNQ618SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__DisjunctionNEW1187UNQ620SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__DisjunctionUNQ620SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__DisjunctionGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__DisjunctionUNQ618SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__DisjunctionUNQ620SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__DNFDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["DNF"]);});
-$PropositionalLogic.$Logic.$_24C__DNFNEW1165UNQ717SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__DNFNEW1195UNQ719SDCGENConstructor=
  new _F_(function($_24C__DNF)
          {var $_24C__DNF2=
-           new _A_($PropositionalLogic.$Logic.$_24C__DNFNEW1167UNQ718EVLSDCGENConstructor,[$_24C__DNF]);
+           new _A_($PropositionalLogic.$Logic.$_24C__DNFNEW1197UNQ720EVLSDCGENConstructor,[$_24C__DNF]);
           return $_24C__DNF2;});
-$PropositionalLogic.$Logic.$_24C__DNFNEW1167UNQ718EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__DNFNEW1197UNQ720EVLSDCGENConstructor=
  new _F_(function($_24C__DNF)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__DNF]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__DNFDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__DNFUNQ717SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__DNFUNQ719SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__DNFNEW1165UNQ717SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__DNFUNQ717SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__DNFNEW1195UNQ719SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__DNFUNQ719SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__DNFGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__DNFUNQ717SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__DNFUNQ719SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__ConjunctionDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["Conjunction"]);});
-$PropositionalLogic.$Logic.$_24C__ConjunctionNEW1173UNQ610SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__ConjunctionNEW1203UNQ612SDCGENConstructor=
  new _F_(function($_24C__Conjunction)
          {var $_24C__Conjunction2=
-           new _A_($PropositionalLogic.$Logic.$_24C__ConjunctionNEW1175UNQ611EVLSDCGENConstructor,[$_24C__Conjunction]);
+           new _A_($PropositionalLogic.$Logic.$_24C__ConjunctionNEW1205UNQ613EVLSDCGENConstructor,[$_24C__Conjunction]);
           return $_24C__Conjunction2;});
-$PropositionalLogic.$Logic.$_24C__ConjunctionNEW1175UNQ611EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__ConjunctionNEW1205UNQ613EVLSDCGENConstructor=
  new _F_(function($_24C__Conjunction)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__Conjunction]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__ConjunctionDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__ConjunctionUNQ610SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__ConjunctionUNQ612SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__ConjunctionNEW1173UNQ610SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__ConjunctionUNQ610SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__ConjunctionNEW1203UNQ612SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__ConjunctionUNQ612SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__ConjunctionGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__ConjunctionUNQ610SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__ConjunctionUNQ612SDCGENConstructor;}),[]);
 $PropositionalLogic.$Logic.$_24C__CNFDFLUHC_2eBase_2econNameGENConstructor=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["CNF"]);});
-$PropositionalLogic.$Logic.$_24C__CNFNEW1181UNQ1137SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__CNFNEW1211UNQ1139SDCGENConstructor=
  new _F_(function($_24C__CNF)
          {var $_24C__CNF2=
-           new _A_($PropositionalLogic.$Logic.$_24C__CNFNEW1183UNQ1138EVLSDCGENConstructor,[$_24C__CNF]);
+           new _A_($PropositionalLogic.$Logic.$_24C__CNFNEW1213UNQ1140EVLSDCGENConstructor,[$_24C__CNF]);
           return $_24C__CNF2;});
-$PropositionalLogic.$Logic.$_24C__CNFNEW1183UNQ1138EVLSDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__CNFNEW1213UNQ1140EVLSDCGENConstructor=
  new _F_(function($_24C__CNF)
          {var $Constructor__=
            _e_(new _A_($UHC.$Base.$Constructor__CLS73__355__0,[$_24C__CNF]));
           var $__7=
            {_tag_:0,_1:$Constructor__._1,_2:$Constructor__._2,_3:$Constructor__._3,_4:$PropositionalLogic.$Logic.$_24C__CNFDFLUHC_2eBase_2econNameGENConstructor};
           return $__7;});
-$PropositionalLogic.$Logic.$_24C__CNFUNQ1137SDCGENConstructor=
+$PropositionalLogic.$Logic.$_24C__CNFUNQ1139SDCGENConstructor=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Logic.$_24C__CNFNEW1181UNQ1137SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__CNFUNQ1137SDCGENConstructor]);}),[]);
+                 {return new _A_($PropositionalLogic.$Logic.$_24C__CNFNEW1211UNQ1139SDCGENConstructor,[$PropositionalLogic.$Logic.$_24C__CNFUNQ1139SDCGENConstructor]);}),[]);
 $PropositionalLogic.$Logic.$_24C__CNFGENConstructor=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Logic.$_24C__CNFUNQ1137SDCGENConstructor;}),[]);
+                 {return $PropositionalLogic.$Logic.$_24C__CNFUNQ1139SDCGENConstructor;}),[]);
 // PropositionalLogic.Parser
 var $PropositionalLogic=
  ($PropositionalLogic ? $PropositionalLogic : {});
@@ -5235,13 +5323,13 @@ $PropositionalLogic.$Parser.$goUNQ470=
 $PropositionalLogic.$Parser.$satisfy=
  new _F_(function($p)
          {return new _A_($PropositionalLogic.$Parser.$goUNQ470,[$p]);});
-$PropositionalLogic.$Parser.$__84__50__0=
- new _F_(function($__,$elems,$_24x__81__20__0)
-         {return new _A_($UHC.$Base.$elem,[$__,$_24x__81__20__0,$elems]);});
+$PropositionalLogic.$Parser.$__36__50__0=
+ new _F_(function($__,$elems,$_24x__33__20__0)
+         {return new _A_($UHC.$Base.$elem,[$__,$_24x__33__20__0,$elems]);});
 $PropositionalLogic.$Parser.$oneOf=
  new _F_(function($__,$elems)
          {var $__3=
-           new _A_($PropositionalLogic.$Parser.$__84__50__0,[$__,$elems]);
+           new _A_($PropositionalLogic.$Parser.$__36__50__0,[$__,$elems]);
           return new _A_($PropositionalLogic.$Parser.$satisfy,[$__3]);});
 $PropositionalLogic.$Parser.$match=
  new _F_(function($__)
@@ -5272,7 +5360,7 @@ $PropositionalLogic.$Parser.$goUNQ601=
 $PropositionalLogic.$Parser.$eof=
  new _A_(new _F_(function()
                  {return $PropositionalLogic.$Parser.$goUNQ601;}),[]);
-$PropositionalLogic.$Parser.$__80__5__0DFLUHC_2eBase_2eshowsPrec=
+$PropositionalLogic.$Parser.$__32__5__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($d,$x__1)
          {var $x__13=
            _e_($x__1);
@@ -5375,28 +5463,28 @@ $PropositionalLogic.$Parser.$__80__5__0DFLUHC_2eBase_2eshowsPrec=
               $__27;
              break;}
           return $__swJSW6__0;});
-$PropositionalLogic.$Parser.$__80__5__0NEW53UNQ707RDC=
+$PropositionalLogic.$Parser.$__32__5__0NEW53UNQ707RDC=
  new _F_(function($__)
          {var $__2=
-           new _A_($PropositionalLogic.$Parser.$__80__5__0NEW55UNQ708EVLRDC,[$__]);
+           new _A_($PropositionalLogic.$Parser.$__32__5__0NEW55UNQ708EVLRDC,[$__]);
           return $__2;});
-$PropositionalLogic.$Parser.$__80__5__0NEW55UNQ708EVLRDC=
+$PropositionalLogic.$Parser.$__32__5__0NEW55UNQ708EVLRDC=
  new _F_(function($__)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__6=
-           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Parser.$__80__5__0DFLUHC_2eBase_2eshowsPrec};
+           {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$PropositionalLogic.$Parser.$__32__5__0DFLUHC_2eBase_2eshowsPrec};
           return $__6;});
-$PropositionalLogic.$Parser.$__80__5__0UNQ707RDC=
+$PropositionalLogic.$Parser.$__32__5__0UNQ707RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$__80__5__0NEW53UNQ707RDC,[$PropositionalLogic.$Parser.$__80__5__0UNQ707RDC]);}),[]);
-$PropositionalLogic.$Parser.$__80__5__0=
+                 {return new _A_($PropositionalLogic.$Parser.$__32__5__0NEW53UNQ707RDC,[$PropositionalLogic.$Parser.$__32__5__0UNQ707RDC]);}),[]);
+$PropositionalLogic.$Parser.$__32__5__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Parser.$__80__5__0UNQ707RDC;}),[]);
-$PropositionalLogic.$Parser.$__82__5274__1__3UNQ759=
+                 {return $PropositionalLogic.$Parser.$__32__5__0UNQ707RDC;}),[]);
+$PropositionalLogic.$Parser.$__34__5274__1__3UNQ759=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Show__DCT73__87__0,[$UHC.$Base.$Show__DCT73__65__0]);}),[]);
-$PropositionalLogic.$Parser.$__80__7__0DFLUHC_2eBase_2eshowsPrec=
+$PropositionalLogic.$Parser.$__32__7__0DFLUHC_2eBase_2eshowsPrec=
  new _F_(function($__,$d,$x__1)
          {var $x__14=
            _e_($x__1);
@@ -5419,7 +5507,7 @@ $PropositionalLogic.$Parser.$__80__7__0DFLUHC_2eBase_2eshowsPrec=
           var $__16=
            new _A_($UHC.$Base.$_2e,[$__15,$__13]);
           var $__17=
-           new _A_($UHC.$Base.$showsPrec,[$PropositionalLogic.$Parser.$__80__5__0,11,$x__14.tid]);
+           new _A_($UHC.$Base.$showsPrec,[$PropositionalLogic.$Parser.$__32__5__0,11,$x__14.tid]);
           var $__18=
            new _A_($UHC.$Base.$_2e,[$__17,$__16]);
           var $__19=
@@ -5433,26 +5521,26 @@ $PropositionalLogic.$Parser.$__80__7__0DFLUHC_2eBase_2eshowsPrec=
           var $__23=
            new _A_($UHC.$Base.$showParen,[$__22,$__21]);
           return $__23;});
-$PropositionalLogic.$Parser.$__80__7__0NEW79UNQ758RDC=
+$PropositionalLogic.$Parser.$__32__7__0NEW79UNQ758RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Parser.$__80__7__0NEW82UNQ763EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Parser.$__32__7__0NEW82UNQ763EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Parser.$__80__7__0NEW82UNQ763EVLRDC=
+$PropositionalLogic.$Parser.$__32__7__0NEW82UNQ763EVLRDC=
  new _F_(function($__,$__2)
          {var $Show__=
            _e_(new _A_($UHC.$Base.$Show__CLS73__43__0,[$__]));
           var $__7=
-           new _A_($PropositionalLogic.$Parser.$__80__7__0DFLUHC_2eBase_2eshowsPrec,[$__2]);
+           new _A_($PropositionalLogic.$Parser.$__32__7__0DFLUHC_2eBase_2eshowsPrec,[$__2]);
           var $__8=
            {_tag_:0,_1:$Show__._1,_2:$Show__._2,_3:$__7};
           return $__8;});
-$PropositionalLogic.$Parser.$__80__7__0UNQ758RDC=
+$PropositionalLogic.$Parser.$__32__7__0UNQ758RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$__80__7__0NEW79UNQ758RDC,[$PropositionalLogic.$Parser.$__80__7__0UNQ758RDC,$PropositionalLogic.$Parser.$__82__5274__1__3UNQ759]);}),[]);
-$PropositionalLogic.$Parser.$__80__7__0=
+                 {return new _A_($PropositionalLogic.$Parser.$__32__7__0NEW79UNQ758RDC,[$PropositionalLogic.$Parser.$__32__7__0UNQ758RDC,$PropositionalLogic.$Parser.$__34__5274__1__3UNQ759]);}),[]);
+$PropositionalLogic.$Parser.$__32__7__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Parser.$__80__7__0UNQ758RDC;}),[]);
+                 {return $PropositionalLogic.$Parser.$__32__7__0UNQ758RDC;}),[]);
 $PropositionalLogic.$Parser.$Token__=
  new _F_(function($x1,$x2,$x3)
          {return {_tag_:0,tid:$x1,position:$x2,match:$x3};});
@@ -5610,7 +5698,7 @@ $PropositionalLogic.$Parser.$__Rep1ParserUNQ426SDCGENRepresentable1=
 $PropositionalLogic.$Parser.$__Rep1ParserGENRepresentable1=
  new _A_(new _F_(function()
                  {return $PropositionalLogic.$Parser.$__Rep1ParserUNQ426SDCGENRepresentable1;}),[]);
-$PropositionalLogic.$Parser.$__84__271__0=
+$PropositionalLogic.$Parser.$__36__271__0=
  new _F_(function($p,$s)
          {var $__=
            new _A_($UHC.$Base.$id,[$p,$s]);
@@ -5626,7 +5714,7 @@ $PropositionalLogic.$Parser.$__84__271__0=
 $PropositionalLogic.$Parser.$lookAhead=
  new _F_(function($p)
          {var $__=
-           new _A_($PropositionalLogic.$Parser.$__84__271__0,[$p]);
+           new _A_($PropositionalLogic.$Parser.$__36__271__0,[$p]);
           return new _A_($UHC.$Base.$_24,[$UHC.$Base.$id,$__]);});
 $PropositionalLogic.$Parser.$swapUNQ488=
  new _F_(function($__)
@@ -5635,7 +5723,7 @@ $PropositionalLogic.$Parser.$swapUNQ488=
           var $__5=
            [$__2[1],$__2[0]];
           return $__5;});
-$PropositionalLogic.$Parser.$__84__302__0=
+$PropositionalLogic.$Parser.$__36__302__0=
  new _F_(function($isPrefixOfIgnoreCase,$str,$input)
          {var $__=
            new _A_($isPrefixOfIgnoreCase,[$str,$input]);
@@ -5673,7 +5761,7 @@ $PropositionalLogic.$Parser.$stringIgnoreCase=
           var $isPrefixOfIgnoreCase=
            new _A_($Data.$Function.$on,[$__,$toLowerString]);
           var $__5=
-           new _A_($PropositionalLogic.$Parser.$__84__302__0,[$isPrefixOfIgnoreCase,$str]);
+           new _A_($PropositionalLogic.$Parser.$__36__302__0,[$isPrefixOfIgnoreCase,$str]);
           return new _A_($UHC.$Base.$_24,[$UHC.$Base.$id,$__5]);});
 $PropositionalLogic.$Parser.$OrTok__=
  new _A_(new _F_(function()
@@ -5681,24 +5769,24 @@ $PropositionalLogic.$Parser.$OrTok__=
 $PropositionalLogic.$Parser.$NotTok__=
  new _A_(new _F_(function()
                  {return {_tag_:6};}),[]);
-$PropositionalLogic.$Parser.$__84__325=
+$PropositionalLogic.$Parser.$__36__325=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$flip,[$PropositionalLogic.$Parser.$parserAccept]);}),[]);
-$PropositionalLogic.$Parser.$Monad__DCT80__0__0DFLUHC_2eBase_2ereturn=
+$PropositionalLogic.$Parser.$Monad__DCT32__0__0DFLUHC_2eBase_2ereturn=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$UHC.$Base.$id,$PropositionalLogic.$Parser.$__84__325]);}),[]);
-$PropositionalLogic.$Parser.$__84__329=
+                 {return new _A_($UHC.$Base.$_2e,[$UHC.$Base.$id,$PropositionalLogic.$Parser.$__36__325]);}),[]);
+$PropositionalLogic.$Parser.$__36__329=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$flip,[$PropositionalLogic.$Parser.$parserError]);}),[]);
-$PropositionalLogic.$Parser.$Monad__DCT80__0__0DFLUHC_2eBase_2efail=
+$PropositionalLogic.$Parser.$Monad__DCT32__0__0DFLUHC_2eBase_2efail=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$UHC.$Base.$id,$PropositionalLogic.$Parser.$__84__329]);}),[]);
-$PropositionalLogic.$Parser.$Monad__DCT80__0__0DFLUHC_2eBase_2e_3e_3e_3d=
+                 {return new _A_($UHC.$Base.$_2e,[$UHC.$Base.$id,$PropositionalLogic.$Parser.$__36__329]);}),[]);
+$PropositionalLogic.$Parser.$Monad__DCT32__0__0DFLUHC_2eBase_2e_3e_3e_3d=
  new _F_(function($p,$f)
          {var $__=
-           new _A_($PropositionalLogic.$Parser.$__84__337__0,[$p,$f]);
+           new _A_($PropositionalLogic.$Parser.$__36__337__0,[$p,$f]);
           return new _A_($UHC.$Base.$_24,[$UHC.$Base.$id,$__]);});
-$PropositionalLogic.$Parser.$__84__337__0=
+$PropositionalLogic.$Parser.$__36__337__0=
  new _F_(function($p,$f,$s)
          {var $__=
            new _A_($UHC.$Base.$id,[$p,$s]);
@@ -5723,44 +5811,44 @@ $PropositionalLogic.$Parser.$__84__337__0=
               $__13;
              break;}
           return $__swJSW20__0;});
-$PropositionalLogic.$Parser.$Monad__NEW186UNQ794DCT80__0__0RDC=
+$PropositionalLogic.$Parser.$Monad__NEW186UNQ794DCT32__0__0RDC=
  new _F_(function($Monad__,$Monad__2,$Monad__3)
          {var $Monad__4=
-           new _A_($PropositionalLogic.$Parser.$Monad__NEW190UNQ795EVLDCT80__0__0RDC,[$Monad__,$Monad__2,$Monad__3]);
+           new _A_($PropositionalLogic.$Parser.$Monad__NEW190UNQ795EVLDCT32__0__0RDC,[$Monad__,$Monad__2,$Monad__3]);
           return $Monad__4;});
-$PropositionalLogic.$Parser.$Monad__NEW190UNQ795EVLDCT80__0__0RDC=
+$PropositionalLogic.$Parser.$Monad__NEW190UNQ795EVLDCT32__0__0RDC=
  new _F_(function($Monad__,$Monad__2,$Monad__3)
          {var $Monad__4=
            _e_(new _A_($UHC.$Base.$Monad__CLS73__45__0,[$Monad__]));
           var $__9=
-           {_tag_:0,_1:$Monad__4._1,_2:$PropositionalLogic.$Parser.$Monad__DCT80__0__0DFLUHC_2eBase_2e_3e_3e_3d,_3:$Monad__2,_4:$Monad__3};
+           {_tag_:0,_1:$Monad__4._1,_2:$PropositionalLogic.$Parser.$Monad__DCT32__0__0DFLUHC_2eBase_2e_3e_3e_3d,_3:$Monad__2,_4:$Monad__3};
           return $__9;});
-$PropositionalLogic.$Parser.$Monad__UNQ794DCT80__0__0RDC=
+$PropositionalLogic.$Parser.$Monad__UNQ794DCT32__0__0RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$Monad__NEW186UNQ794DCT80__0__0RDC,[$PropositionalLogic.$Parser.$Monad__UNQ794DCT80__0__0RDC,$PropositionalLogic.$Parser.$Monad__DCT80__0__0DFLUHC_2eBase_2efail,$PropositionalLogic.$Parser.$Monad__DCT80__0__0DFLUHC_2eBase_2ereturn]);}),[]);
-$PropositionalLogic.$Parser.$Monad__DCT80__0__0=
+                 {return new _A_($PropositionalLogic.$Parser.$Monad__NEW186UNQ794DCT32__0__0RDC,[$PropositionalLogic.$Parser.$Monad__UNQ794DCT32__0__0RDC,$PropositionalLogic.$Parser.$Monad__DCT32__0__0DFLUHC_2eBase_2efail,$PropositionalLogic.$Parser.$Monad__DCT32__0__0DFLUHC_2eBase_2ereturn]);}),[]);
+$PropositionalLogic.$Parser.$Monad__DCT32__0__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Parser.$Monad__UNQ794DCT80__0__0RDC;}),[]);
-$PropositionalLogic.$Parser.$__84__367__0=
+                 {return $PropositionalLogic.$Parser.$Monad__UNQ794DCT32__0__0RDC;}),[]);
+$PropositionalLogic.$Parser.$__36__367__0=
  new _F_(function($t,$match)
          {var $__=
            new _A_($PropositionalLogic.$Parser.$Token__,[$t,0,$match]);
           var $__4=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0]);
           return new _A_($UHC.$Base.$_24,[$__4,$__]);});
 $PropositionalLogic.$Parser.$tokenParser=
  new _F_(function($t,$p)
          {var $__=
-           new _A_($PropositionalLogic.$Parser.$__84__367__0,[$t]);
-          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$p,$__]);});
+           new _A_($PropositionalLogic.$Parser.$__36__367__0,[$t]);
+          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$p,$__]);});
 $PropositionalLogic.$Parser.$_24okUNQ624=
  new _F_(function($_24x)
          {var $__=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$_24x]);
-          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$eof,$__]);});
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$_24x]);
+          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$eof,$__]);});
 $PropositionalLogic.$Parser.$andEOF=
  new _F_(function($p)
-         {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$p,$PropositionalLogic.$Parser.$_24okUNQ624]);});
+         {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$p,$PropositionalLogic.$Parser.$_24okUNQ624]);});
 $PropositionalLogic.$Parser.$LParTok__=
  new _A_(new _F_(function()
                  {return {_tag_:5};}),[]);
@@ -6147,204 +6235,204 @@ $PropositionalLogic.$Parser.$__Rep0TokenIDUNQ145SDCGENRepresentable0=
 $PropositionalLogic.$Parser.$__Rep0TokenIDGENRepresentable0=
  new _A_(new _F_(function()
                  {return $PropositionalLogic.$Parser.$__Rep0TokenIDUNQ145SDCGENRepresentable0;}),[]);
-$PropositionalLogic.$Parser.$__82__5253__2__1UNQ743=
+$PropositionalLogic.$Parser.$__34__5253__2__1UNQ743=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$UHC.$Base.$Eq_27__DCT73__391__0]);}),[]);
-$PropositionalLogic.$Parser.$__82__5253__2__4UNQ740=
+$PropositionalLogic.$Parser.$__34__5253__2__4UNQ740=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__82__5253__2__1UNQ743,$PropositionalLogic.$Parser.$__82__5253__2__1UNQ743]);}),[]);
-$PropositionalLogic.$Parser.$__82__5253__2__7UNQ737=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__34__5253__2__1UNQ743,$PropositionalLogic.$Parser.$__34__5253__2__1UNQ743]);}),[]);
+$PropositionalLogic.$Parser.$__34__5253__2__7UNQ737=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__82__5253__2__1UNQ743,$PropositionalLogic.$Parser.$__82__5253__2__4UNQ740]);}),[]);
-$PropositionalLogic.$Parser.$__82__5253__2__16UNQ728=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__34__5253__2__1UNQ743,$PropositionalLogic.$Parser.$__34__5253__2__4UNQ740]);}),[]);
+$PropositionalLogic.$Parser.$__34__5253__2__16UNQ728=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__82__5253__2__7UNQ737,$PropositionalLogic.$Parser.$__82__5253__2__7UNQ737]);}),[]);
-$PropositionalLogic.$Parser.$__82__5253__2__34UNQ745=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__34__5253__2__7UNQ737,$PropositionalLogic.$Parser.$__34__5253__2__7UNQ737]);}),[]);
+$PropositionalLogic.$Parser.$__34__5253__2__34UNQ745=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__82__5253__2__16UNQ728,$PropositionalLogic.$Parser.$__82__5253__2__16UNQ728]);}),[]);
-$PropositionalLogic.$Parser.$__82__5261__0__5__0UNQ717=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__394__0,[$PropositionalLogic.$Parser.$__34__5253__2__16UNQ728,$PropositionalLogic.$Parser.$__34__5253__2__16UNQ728]);}),[]);
+$PropositionalLogic.$Parser.$__34__5261__0__5__0UNQ717=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__82__5253__2__34UNQ745]);}),[]);
-$PropositionalLogic.$Parser.$__80__6__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__34__5253__2__34UNQ745]);}),[]);
+$PropositionalLogic.$Parser.$__32__6__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Parser.$__Rep0TokenIDGENRepresentable0,$PropositionalLogic.$Parser.$__82__5261__0__5__0UNQ717,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Parser.$__80__6__0NEW318UNQ716RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Parser.$__Rep0TokenIDGENRepresentable0,$PropositionalLogic.$Parser.$__34__5261__0__5__0UNQ717,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Parser.$__32__6__0NEW318UNQ716RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Parser.$__80__6__0NEW321UNQ754EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Parser.$__32__6__0NEW321UNQ754EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Parser.$__80__6__0NEW321UNQ754EVLRDC=
+$PropositionalLogic.$Parser.$__32__6__0NEW321UNQ754EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Parser.$__80__6__0UNQ716RDC=
+$PropositionalLogic.$Parser.$__32__6__0UNQ716RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$__80__6__0NEW318UNQ716RDC,[$PropositionalLogic.$Parser.$__80__6__0UNQ716RDC,$PropositionalLogic.$Parser.$__80__6__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Parser.$__80__6__0=
+                 {return new _A_($PropositionalLogic.$Parser.$__32__6__0NEW318UNQ716RDC,[$PropositionalLogic.$Parser.$__32__6__0UNQ716RDC,$PropositionalLogic.$Parser.$__32__6__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Parser.$__32__6__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Parser.$__80__6__0UNQ716RDC;}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__9UNQ780=
+                 {return $PropositionalLogic.$Parser.$__32__6__0UNQ716RDC;}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__9UNQ780=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__392__0,[$PropositionalLogic.$Parser.$__80__6__0]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__5UNQ784=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__392__0,[$PropositionalLogic.$Parser.$__32__6__0]);}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__5UNQ784=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq_27__DCT73__392__0,[$UHC.$Base.$Eq__DCT73__88__0]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__6UNQ783=
+$PropositionalLogic.$Parser.$__34__5291__2__6UNQ783=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__82__5291__2__5UNQ784]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__10UNQ779=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__34__5291__2__5UNQ784]);}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__10UNQ779=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__82__5291__2__9UNQ780]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__1UNQ788=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__34__5291__2__9UNQ780]);}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__1UNQ788=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$Eq__DCT73__396__0,[$UHC.$Base.$Eq__DCT73__56__0]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__2UNQ787=
+$PropositionalLogic.$Parser.$__34__5291__2__2UNQ787=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__392__0,[$PropositionalLogic.$Parser.$__82__5291__2__1UNQ788]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__3UNQ786=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__392__0,[$PropositionalLogic.$Parser.$__34__5291__2__1UNQ788]);}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__3UNQ786=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__82__5291__2__2UNQ787]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__7UNQ782=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__34__5291__2__2UNQ787]);}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__7UNQ782=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__395__0,[$PropositionalLogic.$Parser.$__82__5291__2__6UNQ783,$PropositionalLogic.$Parser.$__82__5291__2__3UNQ786]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__11UNQ778=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__395__0,[$PropositionalLogic.$Parser.$__34__5291__2__6UNQ783,$PropositionalLogic.$Parser.$__34__5291__2__3UNQ786]);}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__11UNQ778=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__395__0,[$PropositionalLogic.$Parser.$__82__5291__2__10UNQ779,$PropositionalLogic.$Parser.$__82__5291__2__7UNQ782]);}),[]);
-$PropositionalLogic.$Parser.$__82__5291__2__12UNQ777=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__395__0,[$PropositionalLogic.$Parser.$__34__5291__2__10UNQ779,$PropositionalLogic.$Parser.$__34__5291__2__7UNQ782]);}),[]);
+$PropositionalLogic.$Parser.$__34__5291__2__12UNQ777=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__82__5291__2__11UNQ778]);}),[]);
-$PropositionalLogic.$Parser.$__82__5299__0__5__0UNQ775=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__34__5291__2__11UNQ778]);}),[]);
+$PropositionalLogic.$Parser.$__34__5299__0__5__0UNQ775=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__82__5291__2__12UNQ777]);}),[]);
-$PropositionalLogic.$Parser.$__80__8__0DFLUHC_2eBase_2e_3d_3d=
+                 {return new _A_($UHC.$Base.$Eq_27__DCT73__393__0,[$PropositionalLogic.$Parser.$__34__5291__2__12UNQ777]);}),[]);
+$PropositionalLogic.$Parser.$__32__8__0DFLUHC_2eBase_2e_3d_3d=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Parser.$__Rep0TokenGENRepresentable0,$PropositionalLogic.$Parser.$__82__5299__0__5__0UNQ775,$UHC.$Base.$undefined]);}),[]);
-$PropositionalLogic.$Parser.$__80__8__0NEW339UNQ774RDC=
+                 {return new _A_($UHC.$Base.$geqdefault,[$PropositionalLogic.$Parser.$__Rep0TokenGENRepresentable0,$PropositionalLogic.$Parser.$__34__5299__0__5__0UNQ775,$UHC.$Base.$undefined]);}),[]);
+$PropositionalLogic.$Parser.$__32__8__0NEW339UNQ774RDC=
  new _F_(function($__,$__2)
          {var $__3=
-           new _A_($PropositionalLogic.$Parser.$__80__8__0NEW342UNQ790EVLRDC,[$__,$__2]);
+           new _A_($PropositionalLogic.$Parser.$__32__8__0NEW342UNQ790EVLRDC,[$__,$__2]);
           return $__3;});
-$PropositionalLogic.$Parser.$__80__8__0NEW342UNQ790EVLRDC=
+$PropositionalLogic.$Parser.$__32__8__0NEW342UNQ790EVLRDC=
  new _F_(function($__,$__2)
          {var $Eq__=
            _e_(new _A_($UHC.$Base.$Eq__CLS73__4__0,[$__]));
           var $__6=
            {_tag_:0,_1:$Eq__._1,_2:$__2};
           return $__6;});
-$PropositionalLogic.$Parser.$__80__8__0UNQ774RDC=
+$PropositionalLogic.$Parser.$__32__8__0UNQ774RDC=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$__80__8__0NEW339UNQ774RDC,[$PropositionalLogic.$Parser.$__80__8__0UNQ774RDC,$PropositionalLogic.$Parser.$__80__8__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
-$PropositionalLogic.$Parser.$__80__8__0=
+                 {return new _A_($PropositionalLogic.$Parser.$__32__8__0NEW339UNQ774RDC,[$PropositionalLogic.$Parser.$__32__8__0UNQ774RDC,$PropositionalLogic.$Parser.$__32__8__0DFLUHC_2eBase_2e_3d_3d]);}),[]);
+$PropositionalLogic.$Parser.$__32__8__0=
  new _A_(new _F_(function()
-                 {return $PropositionalLogic.$Parser.$__80__8__0UNQ774RDC;}),[]);
+                 {return $PropositionalLogic.$Parser.$__32__8__0UNQ774RDC;}),[]);
 $PropositionalLogic.$Parser.$token=
  new _F_(function($t)
          {var $__=
-           new _A_($UHC.$Base.$_3d_3d,[$PropositionalLogic.$Parser.$__80__6__0,$t]);
+           new _A_($UHC.$Base.$_3d_3d,[$PropositionalLogic.$Parser.$__32__6__0,$t]);
           var $__3=
            new _A_($UHC.$Base.$_2e,[$__,$PropositionalLogic.$Parser.$tid]);
           return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$satisfy,$__3]);});
-$PropositionalLogic.$Parser.$__84__603=
+$PropositionalLogic.$Parser.$__36__603=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Logic.$F__]);}),[]);
-$PropositionalLogic.$Parser.$__84__602=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Logic.$F__]);}),[]);
+$PropositionalLogic.$Parser.$__36__602=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$FTok__]);}),[]);
 $PropositionalLogic.$Parser.$pFalse=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__602,$PropositionalLogic.$Parser.$__84__603]);}),[]);
-$PropositionalLogic.$Parser.$__84__613=
+                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__602,$PropositionalLogic.$Parser.$__36__603]);}),[]);
+$PropositionalLogic.$Parser.$__36__613=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Logic.$Symbol__,$PropositionalLogic.$Parser.$match]);}),[]);
-$PropositionalLogic.$Parser.$__84__612=
+$PropositionalLogic.$Parser.$__36__612=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0]);}),[]);
-$PropositionalLogic.$Parser.$__84__610=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0]);}),[]);
+$PropositionalLogic.$Parser.$__36__610=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Parser.$__84__612,$PropositionalLogic.$Parser.$__84__613]);}),[]);
-$PropositionalLogic.$Parser.$__84__609=
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Parser.$__36__612,$PropositionalLogic.$Parser.$__36__613]);}),[]);
+$PropositionalLogic.$Parser.$__36__609=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$SymTok__]);}),[]);
 $PropositionalLogic.$Parser.$pSymbol=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__609,$PropositionalLogic.$Parser.$__84__610]);}),[]);
-$PropositionalLogic.$Parser.$__84__620=
+                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__609,$PropositionalLogic.$Parser.$__36__610]);}),[]);
+$PropositionalLogic.$Parser.$__36__620=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Logic.$T__]);}),[]);
-$PropositionalLogic.$Parser.$__84__619=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Logic.$T__]);}),[]);
+$PropositionalLogic.$Parser.$__36__619=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$TTok__]);}),[]);
 $PropositionalLogic.$Parser.$pTrue=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__619,$PropositionalLogic.$Parser.$__84__620]);}),[]);
-$PropositionalLogic.$Parser.$__84__629NEW362=
+                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__619,$PropositionalLogic.$Parser.$__36__620]);}),[]);
+$PropositionalLogic.$Parser.$__36__629NEW362=
  new _F_(function($p)
-         {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$p,$PropositionalLogic.$Parser.$_24okUNQ513]);});
+         {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$p,$PropositionalLogic.$Parser.$_24okUNQ513]);});
 $PropositionalLogic.$Parser.$_24okUNQ513=
  new _F_(function($_24x)
          {var $__=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$_24x]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$_24x]);
           var $__3=
            new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$RParTok__]);
-          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__3,$__]);});
+          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__3,$__]);});
 $PropositionalLogic.$Parser.$parens=
  new _F_(function($p)
          {var $__=
-           new _A_($PropositionalLogic.$Parser.$__84__629NEW362,[$p]);
+           new _A_($PropositionalLogic.$Parser.$__36__629NEW362,[$p]);
           var $__3=
            new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$LParTok__]);
-          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__3,$__]);});
-$PropositionalLogic.$Parser.$__84__656=
+          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__3,$__]);});
+$PropositionalLogic.$Parser.$__36__656=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Logic.$Equivalence__]);}),[]);
-$PropositionalLogic.$Parser.$__84__655=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Logic.$Equivalence__]);}),[]);
+$PropositionalLogic.$Parser.$__36__655=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$EqTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__652=
+$PropositionalLogic.$Parser.$__36__652=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__655,$PropositionalLogic.$Parser.$__84__656]);}),[]);
-$PropositionalLogic.$Parser.$__84__650=
+                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__655,$PropositionalLogic.$Parser.$__36__656]);}),[]);
+$PropositionalLogic.$Parser.$__36__650=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__652,$UHC.$Base.$_5b_5d]);}),[]);
-$PropositionalLogic.$Parser.$__84__648=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__652,$UHC.$Base.$_5b_5d]);}),[]);
+$PropositionalLogic.$Parser.$__36__648=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Logic.$Implication__]);}),[]);
-$PropositionalLogic.$Parser.$__84__647=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Logic.$Implication__]);}),[]);
+$PropositionalLogic.$Parser.$__36__647=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$ImplTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__644=
+$PropositionalLogic.$Parser.$__36__644=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__647,$PropositionalLogic.$Parser.$__84__648]);}),[]);
+                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__647,$PropositionalLogic.$Parser.$__36__648]);}),[]);
 $PropositionalLogic.$Parser.$rightAssociativeParsers=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__644,$PropositionalLogic.$Parser.$__84__650]);}),[]);
-$PropositionalLogic.$Parser.$__84__673=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__644,$PropositionalLogic.$Parser.$__36__650]);}),[]);
+$PropositionalLogic.$Parser.$__36__673=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Logic.$Disjunction__]);}),[]);
-$PropositionalLogic.$Parser.$__84__672=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Logic.$Disjunction__]);}),[]);
+$PropositionalLogic.$Parser.$__36__672=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$OrTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__669=
+$PropositionalLogic.$Parser.$__36__669=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__672,$PropositionalLogic.$Parser.$__84__673]);}),[]);
-$PropositionalLogic.$Parser.$__84__667=
+                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__672,$PropositionalLogic.$Parser.$__36__673]);}),[]);
+$PropositionalLogic.$Parser.$__36__667=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__669,$UHC.$Base.$_5b_5d]);}),[]);
-$PropositionalLogic.$Parser.$__84__665=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__669,$UHC.$Base.$_5b_5d]);}),[]);
+$PropositionalLogic.$Parser.$__36__665=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Logic.$Conjunction__]);}),[]);
-$PropositionalLogic.$Parser.$__84__664=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Logic.$Conjunction__]);}),[]);
+$PropositionalLogic.$Parser.$__36__664=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$AndTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__661=
+$PropositionalLogic.$Parser.$__36__661=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__664,$PropositionalLogic.$Parser.$__84__665]);}),[]);
+                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__664,$PropositionalLogic.$Parser.$__36__665]);}),[]);
 $PropositionalLogic.$Parser.$associativeParsers=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__661,$PropositionalLogic.$Parser.$__84__667]);}),[]);
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__661,$PropositionalLogic.$Parser.$__36__667]);}),[]);
 $PropositionalLogic.$Parser.$orUNQ519=
  new _F_(function($x1,$x2)
          {var $x13=
@@ -6360,7 +6448,7 @@ $PropositionalLogic.$Parser.$orUNQ519=
               $x1;
              break;}
           return $__swJSW50__0;});
-$PropositionalLogic.$Parser.$__84__689__0=
+$PropositionalLogic.$Parser.$__36__689__0=
  new _F_(function($p1,$p2,$s)
          {var $__=
            new _A_($UHC.$Base.$id,[$p2,$s]);
@@ -6370,7 +6458,7 @@ $PropositionalLogic.$Parser.$__84__689__0=
 $PropositionalLogic.$Parser.$_3c_7c_3e=
  new _F_(function($p1,$p2)
          {var $__=
-           new _A_($PropositionalLogic.$Parser.$__84__689__0,[$p1,$p2]);
+           new _A_($PropositionalLogic.$Parser.$__36__689__0,[$p1,$p2]);
           return new _A_($UHC.$Base.$_24,[$UHC.$Base.$id,$__]);});
 $PropositionalLogic.$Parser.$choice=
  new _A_(new _F_(function()
@@ -6378,7 +6466,7 @@ $PropositionalLogic.$Parser.$choice=
 $PropositionalLogic.$Parser.$many=
  new _F_(function($p)
          {var $__=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$UHC.$Base.$_5b_5d]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$UHC.$Base.$_5b_5d]);
           var $__3=
            new _A_($PropositionalLogic.$Parser.$many1,[$p]);
           return new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$__3,$__]);});
@@ -6386,28 +6474,28 @@ $PropositionalLogic.$Parser.$many1=
  new _F_(function($p)
          {var $__=
            new _A_($PropositionalLogic.$Parser.$many,[$p]);
-          return new _A_($Control.$Monad.$liftM2,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$UHC.$Base.$_3a,$p,$__]);});
+          return new _A_($Control.$Monad.$liftM2,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$UHC.$Base.$_3a,$p,$__]);});
 $PropositionalLogic.$Parser.$many2=
  new _F_(function($p)
          {var $__=
            new _A_($PropositionalLogic.$Parser.$many1,[$p]);
-          return new _A_($Control.$Monad.$liftM2,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$UHC.$Base.$_3a,$p,$__]);});
-$PropositionalLogic.$Parser.$__84__812=
+          return new _A_($Control.$Monad.$liftM2,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$UHC.$Base.$_3a,$p,$__]);});
+$PropositionalLogic.$Parser.$__36__812=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pSymbol,$UHC.$Base.$_5b_5d]);}),[]);
-$PropositionalLogic.$Parser.$__84__810=
+$PropositionalLogic.$Parser.$__36__810=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pFalse,$PropositionalLogic.$Parser.$__84__812]);}),[]);
-$PropositionalLogic.$Parser.$__84__808=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pFalse,$PropositionalLogic.$Parser.$__36__812]);}),[]);
+$PropositionalLogic.$Parser.$__36__808=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pTrue,$PropositionalLogic.$Parser.$__84__810]);}),[]);
-$PropositionalLogic.$Parser.$__84__803=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pTrue,$PropositionalLogic.$Parser.$__36__810]);}),[]);
+$PropositionalLogic.$Parser.$__36__803=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0]);}),[]);
-$PropositionalLogic.$Parser.$__84__801=
+                 {return new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0]);}),[]);
+$PropositionalLogic.$Parser.$__36__801=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Parser.$__84__803,$PropositionalLogic.$Logic.$Negation__]);}),[]);
-$PropositionalLogic.$Parser.$__84__800=
+                 {return new _A_($UHC.$Base.$_2e,[$PropositionalLogic.$Parser.$__36__803,$PropositionalLogic.$Logic.$Negation__]);}),[]);
+$PropositionalLogic.$Parser.$__36__800=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$token,[$PropositionalLogic.$Parser.$NotTok__]);}),[]);
 $PropositionalLogic.$Parser.$_24okUNQ567=
@@ -6416,7 +6504,7 @@ $PropositionalLogic.$Parser.$_24okUNQ567=
            new _A_($PropositionalLogic.$Parser.$choice,[$PropositionalLogic.$Parser.$rightAssociativeParsers]);
           var $__3=
            new _A_($PropositionalLogic.$Parser.$_24okUNQ575,[$_24x]);
-          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__,$__3]);});
+          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__,$__3]);});
 $PropositionalLogic.$Parser.$_24okUNQ575=
  new _F_(function($_24x,$_24x2)
          {var $__=
@@ -6425,13 +6513,13 @@ $PropositionalLogic.$Parser.$_24okUNQ575=
            new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$__,$PropositionalLogic.$Parser.$pSubFormula]);
           var $__5=
            new _A_($PropositionalLogic.$Parser.$_24okUNQ579,[$_24x,$_24x2]);
-          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__4,$__5]);});
+          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__4,$__5]);});
 $PropositionalLogic.$Parser.$_24okUNQ579=
  new _F_(function($_24x,$_24x2,$_24x3)
          {var $__=
            new _A_($_24x2,[$_24x,$_24x3]);
           var $__5=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0]);
           return new _A_($UHC.$Base.$_24,[$__5,$__]);});
 $PropositionalLogic.$Parser.$_24okUNQ585=
  new _F_(function($_24x)
@@ -6439,81 +6527,81 @@ $PropositionalLogic.$Parser.$_24okUNQ585=
            new _A_($PropositionalLogic.$Parser.$choice,[$PropositionalLogic.$Parser.$associativeParsers]);
           var $__3=
            new _A_($PropositionalLogic.$Parser.$_24okUNQ593,[$_24x]);
-          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__,$__3]);});
+          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__,$__3]);});
 $PropositionalLogic.$Parser.$_24okUNQ593=
  new _F_(function($_24x,$_24x2)
          {var $__=
            new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$PropositionalLogic.$Parser.$pAssociative,$PropositionalLogic.$Parser.$pSubFormula]);
           var $__4=
            new _A_($PropositionalLogic.$Parser.$_24okUNQ597,[$_24x,$_24x2]);
-          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__,$__4]);});
+          return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__,$__4]);});
 $PropositionalLogic.$Parser.$_24okUNQ597=
  new _F_(function($_24x,$_24x2,$_24x3)
          {var $__=
            new _A_($_24x2,[$_24x,$_24x3]);
           var $__5=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0]);
           return new _A_($UHC.$Base.$_24,[$__5,$__]);});
 $PropositionalLogic.$Parser.$pRightAssociative=
  new _A_(new _F_(function()
                  {var $__=
                    new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$PropositionalLogic.$Parser.$pAssociative,$PropositionalLogic.$Parser.$pSubFormula]);
-                  return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__,$PropositionalLogic.$Parser.$_24okUNQ567]);}),[]);
+                  return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__,$PropositionalLogic.$Parser.$_24okUNQ567]);}),[]);
 $PropositionalLogic.$Parser.$pAssociative=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$pSubFormula,$PropositionalLogic.$Parser.$_24okUNQ585]);}),[]);
-$PropositionalLogic.$Parser.$__84__780=
+                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$pSubFormula,$PropositionalLogic.$Parser.$_24okUNQ585]);}),[]);
+$PropositionalLogic.$Parser.$__36__780=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pTrue,$PropositionalLogic.$Parser.$__84__782]);}),[]);
-$PropositionalLogic.$Parser.$__84__782=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pTrue,$PropositionalLogic.$Parser.$__36__782]);}),[]);
+$PropositionalLogic.$Parser.$__36__782=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pFalse,$PropositionalLogic.$Parser.$__84__784]);}),[]);
-$PropositionalLogic.$Parser.$__84__784=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pFalse,$PropositionalLogic.$Parser.$__36__784]);}),[]);
+$PropositionalLogic.$Parser.$__36__784=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pSymbol,$PropositionalLogic.$Parser.$__84__786]);}),[]);
-$PropositionalLogic.$Parser.$__84__786=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pSymbol,$PropositionalLogic.$Parser.$__36__786]);}),[]);
+$PropositionalLogic.$Parser.$__36__786=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pNegation,$PropositionalLogic.$Parser.$__84__788]);}),[]);
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pNegation,$PropositionalLogic.$Parser.$__36__788]);}),[]);
 $PropositionalLogic.$Parser.$pNegation=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__797,$PropositionalLogic.$Parser.$__84__801]);}),[]);
-$PropositionalLogic.$Parser.$__84__797=
+                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__797,$PropositionalLogic.$Parser.$__36__801]);}),[]);
+$PropositionalLogic.$Parser.$__36__797=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__800,$PropositionalLogic.$Parser.$pSubFormula]);}),[]);
+                 {return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__800,$PropositionalLogic.$Parser.$pSubFormula]);}),[]);
 $PropositionalLogic.$Parser.$pSubFormula=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$choice,[$PropositionalLogic.$Parser.$__84__780]);}),[]);
-$PropositionalLogic.$Parser.$__84__788=
+                 {return new _A_($PropositionalLogic.$Parser.$choice,[$PropositionalLogic.$Parser.$__36__780]);}),[]);
+$PropositionalLogic.$Parser.$__36__788=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__790,$UHC.$Base.$_5b_5d]);}),[]);
-$PropositionalLogic.$Parser.$__84__790=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__790,$UHC.$Base.$_5b_5d]);}),[]);
+$PropositionalLogic.$Parser.$__36__790=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$choice,$PropositionalLogic.$Parser.$__84__792]);}),[]);
-$PropositionalLogic.$Parser.$__84__792=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$choice,$PropositionalLogic.$Parser.$__36__792]);}),[]);
+$PropositionalLogic.$Parser.$__36__792=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$map,[$PropositionalLogic.$Parser.$parens,$PropositionalLogic.$Parser.$formulaParsers]);}),[]);
 $PropositionalLogic.$Parser.$formulaParsers=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pConnective,$PropositionalLogic.$Parser.$__84__806]);}),[]);
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pConnective,$PropositionalLogic.$Parser.$__36__806]);}),[]);
 $PropositionalLogic.$Parser.$pConnective=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$PropositionalLogic.$Parser.$__84__816,$PropositionalLogic.$Parser.$pSubFormula]);}),[]);
-$PropositionalLogic.$Parser.$__84__816=
+                 {return new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$PropositionalLogic.$Parser.$__36__816,$PropositionalLogic.$Parser.$pSubFormula]);}),[]);
+$PropositionalLogic.$Parser.$__36__816=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$PropositionalLogic.$Parser.$pRightAssociative,$PropositionalLogic.$Parser.$pAssociative]);}),[]);
-$PropositionalLogic.$Parser.$__84__806=
+$PropositionalLogic.$Parser.$__36__806=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pNegation,$PropositionalLogic.$Parser.$__84__808]);}),[]);
-$PropositionalLogic.$Parser.$__84__821=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$pNegation,$PropositionalLogic.$Parser.$__36__808]);}),[]);
+$PropositionalLogic.$Parser.$__36__821=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$map,[$PropositionalLogic.$Parser.$andEOF,$PropositionalLogic.$Parser.$formulaParsers]);}),[]);
 $PropositionalLogic.$Parser.$pFormula=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$choice,$PropositionalLogic.$Parser.$__84__821]);}),[]);
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$choice,$PropositionalLogic.$Parser.$__36__821]);}),[]);
 $PropositionalLogic.$Parser.$parse=
  new _A_(new _F_(function()
                  {var $__=
-                   new _A_($UHC.$Base.$_2f_3d,[$PropositionalLogic.$Parser.$__80__6__0,$PropositionalLogic.$Parser.$SpaceTok__]);
+                   new _A_($UHC.$Base.$_2f_3d,[$PropositionalLogic.$Parser.$__32__6__0,$PropositionalLogic.$Parser.$SpaceTok__]);
                   var $__2=
                    new _A_($UHC.$Base.$_2e,[$__,$PropositionalLogic.$Parser.$tid]);
                   var $withoutSpaces=
@@ -6528,23 +6616,23 @@ $PropositionalLogic.$Parser.$_24okUNQ614=
           var $__3=
            new _A_($UHC.$Base.$_3a,[$_24x,$__]);
           var $__4=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0]);
           var $__5=
            new _A_($UHC.$Base.$_24,[$__4,$__3]);
           var $__6=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,[]]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,[]]);
           var $__7=
            new _A_($UHC.$Base.$_2e,[$UHC.$Base.$not,$UHC.$Base.$isAlpha]);
           var $__8=
            new _A_($PropositionalLogic.$Parser.$satisfy,[$__7]);
           var $__9=
-           new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__8,$__6]);
+           new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__8,$__6]);
           var $__10=
            new _A_($PropositionalLogic.$Parser.$_3c_7c_3e,[$__9,$PropositionalLogic.$Parser.$eof]);
           var $__11=
            new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$lookAhead,$__10]);
-          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__11,$__5]);});
-$PropositionalLogic.$Parser.$__84__863__0=
+          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__11,$__5]);});
+$PropositionalLogic.$Parser.$__36__863__0=
  new _F_(function($c)
          {var $__=
            new _A_($UHC.$Base.$_2f_3d,[$UHC.$Base.$Eq__DCT73__56__0,$c,118]);
@@ -6554,246 +6642,246 @@ $PropositionalLogic.$Parser.$__84__863__0=
 $PropositionalLogic.$Parser.$singleCharSymbol=
  new _A_(new _F_(function()
                  {var $__=
-                   new _A_($PropositionalLogic.$Parser.$satisfy,[$PropositionalLogic.$Parser.$__84__863__0]);
-                  return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__,$PropositionalLogic.$Parser.$_24okUNQ614]);}),[]);
-$PropositionalLogic.$Parser.$__84__982=
+                   new _A_($PropositionalLogic.$Parser.$satisfy,[$PropositionalLogic.$Parser.$__36__863__0]);
+                  return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__,$PropositionalLogic.$Parser.$_24okUNQ614]);}),[]);
+$PropositionalLogic.$Parser.$__36__982=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$const,[$UHC.$Base.$True__]);}),[]);
-$PropositionalLogic.$Parser.$__84__981=
+$PropositionalLogic.$Parser.$__36__981=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$satisfy,[$PropositionalLogic.$Parser.$__84__982]);}),[]);
-$PropositionalLogic.$Parser.$__84__980=
+                 {return new _A_($PropositionalLogic.$Parser.$satisfy,[$PropositionalLogic.$Parser.$__36__982]);}),[]);
+$PropositionalLogic.$Parser.$__36__980=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$return,[$UHC.$Base.$Monad__DCT73__85__0]);}),[]);
-$PropositionalLogic.$Parser.$__84__977=
+$PropositionalLogic.$Parser.$__36__977=
  new _A_(new _F_(function()
-                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__980,$PropositionalLogic.$Parser.$__84__981]);}),[]);
-$PropositionalLogic.$Parser.$__84__976=
+                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__980,$PropositionalLogic.$Parser.$__36__981]);}),[]);
+$PropositionalLogic.$Parser.$__36__976=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$ErrTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__974=
+$PropositionalLogic.$Parser.$__36__974=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__976,$PropositionalLogic.$Parser.$__84__977]);}),[]);
-$PropositionalLogic.$Parser.$__84__972=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__976,$PropositionalLogic.$Parser.$__36__977]);}),[]);
+$PropositionalLogic.$Parser.$__36__972=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__974,$UHC.$Base.$_5b_5d]);}),[]);
-$PropositionalLogic.$Parser.$__84__971=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__974,$UHC.$Base.$_5b_5d]);}),[]);
+$PropositionalLogic.$Parser.$__36__971=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["->"]);}),[]);
-$PropositionalLogic.$Parser.$__84__970=
+$PropositionalLogic.$Parser.$__36__970=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__84__971]);}),[]);
-$PropositionalLogic.$Parser.$__84__969=
+                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__36__971]);}),[]);
+$PropositionalLogic.$Parser.$__36__969=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$ImplTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__967=
+$PropositionalLogic.$Parser.$__36__967=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__969,$PropositionalLogic.$Parser.$__84__970]);}),[]);
-$PropositionalLogic.$Parser.$__84__965=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__969,$PropositionalLogic.$Parser.$__36__970]);}),[]);
+$PropositionalLogic.$Parser.$__36__965=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__967,$PropositionalLogic.$Parser.$__84__972]);}),[]);
-$PropositionalLogic.$Parser.$__84__964=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__967,$PropositionalLogic.$Parser.$__36__972]);}),[]);
+$PropositionalLogic.$Parser.$__36__964=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["<->"]);}),[]);
-$PropositionalLogic.$Parser.$__84__963=
+$PropositionalLogic.$Parser.$__36__963=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__84__964]);}),[]);
-$PropositionalLogic.$Parser.$__84__962=
+                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__36__964]);}),[]);
+$PropositionalLogic.$Parser.$__36__962=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$EqTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__960=
+$PropositionalLogic.$Parser.$__36__960=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__962,$PropositionalLogic.$Parser.$__84__963]);}),[]);
-$PropositionalLogic.$Parser.$__84__958=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__962,$PropositionalLogic.$Parser.$__36__963]);}),[]);
+$PropositionalLogic.$Parser.$__36__958=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__960,$PropositionalLogic.$Parser.$__84__965]);}),[]);
-$PropositionalLogic.$Parser.$__84__957=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__960,$PropositionalLogic.$Parser.$__36__965]);}),[]);
+$PropositionalLogic.$Parser.$__36__957=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["v\8744"]);}),[]);
-$PropositionalLogic.$Parser.$__84__955=
+$PropositionalLogic.$Parser.$__36__955=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$oneOf,[$UHC.$Base.$Eq__DCT73__56__0,$PropositionalLogic.$Parser.$__84__957]);}),[]);
-$PropositionalLogic.$Parser.$__84__954=
+                 {return new _A_($PropositionalLogic.$Parser.$oneOf,[$UHC.$Base.$Eq__DCT73__56__0,$PropositionalLogic.$Parser.$__36__957]);}),[]);
+$PropositionalLogic.$Parser.$__36__954=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$return,[$UHC.$Base.$Monad__DCT73__85__0]);}),[]);
-$PropositionalLogic.$Parser.$__84__952=
+$PropositionalLogic.$Parser.$__36__952=
  new _A_(new _F_(function()
-                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__954]);}),[]);
-$PropositionalLogic.$Parser.$__84__950=
+                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__954]);}),[]);
+$PropositionalLogic.$Parser.$__36__950=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__952,$PropositionalLogic.$Parser.$__84__955]);}),[]);
-$PropositionalLogic.$Parser.$__84__949=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__952,$PropositionalLogic.$Parser.$__36__955]);}),[]);
+$PropositionalLogic.$Parser.$__36__949=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$OrTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__947=
+$PropositionalLogic.$Parser.$__36__947=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__949,$PropositionalLogic.$Parser.$__84__950]);}),[]);
-$PropositionalLogic.$Parser.$__84__945=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__949,$PropositionalLogic.$Parser.$__36__950]);}),[]);
+$PropositionalLogic.$Parser.$__36__945=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__947,$PropositionalLogic.$Parser.$__84__958]);}),[]);
-$PropositionalLogic.$Parser.$__84__944=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__947,$PropositionalLogic.$Parser.$__36__958]);}),[]);
+$PropositionalLogic.$Parser.$__36__944=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["^\8743"]);}),[]);
-$PropositionalLogic.$Parser.$__84__942=
+$PropositionalLogic.$Parser.$__36__942=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$oneOf,[$UHC.$Base.$Eq__DCT73__56__0,$PropositionalLogic.$Parser.$__84__944]);}),[]);
-$PropositionalLogic.$Parser.$__84__941=
+                 {return new _A_($PropositionalLogic.$Parser.$oneOf,[$UHC.$Base.$Eq__DCT73__56__0,$PropositionalLogic.$Parser.$__36__944]);}),[]);
+$PropositionalLogic.$Parser.$__36__941=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$return,[$UHC.$Base.$Monad__DCT73__85__0]);}),[]);
-$PropositionalLogic.$Parser.$__84__939=
+$PropositionalLogic.$Parser.$__36__939=
  new _A_(new _F_(function()
-                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__941]);}),[]);
-$PropositionalLogic.$Parser.$__84__937=
+                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__941]);}),[]);
+$PropositionalLogic.$Parser.$__36__937=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__939,$PropositionalLogic.$Parser.$__84__942]);}),[]);
-$PropositionalLogic.$Parser.$__84__936=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__939,$PropositionalLogic.$Parser.$__36__942]);}),[]);
+$PropositionalLogic.$Parser.$__36__936=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$AndTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__934=
+$PropositionalLogic.$Parser.$__36__934=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__936,$PropositionalLogic.$Parser.$__84__937]);}),[]);
-$PropositionalLogic.$Parser.$__84__932=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__936,$PropositionalLogic.$Parser.$__36__937]);}),[]);
+$PropositionalLogic.$Parser.$__36__932=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__934,$PropositionalLogic.$Parser.$__84__945]);}),[]);
-$PropositionalLogic.$Parser.$__84__931=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__934,$PropositionalLogic.$Parser.$__36__945]);}),[]);
+$PropositionalLogic.$Parser.$__36__931=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["!\172"]);}),[]);
-$PropositionalLogic.$Parser.$__84__929=
+$PropositionalLogic.$Parser.$__36__929=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$oneOf,[$UHC.$Base.$Eq__DCT73__56__0,$PropositionalLogic.$Parser.$__84__931]);}),[]);
-$PropositionalLogic.$Parser.$__84__928=
+                 {return new _A_($PropositionalLogic.$Parser.$oneOf,[$UHC.$Base.$Eq__DCT73__56__0,$PropositionalLogic.$Parser.$__36__931]);}),[]);
+$PropositionalLogic.$Parser.$__36__928=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$return,[$UHC.$Base.$Monad__DCT73__85__0]);}),[]);
-$PropositionalLogic.$Parser.$__84__926=
+$PropositionalLogic.$Parser.$__36__926=
  new _A_(new _F_(function()
-                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$__84__928]);}),[]);
-$PropositionalLogic.$Parser.$__84__924=
+                 {return new _A_($Control.$Monad.$liftM,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$__36__928]);}),[]);
+$PropositionalLogic.$Parser.$__36__924=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__926,$PropositionalLogic.$Parser.$__84__929]);}),[]);
-$PropositionalLogic.$Parser.$__84__923=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__926,$PropositionalLogic.$Parser.$__36__929]);}),[]);
+$PropositionalLogic.$Parser.$__36__923=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$NotTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__921=
+$PropositionalLogic.$Parser.$__36__921=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__923,$PropositionalLogic.$Parser.$__84__924]);}),[]);
-$PropositionalLogic.$Parser.$__84__919=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__923,$PropositionalLogic.$Parser.$__36__924]);}),[]);
+$PropositionalLogic.$Parser.$__36__919=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__921,$PropositionalLogic.$Parser.$__84__932]);}),[]);
-$PropositionalLogic.$Parser.$__84__918=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__921,$PropositionalLogic.$Parser.$__36__932]);}),[]);
+$PropositionalLogic.$Parser.$__36__918=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,[")"]);}),[]);
-$PropositionalLogic.$Parser.$__84__917=
+$PropositionalLogic.$Parser.$__36__917=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__84__918]);}),[]);
-$PropositionalLogic.$Parser.$__84__916=
+                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__36__918]);}),[]);
+$PropositionalLogic.$Parser.$__36__916=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$RParTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__914=
+$PropositionalLogic.$Parser.$__36__914=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__916,$PropositionalLogic.$Parser.$__84__917]);}),[]);
-$PropositionalLogic.$Parser.$__84__912=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__916,$PropositionalLogic.$Parser.$__36__917]);}),[]);
+$PropositionalLogic.$Parser.$__36__912=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__914,$PropositionalLogic.$Parser.$__84__919]);}),[]);
-$PropositionalLogic.$Parser.$__84__911=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__914,$PropositionalLogic.$Parser.$__36__919]);}),[]);
+$PropositionalLogic.$Parser.$__36__911=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["("]);}),[]);
-$PropositionalLogic.$Parser.$__84__910=
+$PropositionalLogic.$Parser.$__36__910=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__84__911]);}),[]);
-$PropositionalLogic.$Parser.$__84__909=
+                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__36__911]);}),[]);
+$PropositionalLogic.$Parser.$__36__909=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$LParTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__907=
+$PropositionalLogic.$Parser.$__36__907=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__909,$PropositionalLogic.$Parser.$__84__910]);}),[]);
-$PropositionalLogic.$Parser.$__84__905=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__909,$PropositionalLogic.$Parser.$__36__910]);}),[]);
+$PropositionalLogic.$Parser.$__36__905=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__907,$PropositionalLogic.$Parser.$__84__912]);}),[]);
-$PropositionalLogic.$Parser.$__84__904=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__907,$PropositionalLogic.$Parser.$__36__912]);}),[]);
+$PropositionalLogic.$Parser.$__36__904=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$SymTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__902=
+$PropositionalLogic.$Parser.$__36__902=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__904,$PropositionalLogic.$Parser.$singleCharSymbol]);}),[]);
-$PropositionalLogic.$Parser.$__84__900=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__904,$PropositionalLogic.$Parser.$singleCharSymbol]);}),[]);
+$PropositionalLogic.$Parser.$__36__900=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__902,$PropositionalLogic.$Parser.$__84__905]);}),[]);
-$PropositionalLogic.$Parser.$__84__899=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__902,$PropositionalLogic.$Parser.$__36__905]);}),[]);
+$PropositionalLogic.$Parser.$__36__899=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$satisfy,[$UHC.$Base.$isAlpha]);}),[]);
-$PropositionalLogic.$Parser.$__84__898=
+$PropositionalLogic.$Parser.$__36__898=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$many2,[$PropositionalLogic.$Parser.$__84__899]);}),[]);
-$PropositionalLogic.$Parser.$__84__897=
+                 {return new _A_($PropositionalLogic.$Parser.$many2,[$PropositionalLogic.$Parser.$__36__899]);}),[]);
+$PropositionalLogic.$Parser.$__36__897=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$SymTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__895=
+$PropositionalLogic.$Parser.$__36__895=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__897,$PropositionalLogic.$Parser.$__84__898]);}),[]);
-$PropositionalLogic.$Parser.$__84__893=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__897,$PropositionalLogic.$Parser.$__36__898]);}),[]);
+$PropositionalLogic.$Parser.$__36__893=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__895,$PropositionalLogic.$Parser.$__84__900]);}),[]);
-$PropositionalLogic.$Parser.$__84__892=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__895,$PropositionalLogic.$Parser.$__36__900]);}),[]);
+$PropositionalLogic.$Parser.$__36__892=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["0"]);}),[]);
-$PropositionalLogic.$Parser.$__84__891=
+$PropositionalLogic.$Parser.$__36__891=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__84__892]);}),[]);
-$PropositionalLogic.$Parser.$__84__890=
+                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__36__892]);}),[]);
+$PropositionalLogic.$Parser.$__36__890=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$FTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__888=
+$PropositionalLogic.$Parser.$__36__888=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__890,$PropositionalLogic.$Parser.$__84__891]);}),[]);
-$PropositionalLogic.$Parser.$__84__886=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__890,$PropositionalLogic.$Parser.$__36__891]);}),[]);
+$PropositionalLogic.$Parser.$__36__886=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__888,$PropositionalLogic.$Parser.$__84__893]);}),[]);
-$PropositionalLogic.$Parser.$__84__885=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__888,$PropositionalLogic.$Parser.$__36__893]);}),[]);
+$PropositionalLogic.$Parser.$__36__885=
  new _A_(new _F_(function()
                  {return new _A_($UHC.$Base.$packedStringToString,["1"]);}),[]);
-$PropositionalLogic.$Parser.$__84__884=
+$PropositionalLogic.$Parser.$__36__884=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__84__885]);}),[]);
-$PropositionalLogic.$Parser.$__84__883=
+                 {return new _A_($PropositionalLogic.$Parser.$stringIgnoreCase,[$PropositionalLogic.$Parser.$__36__885]);}),[]);
+$PropositionalLogic.$Parser.$__36__883=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$TTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__881=
+$PropositionalLogic.$Parser.$__36__881=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__883,$PropositionalLogic.$Parser.$__84__884]);}),[]);
-$PropositionalLogic.$Parser.$__84__879=
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__883,$PropositionalLogic.$Parser.$__36__884]);}),[]);
+$PropositionalLogic.$Parser.$__36__879=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__881,$PropositionalLogic.$Parser.$__84__886]);}),[]);
-$PropositionalLogic.$Parser.$__84__878=
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__881,$PropositionalLogic.$Parser.$__36__886]);}),[]);
+$PropositionalLogic.$Parser.$__36__878=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$satisfy,[$UHC.$Base.$isSpace]);}),[]);
-$PropositionalLogic.$Parser.$__84__877=
+$PropositionalLogic.$Parser.$__36__877=
  new _A_(new _F_(function()
-                 {return new _A_($PropositionalLogic.$Parser.$many1,[$PropositionalLogic.$Parser.$__84__878]);}),[]);
-$PropositionalLogic.$Parser.$__84__876=
+                 {return new _A_($PropositionalLogic.$Parser.$many1,[$PropositionalLogic.$Parser.$__36__878]);}),[]);
+$PropositionalLogic.$Parser.$__36__876=
  new _A_(new _F_(function()
                  {return new _A_($PropositionalLogic.$Parser.$tokenParser,[$PropositionalLogic.$Parser.$SpaceTok__]);}),[]);
-$PropositionalLogic.$Parser.$__84__874=
+$PropositionalLogic.$Parser.$__36__874=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__84__876,$PropositionalLogic.$Parser.$__84__877]);}),[]);
+                 {return new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$__36__876,$PropositionalLogic.$Parser.$__36__877]);}),[]);
 $PropositionalLogic.$Parser.$tokenParsers=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__84__874,$PropositionalLogic.$Parser.$__84__879]);}),[]);
+                 {return new _A_($UHC.$Base.$_3a,[$PropositionalLogic.$Parser.$__36__874,$PropositionalLogic.$Parser.$__36__879]);}),[]);
 $PropositionalLogic.$Parser.$_24okUNQ619=
  new _F_(function($_24x)
          {var $__=
            new _A_($PropositionalLogic.$Parser.$updatePositions,[$_24x]);
           var $__3=
-           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0]);
+           new _A_($UHC.$Base.$return,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0]);
           var $__4=
            new _A_($UHC.$Base.$_24,[$__3,$__]);
-          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$PropositionalLogic.$Parser.$eof,$__4]);});
+          return new _A_($UHC.$Base.$_3e_3e,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$PropositionalLogic.$Parser.$eof,$__4]);});
 $PropositionalLogic.$Parser.$tokenize=
  new _A_(new _F_(function()
                  {var $__=
                    new _A_($PropositionalLogic.$Parser.$choice,[$PropositionalLogic.$Parser.$tokenParsers]);
                   var $__2=
                    new _A_($UHC.$Base.$_24,[$PropositionalLogic.$Parser.$many1,$__]);
-                  return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT80__0__0,$__2,$PropositionalLogic.$Parser.$_24okUNQ619]);}),[]);
+                  return new _A_($UHC.$Base.$_3e_3e_3d,[$PropositionalLogic.$Parser.$Monad__DCT32__0__0,$__2,$PropositionalLogic.$Parser.$_24okUNQ619]);}),[]);
 $PropositionalLogic.$Parser.$formula=
  new _F_(function($s)
          {var $__=
@@ -7506,7 +7594,7 @@ $PropositionalLogic.$parenthesize=
              switch($__7._tag_)
               {case 0:
                 var $__8=
-                 new _A_($UHC.$Base.$packedStringToString,["FAIL 87_8_0"]);
+                 new _A_($UHC.$Base.$packedStringToString,["FAIL 39_8_0"]);
                 var $__9=
                  new _A_($UHC.$Base.$error,[$__8]);
                 $__swJSW4__0=
@@ -7768,6 +7856,8 @@ $App.$_24okUNQ77=
               $__15;
              break;
             case 1:
+             var $simplified=
+              new _A_($PropositionalLogic.$Logic.$simplify,[$__4._1]);
              var $normal=
               new _A_($PropositionalLogic.$Logic.$mkNormal,[$__4._1]);
              var $nnf=
@@ -7780,22 +7870,44 @@ $App.$_24okUNQ77=
               new _A_($PropositionalLogic.$Logic.$mkCNF,[$nnf]);
              var $scnf=
               new _A_($PropositionalLogic.$Logic.$simplifyCNF,[$cnf]);
-             var $__23=
-              new _A_($UHC.$Base.$packedStringToString,["cnfCode"]);
              var $__24=
-              new _A_($App.$documentGetElementById,[$_24x,$__23]);
+              new _A_($UHC.$Base.$packedStringToString,["cnfCode"]);
              var $__25=
-              new _A_($App.$_24okUNQ105,[$_24x,$cnf,$dnf,$nnf,$scnf,$sdnf]);
+              new _A_($App.$documentGetElementById,[$_24x,$__24]);
+             var $__26=
+              new _A_($App.$_24okUNQ106,[$_24x,$cnf,$dnf,$nnf,$scnf,$sdnf,$simplified]);
              $__swJSW2__0=
-              new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__24,$__25]);
+              new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__25,$__26]);
              break;}
           return $__swJSW2__0;});
-$App.$_24okUNQ105=
- new _F_(function($_24x,$cnf,$dnf,$nnf,$scnf,$sdnf,$_24x7)
+$App.$_24okUNQ106=
+ new _F_(function($_24x,$cnf,$dnf,$nnf,$scnf,$sdnf,$simplified,$_24x8)
          {var $__=
-           new _A_($App.$__96__108NEW48,[$_24x,$dnf,$nnf,$scnf,$sdnf]);
-          var $__9=
+           new _A_($App.$__18__110NEW49,[$_24x,$dnf,$nnf,$scnf,$sdnf,$simplified]);
+          var $__10=
            new _A_($PropositionalLogic.$prettyFormulaString,[$cnf]);
+          var $__11=
+           new _A_($UHC.$Base.$_24,[$Language.$UHC.$JScript.$ECMA.$String.$stringToJSString,$__10]);
+          var $__12=
+           new _A_($UHC.$Base.$packedStringToString,["innerHTML"]);
+          var $__13=
+           new _A_($Language.$UHC.$JScript.$Primitives.$setAttr,[$__12,$__11,$_24x8]);
+          return new _A_($UHC.$Base.$_3e_3e,[$UHC.$Base.$Monad__DCT73__341__0,$__13,$__]);});
+$App.$__18__110NEW49=
+ new _F_(function($_24x,$dnf,$nnf,$scnf,$sdnf,$simplified)
+         {var $__=
+           new _A_($UHC.$Base.$packedStringToString,["scnfCode"]);
+          var $__8=
+           new _A_($App.$documentGetElementById,[$_24x,$__]);
+          var $__9=
+           new _A_($App.$_24okUNQ113,[$_24x,$dnf,$nnf,$scnf,$sdnf,$simplified]);
+          return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__8,$__9]);});
+$App.$_24okUNQ113=
+ new _F_(function($_24x,$dnf,$nnf,$scnf,$sdnf,$simplified,$_24x7)
+         {var $__=
+           new _A_($App.$__18__123NEW57,[$_24x,$dnf,$nnf,$sdnf,$simplified]);
+          var $__9=
+           new _A_($PropositionalLogic.$prettyFormulaString,[$scnf]);
           var $__10=
            new _A_($UHC.$Base.$_24,[$Language.$UHC.$JScript.$ECMA.$String.$stringToJSString,$__9]);
           var $__11=
@@ -7803,21 +7915,21 @@ $App.$_24okUNQ105=
           var $__12=
            new _A_($Language.$UHC.$JScript.$Primitives.$setAttr,[$__11,$__10,$_24x7]);
           return new _A_($UHC.$Base.$_3e_3e,[$UHC.$Base.$Monad__DCT73__341__0,$__12,$__]);});
-$App.$__96__108NEW48=
- new _F_(function($_24x,$dnf,$nnf,$scnf,$sdnf)
+$App.$__18__123NEW57=
+ new _F_(function($_24x,$dnf,$nnf,$sdnf,$simplified)
          {var $__=
-           new _A_($UHC.$Base.$packedStringToString,["scnfCode"]);
+           new _A_($UHC.$Base.$packedStringToString,["dnfCode"]);
           var $__7=
            new _A_($App.$documentGetElementById,[$_24x,$__]);
           var $__8=
-           new _A_($App.$_24okUNQ112,[$_24x,$dnf,$nnf,$scnf,$sdnf]);
+           new _A_($App.$_24okUNQ120,[$_24x,$dnf,$nnf,$sdnf,$simplified]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__7,$__8]);});
-$App.$_24okUNQ112=
- new _F_(function($_24x,$dnf,$nnf,$scnf,$sdnf,$_24x6)
+$App.$_24okUNQ120=
+ new _F_(function($_24x,$dnf,$nnf,$sdnf,$simplified,$_24x6)
          {var $__=
-           new _A_($App.$__96__121NEW55,[$_24x,$dnf,$nnf,$sdnf]);
+           new _A_($App.$__18__136NEW64,[$_24x,$nnf,$sdnf,$simplified]);
           var $__8=
-           new _A_($PropositionalLogic.$prettyFormulaString,[$scnf]);
+           new _A_($PropositionalLogic.$prettyFormulaString,[$dnf]);
           var $__9=
            new _A_($UHC.$Base.$_24,[$Language.$UHC.$JScript.$ECMA.$String.$stringToJSString,$__8]);
           var $__10=
@@ -7825,21 +7937,21 @@ $App.$_24okUNQ112=
           var $__11=
            new _A_($Language.$UHC.$JScript.$Primitives.$setAttr,[$__10,$__9,$_24x6]);
           return new _A_($UHC.$Base.$_3e_3e,[$UHC.$Base.$Monad__DCT73__341__0,$__11,$__]);});
-$App.$__96__121NEW55=
- new _F_(function($_24x,$dnf,$nnf,$sdnf)
+$App.$__18__136NEW64=
+ new _F_(function($_24x,$nnf,$sdnf,$simplified)
          {var $__=
-           new _A_($UHC.$Base.$packedStringToString,["dnfCode"]);
+           new _A_($UHC.$Base.$packedStringToString,["sdnfCode"]);
           var $__6=
            new _A_($App.$documentGetElementById,[$_24x,$__]);
           var $__7=
-           new _A_($App.$_24okUNQ119,[$_24x,$dnf,$nnf,$sdnf]);
+           new _A_($App.$_24okUNQ127,[$_24x,$nnf,$sdnf,$simplified]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__6,$__7]);});
-$App.$_24okUNQ119=
- new _F_(function($_24x,$dnf,$nnf,$sdnf,$_24x5)
+$App.$_24okUNQ127=
+ new _F_(function($_24x,$nnf,$sdnf,$simplified,$_24x5)
          {var $__=
-           new _A_($App.$__96__134NEW61,[$_24x,$nnf,$sdnf]);
+           new _A_($App.$__18__149NEW70,[$_24x,$nnf,$simplified]);
           var $__7=
-           new _A_($PropositionalLogic.$prettyFormulaString,[$dnf]);
+           new _A_($PropositionalLogic.$prettyFormulaString,[$sdnf]);
           var $__8=
            new _A_($UHC.$Base.$_24,[$Language.$UHC.$JScript.$ECMA.$String.$stringToJSString,$__7]);
           var $__9=
@@ -7847,21 +7959,21 @@ $App.$_24okUNQ119=
           var $__10=
            new _A_($Language.$UHC.$JScript.$Primitives.$setAttr,[$__9,$__8,$_24x5]);
           return new _A_($UHC.$Base.$_3e_3e,[$UHC.$Base.$Monad__DCT73__341__0,$__10,$__]);});
-$App.$__96__134NEW61=
- new _F_(function($_24x,$nnf,$sdnf)
+$App.$__18__149NEW70=
+ new _F_(function($_24x,$nnf,$simplified)
          {var $__=
-           new _A_($UHC.$Base.$packedStringToString,["sdnfCode"]);
+           new _A_($UHC.$Base.$packedStringToString,["nnfCode"]);
           var $__5=
            new _A_($App.$documentGetElementById,[$_24x,$__]);
           var $__6=
-           new _A_($App.$_24okUNQ126,[$_24x,$nnf,$sdnf]);
+           new _A_($App.$_24okUNQ134,[$_24x,$nnf,$simplified]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__5,$__6]);});
-$App.$_24okUNQ126=
- new _F_(function($_24x,$nnf,$sdnf,$_24x4)
+$App.$_24okUNQ134=
+ new _F_(function($_24x,$nnf,$simplified,$_24x4)
          {var $__=
-           new _A_($App.$__96__147NEW66,[$_24x,$nnf]);
+           new _A_($App.$__18__162NEW75,[$_24x,$simplified]);
           var $__6=
-           new _A_($PropositionalLogic.$prettyFormulaString,[$sdnf]);
+           new _A_($PropositionalLogic.$prettyFormulaString,[$nnf]);
           var $__7=
            new _A_($UHC.$Base.$_24,[$Language.$UHC.$JScript.$ECMA.$String.$stringToJSString,$__6]);
           var $__8=
@@ -7869,21 +7981,21 @@ $App.$_24okUNQ126=
           var $__9=
            new _A_($Language.$UHC.$JScript.$Primitives.$setAttr,[$__8,$__7,$_24x4]);
           return new _A_($UHC.$Base.$_3e_3e,[$UHC.$Base.$Monad__DCT73__341__0,$__9,$__]);});
-$App.$__96__147NEW66=
- new _F_(function($_24x,$nnf)
+$App.$__18__162NEW75=
+ new _F_(function($_24x,$simplified)
          {var $__=
-           new _A_($UHC.$Base.$packedStringToString,["nnfCode"]);
+           new _A_($UHC.$Base.$packedStringToString,["simplifiedCode"]);
           var $__4=
            new _A_($App.$documentGetElementById,[$_24x,$__]);
           var $__5=
-           new _A_($App.$_24okUNQ133,[$nnf]);
+           new _A_($App.$_24okUNQ141,[$simplified]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__4,$__5]);});
-$App.$_24okUNQ133=
- new _F_(function($nnf,$_24x)
+$App.$_24okUNQ141=
+ new _F_(function($simplified,$_24x)
          {var $__=
            new _A_($UHC.$Base.$return,[$UHC.$Base.$Monad__DCT73__341__0,[]]);
           var $__4=
-           new _A_($PropositionalLogic.$prettyFormulaString,[$nnf]);
+           new _A_($PropositionalLogic.$prettyFormulaString,[$simplified]);
           var $__5=
            new _A_($UHC.$Base.$_24,[$Language.$UHC.$JScript.$ECMA.$String.$stringToJSString,$__4]);
           var $__6=
@@ -7901,46 +8013,46 @@ $App.$analyzeOnEnter=
           var $__3=
            new _A_($UHC.$Base.$_3d_3d,[$UHC.$Base.$Eq__DCT73__88__0,$__,13]);
           return new _A_($Control.$Monad.$when,[$UHC.$Base.$Monad__DCT73__341__0,$__3,$App.$analyzeFormula]);});
-$App.$_24okUNQ140=
+$App.$_24okUNQ148=
  new _F_(function($_24x)
          {var $__=
            new _A_($UHC.$Base.$packedStringToString,["analyzeButton"]);
           var $__3=
            new _A_($App.$documentGetElementById,[$_24x,$__]);
           var $__4=
-           new _A_($App.$_24okUNQ146,[$_24x]);
+           new _A_($App.$_24okUNQ154,[$_24x]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__3,$__4]);});
-$App.$_24okUNQ146=
+$App.$_24okUNQ154=
  new _F_(function($_24x,$_24x2)
          {var $__=
            new _A_($Language.$UHC.$JScript.$Prelude.$wrapIO,[$App.$analyzeFormula]);
           var $__4=
-           new _A_($App.$_24okUNQ153,[$_24x,$_24x2]);
+           new _A_($App.$_24okUNQ161,[$_24x,$_24x2]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__,$__4]);});
-$App.$_24okUNQ153=
+$App.$_24okUNQ161=
  new _F_(function($_24x,$_24x2,$_24x3)
          {var $__=
-           new _A_($App.$__96__237NEW113,[$_24x]);
+           new _A_($App.$__18__258NEW128,[$_24x]);
           var $__5=
            new _A_($UHC.$Base.$packedStringToString,["onclick"]);
           var $__6=
            new _A_($Language.$UHC.$JScript.$Primitives.$setAttr,[$__5,$_24x3,$_24x2]);
           return new _A_($UHC.$Base.$_3e_3e,[$UHC.$Base.$Monad__DCT73__341__0,$__6,$__]);});
-$App.$__96__237NEW113=
+$App.$__18__258NEW128=
  new _F_(function($_24x)
          {var $__=
            new _A_($UHC.$Base.$packedStringToString,["formulaInput"]);
           var $__3=
            new _A_($App.$documentGetElementById,[$_24x,$__]);
-          return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__3,$App.$_24okUNQ159]);});
-$App.$_24okUNQ159=
+          return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__3,$App.$_24okUNQ167]);});
+$App.$_24okUNQ167=
  new _F_(function($_24x)
          {var $__=
            new _A_($App.$wrapIO1,[$App.$analyzeOnEnter]);
           var $__3=
-           new _A_($App.$_24okUNQ166,[$_24x]);
+           new _A_($App.$_24okUNQ174,[$_24x]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__,$__3]);});
-$App.$_24okUNQ166=
+$App.$_24okUNQ174=
  new _F_(function($_24x,$_24x2)
          {var $__=
            new _A_($UHC.$Base.$return,[$UHC.$Base.$Monad__DCT73__341__0,[]]);
@@ -7951,34 +8063,34 @@ $App.$_24okUNQ166=
           return new _A_($UHC.$Base.$_3e_3e,[$UHC.$Base.$Monad__DCT73__341__0,$__5,$__]);});
 $App.$onLoad=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$Language.$UHC.$JScript.$W3C.$HTML5.$document,$App.$_24okUNQ140]);}),[]);
-$App.$_24okUNQ172=
+                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$Language.$UHC.$JScript.$W3C.$HTML5.$document,$App.$_24okUNQ148]);}),[]);
+$App.$_24okUNQ180=
  new _F_(function($_24x)
          {var $__=
            new _A_($Language.$UHC.$JScript.$Prelude.$wrapIO,[$App.$onLoad]);
           var $__3=
-           new _A_($App.$_24okUNQ177,[$_24x]);
+           new _A_($App.$_24okUNQ185,[$_24x]);
           return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$__,$__3]);});
-$App.$_24okUNQ177=
+$App.$_24okUNQ185=
  new _F_(function($_24x,$_24x2)
          {var $__=
            new _A_($UHC.$Base.$packedStringToString,["onload"]);
           return new _A_($Language.$UHC.$JScript.$Primitives.$setAttr,[$__,$_24x2,$_24x]);});
 $App.$main=
  new _A_(new _F_(function()
-                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$App.$window,$App.$_24okUNQ172]);}),[]);
+                 {return new _A_($UHC.$Base.$_3e_3e_3d,[$UHC.$Base.$Monad__DCT73__341__0,$App.$window,$App.$_24okUNQ180]);}),[]);
 $App.$_24D__WindowPtrDFLUHC_2eBase_2emoduleNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["App"]);});
 $App.$_24D__WindowPtrDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["WindowPtr"]);});
-$App.$_24D__WindowPtrNEW136UNQ38SDCGENDatatype=
+$App.$_24D__WindowPtrNEW151UNQ38SDCGENDatatype=
  new _F_(function($_24D__WindowPtr)
          {var $_24D__WindowPtr2=
-           new _A_($App.$_24D__WindowPtrNEW138UNQ39EVLSDCGENDatatype,[$_24D__WindowPtr]);
+           new _A_($App.$_24D__WindowPtrNEW153UNQ39EVLSDCGENDatatype,[$_24D__WindowPtr]);
           return $_24D__WindowPtr2;});
-$App.$_24D__WindowPtrNEW138UNQ39EVLSDCGENDatatype=
+$App.$_24D__WindowPtrNEW153UNQ39EVLSDCGENDatatype=
  new _F_(function($_24D__WindowPtr)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__WindowPtr]));
@@ -7987,7 +8099,7 @@ $App.$_24D__WindowPtrNEW138UNQ39EVLSDCGENDatatype=
           return $__5;});
 $App.$_24D__WindowPtrUNQ38SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($App.$_24D__WindowPtrNEW136UNQ38SDCGENDatatype,[$App.$_24D__WindowPtrUNQ38SDCGENDatatype]);}),[]);
+                 {return new _A_($App.$_24D__WindowPtrNEW151UNQ38SDCGENDatatype,[$App.$_24D__WindowPtrUNQ38SDCGENDatatype]);}),[]);
 $App.$_24D__WindowPtrGENDatatype=
  new _A_(new _F_(function()
                  {return $App.$_24D__WindowPtrUNQ38SDCGENDatatype;}),[]);
@@ -7997,12 +8109,12 @@ $App.$_24D__EventPtrDFLUHC_2eBase_2emoduleNameGENDatatype=
 $App.$_24D__EventPtrDFLUHC_2eBase_2edatatypeNameGENDatatype=
  new _F_(function($x)
          {return new _A_($UHC.$Base.$packedStringToString,["EventPtr"]);});
-$App.$_24D__EventPtrNEW145UNQ54SDCGENDatatype=
+$App.$_24D__EventPtrNEW160UNQ54SDCGENDatatype=
  new _F_(function($_24D__EventPtr)
          {var $_24D__EventPtr2=
-           new _A_($App.$_24D__EventPtrNEW147UNQ55EVLSDCGENDatatype,[$_24D__EventPtr]);
+           new _A_($App.$_24D__EventPtrNEW162UNQ55EVLSDCGENDatatype,[$_24D__EventPtr]);
           return $_24D__EventPtr2;});
-$App.$_24D__EventPtrNEW147UNQ55EVLSDCGENDatatype=
+$App.$_24D__EventPtrNEW162UNQ55EVLSDCGENDatatype=
  new _F_(function($_24D__EventPtr)
          {var $Datatype__=
            _e_(new _A_($UHC.$Base.$Datatype__CLS73__352__0,[$_24D__EventPtr]));
@@ -8011,7 +8123,7 @@ $App.$_24D__EventPtrNEW147UNQ55EVLSDCGENDatatype=
           return $__5;});
 $App.$_24D__EventPtrUNQ54SDCGENDatatype=
  new _A_(new _F_(function()
-                 {return new _A_($App.$_24D__EventPtrNEW145UNQ54SDCGENDatatype,[$App.$_24D__EventPtrUNQ54SDCGENDatatype]);}),[]);
+                 {return new _A_($App.$_24D__EventPtrNEW160UNQ54SDCGENDatatype,[$App.$_24D__EventPtrUNQ54SDCGENDatatype]);}),[]);
 $App.$_24D__EventPtrGENDatatype=
  new _A_(new _F_(function()
                  {return $App.$_24D__EventPtrUNQ54SDCGENDatatype;}),[]);
