@@ -1,6 +1,9 @@
 # Propositional Logic
 Convert a propositional formula into a given normal form or simplify it.
 
+# Building
+    uhc -tjs -i 'lib/uhc-js/uhc-js/src;src' -o /dev/null src/App.hs && sh combine_dependencies.sh
+
 # NOTE
 This is not usable as a program yet! I'm still writing the library code.
 
