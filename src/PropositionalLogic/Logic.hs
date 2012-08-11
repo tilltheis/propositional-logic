@@ -323,7 +323,9 @@ simplifyCNF = outerFromL . go [F, Negation T] [T, Negation F] . innerFromL . map
         go shortCircuits strippables xs =
           if any (`elem` xs) shortCircuits || or [ isMutualExclusion x y | x <- xs, y <- reverse xs]
             then [ head shortCircuits ]
-            else nub xs \\ strippables
+            else case nub xs \\ strippables of
+                      []  -> [ head strippables ]
+                      xs' -> xs'
 
         isMutualExclusion T F = True
         isMutualExclusion F T = True
@@ -362,7 +364,9 @@ simplifyDNF = outerFromL . go [T, Negation F] [F, Negation T] . innerFromL . map
         go shortCircuits strippables xs =
           if any (`elem` xs) shortCircuits || or [ isMutualExclusion x y | x <- xs, y <- reverse xs]
             then [ head shortCircuits ]
-            else nub xs \\ strippables
+            else case nub xs \\ strippables of
+                      []  -> [ head strippables ]
+                      xs' -> xs'
 
         isMutualExclusion T F = True
         isMutualExclusion F T = True
