@@ -37,12 +37,13 @@ analyzeFormula = do
   formulaStr <- jsStringToString `liftM` getAttr "value" formulaInput
 
   case formula formulaStr of
-    Right x -> let normal = mkNormal x
-                   nnf    = mkNNF normal
-                   cnf    = mkCNF nnf
-                   scnf   = simplifyCNF cnf
-                   dnf    = mkDNF nnf
-                   sdnf   = simplifyDNF dnf
+    Right x -> let normal     = mkNormal x
+                   nnf        = mkNNF normal
+                   cnf        = mkCNF nnf
+                   scnf       = simplifyCNF cnf
+                   dnf        = mkDNF nnf
+                   sdnf       = simplifyDNF dnf
+                   simplified = simplify x
 
                in do
                  cnfCode <- documentGetElementById doc "cnfCode"
@@ -59,6 +60,9 @@ analyzeFormula = do
 
                  nnfCode <- documentGetElementById doc "nnfCode"
                  setAttr "innerHTML" (stringToJSString $ prettyFormulaString nnf) nnfCode
+
+                 simplifiedCode <- documentGetElementById doc "simplifiedCode"
+                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString simplified) simplifiedCode
 
                  return ()
 

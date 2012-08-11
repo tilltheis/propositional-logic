@@ -378,6 +378,9 @@ simplifyDNF = outerFromL . go [T, Negation F] [F, Negation T] . innerFromL . map
 
 -- * Simplification
 
+simplify :: Formula t -> Formula DNF
+simplify = qm
+
 -- | Find all the 'SymbolMapping's in a 'TruthTable' for which the Formula
 -- returns true (the models).
 trueMappings :: TruthTable -> [SymbolMapping]
@@ -418,13 +421,29 @@ toQMVal False = QMFalse
 qmMappings :: [SymbolMapping] -> [[QMVal]]
 qmMappings = map (map toQMVal . Map.elems)
 
+qmMappingsToFormula :: Formula t -> [[QMVal]] -> Formula DNF
+qmMappingsToFormula initialFormula mappings = fromL . disjunctions . disjAList $ mappings
+  where fromL :: [[Formula t]] -> Formula t
+        fromL [] = T
+        fromL xs = foldr1 Disjunction . map (foldr1 Conjunction) $ xs
+
+        disjAList :: [[QMVal]] -> [[(String, QMVal)]]
+        disjAList = map (zip $ Set.toList $ symbols initialFormula)
+
+        disjunctions :: [[(String, QMVal)]] -> [[Formula t]]
+        disjunctions = filter (not . null) . map (foldr go [])
+
+        go (_, QMDontCare) xs = xs
+        go (sym, QMTrue)   xs = Symbol sym : xs
+        go (sym, QMFalse)  xs = Negation (Symbol sym) : xs
+
 -- | Quine–McCluskey algorithm
 -- (<http://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm>,
 -- <http://www.eetimes.com/discussion/programmer-s-toolbox/4025004/All-about-Quine-McClusky>)
 -- to minimize a given 'Formula'.
---qm :: Formula t -> Formula t
+qm :: Formula t -> Formula DNF
 qm x = let todo = qmMappings . trueMappings $ truthTable x
-       in qm' [] todo todo []
+       in qmMappingsToFormula x $ qm' [] todo todo []
 
 qm' :: [[QMVal]] -- ^ values we are done with and relevant
     -> [[QMVal]] -- ^ values we still have to work with
