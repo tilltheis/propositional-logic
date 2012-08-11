@@ -1,36 +1,11 @@
 # Propositional Logic
-Convert a propositional formula into a given normal form or simplify it.
+Convert a propositional formula into the normal forms and simplify it.
 
 # Building
     uhc -tjs -i 'lib/uhc-js/uhc-js/src;src' -o /dev/null src/App.hs && sh combine_dependencies.sh
 
-# NOTE
-This is not usable as a program yet! I'm still writing the library code.
-
 # Usage
-    propositional-logic [-o operation=simplify] input-formula
-
-## Operations
-* CNF (Conjunctive normal form)
-* DNF (Disjunctive normal form)
-* NNF (Negation normal form)
-* Simplify
-
-## Formula Format
-* Conjunction: `^` (caret)
-* Disjunction: `v` (lower v)
-* Negation: `!` (bang)
-
-## Examples
-    $ propositional-logic A v !A
-    True
-
-    $ propositional-logic !!(Var ^ Var) v NotVar
-    Var v NotVar
-
-
-# Plans For The Future
-- Compile to JavaScript (with Emscripten) and embed it in a website
+Instructions are given in App.html after building the app.
 
 # License
 ## Dependencies
