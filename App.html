@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Propositional Logic</title>
+  <script src="uhc.js"></script>
+  <script src="uhcjs.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // should have been implemented by the compiler
+    window.primCharToLower = function(charCode) {
+      return String.fromCharCode(charCode).toLowerCase().charCodeAt(0);
+    };
+  </script>
+  <link rel="stylesheet" href="foundation.css">
+  <style>
+    code, input { font-family: "Consolas", "Menlo", "Courier", monospace; background: none; }
+    table { width: 100%; }
+    th:first-child, td:first-child { white-space: nowrap; }
+    td:last-child { width: 99%; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="twelve columns">
+
+      <header>
+        <h1>Propositional Logic</h1>
+        <h2 class="subheader">Generate all the normal forms for a given formula</h2>
+      </header>
+
+      <article>
+
+        <!-- input -->
+        <div class="row collapse">
+          <div class="nine columns">
+            <input type="text" id="formulaInput">
+          </div>
+          <div class="three columns">
+            <button class="postfix button" id="analyzeButton">Analyze Formula</button>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- instructions -->
+          <div class="four columns push-eight">
+            <div class="panel">
+              <h3>Instructions</h3>
+              <p>
+                <em>Conjunction (And)</em>: <kbd>^</kbd> (caret) or <kbd>∧</kbd><br>
+                <em>Disjunction (Or)</em>: <kbd>v</kbd> (lower v) or <kbd>∨</kbd><br>
+                <em>Negation (Not)</em>: <kbd>!</kbd> (bang) or <kbd>¬</kbd><br>
+                <em>Implication</em>: <kbd>-&gt;</kbd> or <kbd>→</kbd><br>
+                <em>Equivalence</em>: <kbd>&lt;-&gt;</kbd> or <kbd>↔</kbd><br>
+              </p>
+              <p>
+                <em>True</em>: <kbd>1</kbd><br>
+                <em>False</em>: <kbd>0</kbd>
+              </p>
+              <p>
+                You can use <kbd>(</kbd> parenthesis <kbd>)</kbd> to group parts of a formula.
+              </p>
+              <p>Example: <code>!A v B &lt;-&gt; (A -&gt; B)</code></p>
+              <h3>Warning</h3>
+              <p>Analyzing large formulae can take some time and may freeze your browser or at least this tab.</p>
+              <p>The simplified CNF and simplified DNF are not always the smallest possible formulae.</p>
+            </div>
+          </div>
+
+          <!-- result -->
+          <div class="eight columns pull-four" id="result">
+            <div class="row">
+              <div class="twelve columns">
+              <table>
+                <thead><tr><th>Normal Form</th><th>Formula</th></tr></thead>
+                <tr><th><span class="has-tip" title="Conjunctive Normal Form">CNF</span></th><td><code id="cnfCode">&nbsp;</code></td></tr>
+                <tr><th>Simplified <span class="has-tip" title="Conjunctive Normal Form">CNF</span></th><td><code id="scnfCode">&nbsp;</code></td></tr>
+                <tr><th><span class="has-tip" title="Disjunctive Normal Form">DNF</span></th><td><code id="dnfCode">&nbsp;</code></td></tr>
+                <tr><th>Simplified <span class="has-tip" title="Disjunctive Normal Form">DNF</span></th><td><code id="sdnfCode">&nbsp;</code></td></tr>
+                <tr><th><span class="has-tip" title="Negation Normal Form">NNF</span></th><td><code id="nnfCode">&nbsp;</code></td></tr>
+              </table>
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+      </article>
+
+      <footer>© 2012, Till Theis | read the source code on <a href="https://github.com/tilltheis/propositional-logic">GitHub</a></footer>
+
+    </div>
+  </div>
+</body>
+</html>
