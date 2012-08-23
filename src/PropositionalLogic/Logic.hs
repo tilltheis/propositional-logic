@@ -21,7 +21,7 @@ import Data.Foldable (foldr1)
 import qualified Data.Set as Set
 import qualified Data.Map as Map
 import Data.Maybe (fromJust)
-import Data.List (nub, elemIndices, delete, (\\))
+import Data.List hiding (foldr1)
 import Data.Function (on)
 
 
@@ -378,8 +378,13 @@ simplifyDNF = outerFromL . go [T, Negation F] [F, Negation T] . innerFromL . map
 
 -- * Simplification
 
+-- | Prime implicant chart with the prime implicants on the left and the indices of the
+-- implicants which led to them on the right.
+type PIChart = [([QMVal], [Int])]
+
 simplify :: Formula t -> Formula DNF
-simplify = qm
+simplify x = let piChart = petrick . qm . qmMappings . trueMappings $ truthTable x
+             in qmMappingsToFormula x $ map fst piChart
 
 -- | Find all the 'SymbolMapping's in a 'TruthTable' for which the Formula
 -- returns true (the models).
@@ -441,23 +446,69 @@ qmMappingsToFormula initialFormula mappings = fromL . disjunctions . disjAList $
 -- (<http://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm>,
 -- <http://www.eetimes.com/discussion/programmer-s-toolbox/4025004/All-about-Quine-McClusky>)
 -- to minimize a given 'Formula'.
-qm :: Formula t -> Formula DNF
-qm x = let todo = qmMappings . trueMappings $ truthTable x
-       in qmMappingsToFormula x $ qm' [] todo todo []
+qm :: [[QMVal]] -> PIChart
+qm xs = let todo = flip zip [ [n] | n <- [0..] ] xs
+        in qm' [] todo todo []
 
-qm' :: [[QMVal]] -- ^ values we are done with and relevant
-    -> [[QMVal]] -- ^ values we still have to work with
-    -> [[QMVal]] -- ^ values which have not been merged yet
-    -> [[QMVal]] -- ^ values for next round
-    -> [[QMVal]] -- ^ all the relevant values
+qm' :: PIChart -- ^ values we are done with and relevant
+    -> PIChart -- ^ values we still have to work with
+    -> PIChart -- ^ values which have not been merged yet
+    -> PIChart -- ^ values for next round
+    -> PIChart -- ^ all the relevant values
 qm' done [] unmerged [] = nub $ done ++ unmerged
 qm' done [] unmerged next = qm' (done ++ unmerged) next next []
-qm' done (x:xs) unmerged next = qm' done' xs unmerged' next'
-    where mergeable = filter (\y -> isComparable x y && diff x y == 1) xs
-          done'     = alterIf (null mergeable && x `elem` unmerged) (x:) done
-          unmerged' = alterIf (not $ null mergeable) (filter (`notElem` x:mergeable)) unmerged
-          next'     = next ++ map (merge x) mergeable
+qm' done ((x, idxs):xs) unmerged next = qm' done' xs unmerged' next'
+    where mergeable = filter (\(y, _) -> isComparable x y && diff x y == 1) xs
+          done'     = alterIf (null mergeable && (x, idxs) `elem` unmerged) ((x, idxs):) done
+          unmerged' = alterIf (not $ null mergeable) (filter (`notElem` (x, idxs):mergeable)) unmerged
+          next'     = next ++ map (\(y, yIdxs) -> (merge x y, idxs `union` yIdxs)) mergeable
 
           merge        = zipWith (\a b -> if a == b then a else QMDontCare)
           diff x y     = length . filter not $ zipWith (==) x y
           isComparable = (==) `on` elemIndices QMDontCare
+
+
+essentialPIs :: PIChart -> PIChart
+essentialPIs pis = map (pis !!) essentialLocalIdxs
+  where piIdxs = nub . concat . map snd $ pis
+        idxToLocalIdx = map (\idx -> findIndices (elem idx . snd) pis) piIdxs
+        essentialLocalIdxs = map head $ filter ((==) 1 . length) idxToLocalIdx
+        essentialIdxs = map (pis !!) essentialLocalIdxs
+
+-- | Petrick's method (<http://en.wikipedia.org/wiki/Petrick's_method>). The result contains only the relevant rows.
+petrick :: PIChart -> PIChart
+petrick pis = essentials ++ (shortestCombo $ reduce $ productOfSums)
+  where essentials = essentialPIs pis
+        nonEssentials = pis \\ essentials
+
+        originalIdxs = map snd nonEssentials
+        allIdxs = nub $ concat originalIdxs
+        productOfSums = [ map (:[]) $ filter (elem idx . snd) nonEssentials | idx <- allIdxs ]
+        
+        reduce :: Eq a => [[[a]]] -> [[a]]
+        reduce (xs:ys:zss) = reduce $ applyReductionRules [ x ++ y | x <- xs, y <- ys ] : zss
+        reduce [xs] = xs
+        reduce [] = []
+
+        shortestCombo combos = maximumBy (comparing $ sum . map (length . elemIndices QMDontCare . fst)) combosWithFewestElems
+          where (combosWithFewestElems, _) = partition ((==) minNumElems . length) combos
+                minNumElems = length $ minimumBy (comparing length) combos
+
+applyReductionRules :: Eq a => [[a]] -> [[a]]
+applyReductionRules = xOrXyIsX . xOrXIsX . xXIsX
+
+xXIsX :: Eq a => [[a]] -> [[a]]
+xXIsX xs = map nub xs
+
+xOrXIsX :: Eq a => [[a]] -> [[a]]
+xOrXIsX xs = nub xs
+
+xOrXyIsX :: Eq a => [[a]] -> [[a]]
+xOrXyIsX xs = foldr f xs xs
+  where f xs = filter $ not . p xs
+        p xs ys = all (`elem` ys) xs && length xs < length ys
+
+
+-- UHC doesn't ship with this
+comparing :: Ord a => (b -> a) -> b -> b -> Ordering 
+comparing p x y = compare (p x) (p y)
