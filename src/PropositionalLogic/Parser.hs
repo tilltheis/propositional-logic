@@ -22,18 +22,18 @@ import Data.Function (on)
 import Data.List (isPrefixOf)
 import Control.Monad (liftM, liftM2)
 
-
 -- * Exports
 
 
 -- | Translate a string to a 'Formula'. If it can't be translated the function
 -- returns the position of the first error and a message describing the problem.
 formula :: String -> Either (Int, String) (Formula Fancy)
-formula s = 
+formula s =
   case runParser tokenize s of
        Right ([], ts) -> case runParser parse ts of
                               Right ([], f)   -> Right f
                               Right (t:_, _)  -> Left (position t, "parser: input not exhausted")
+                              Left ([], msg)  -> Left (-1, msg)
                               Left (t:_, msg) -> Left (position t, msg)
        Right (s', _)  -> Left (length s - length s', "tokenizer: input not exhausted")
        Left (s', msg) -> Left (length s - length s', "tokenizer: " ++ msg)
