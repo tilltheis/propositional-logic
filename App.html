@@ -3,15 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Propositional Logic</title>
-  <script src="uhc.js"></script>
-  <script src="uhcjs.js"></script>
-  <script src="app.js"></script>
   <script>
-    // should have been implemented by the compiler
-    window.primCharToLower = function(charCode) {
-      return String.fromCharCode(charCode).toLowerCase().charCodeAt(0);
-    };
+    function u_towlower(charCode, _) {
+      return [1, 0, String.fromCharCode(charCode).toLowerCase().charCodeAt(0)]
+    }
   </script>
+  <script src="app.js"></script>
   <link rel="stylesheet" href="foundation.css">
   <style>
     code, input { font-family: "Consolas", "Menlo", "Courier", monospace; background: none; }

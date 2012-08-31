@@ -27,9 +27,6 @@ cabal-dev
 .virthualenv
 
 
-# UHC
+# haste
 
-*.c
-*.core
-*.grin
-*.mjs
+*.jsmod

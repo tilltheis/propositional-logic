@@ -8,7 +8,7 @@ if [[ -z "$1" ]] ; then
   exit 1
 fi
 
-files="App.html app.js foundation.css uhc.js uhcjs.js"
+files="App.html app.js foundation.css"
 
 for f in $files ; do
   cp "$f" /tmp

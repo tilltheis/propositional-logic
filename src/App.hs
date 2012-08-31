@@ -1,42 +1,20 @@
 import Control.Monad
 
+import Haste
+import Haste.DOM
 import PropositionalLogic
 
-import Language.UHC.JScript.Prelude
-import Language.UHC.JScript.W3C.HTML5 hiding (documentGetElementById)
-import qualified Language.UHC.JScript.W3C.HTML5 as HTML5 (documentGetElementById)
-import Language.UHC.JScript.Assorted
-import Language.UHC.JScript.ECMA.Expressions
-
 main = do
-  win <- window
-  onLoadAction <- wrapIO onLoad
-  setAttr "onload" onLoadAction win
+  withElem "analyzeButton" $ \el -> setCallback el OnClick analyzeFormula
+  withElem "formulaInput" $ \el -> setCallback el OnKeyPress analyzeOnEnter
 
-onLoad :: IO ()
-onLoad = do
-  doc <- document
+analyzeOnEnter keyCode = when (keyCode == 13) (analyzeFormula 0)
 
-  analyzeButton <- documentGetElementById doc "analyzeButton"
-  onClickAction <- wrapIO analyzeFormula
-  setAttr "onclick" onClickAction analyzeButton
-
-  formulaInput <- documentGetElementById doc "formulaInput"
-  onKeyPressAction <- wrapIO1 analyzeOnEnter
-  setAttr "onkeypress" onKeyPressAction formulaInput
-
-  return ()
-
-analyzeOnEnter :: Event -> IO ()
-analyzeOnEnter e = when (eventKeyCode e == 13) analyzeFormula
-
-analyzeFormula :: IO ()
-analyzeFormula = do
-  doc <- document
-  formulaInput <- documentGetElementById doc "formulaInput"
-  formulaStr <- jsStringToString `liftM` getAttr "value" formulaInput
+analyzeFormula _ = do
+  formulaStr <- withElem "formulaInput" $ \el -> getProp el "value"
 
   case formula formulaStr of
+    Left (pos, msg) -> alert $ "error at character " ++ show pos ++ ": " ++ msg
     Right x -> let normal     = mkNormal x
                    nnf        = mkNNF normal
                    cnf        = mkCNF nnf
@@ -46,41 +24,9 @@ analyzeFormula = do
                    simplified = simplify x
 
                in do
-                 cnfCode <- documentGetElementById doc "cnfCode"
-                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString cnf) cnfCode
-
-                 scnfCode <- documentGetElementById doc "scnfCode"
-                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString scnf) scnfCode
-
-                 dnfCode <- documentGetElementById doc "dnfCode"
-                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString dnf) dnfCode
-
-                 sdnfCode <- documentGetElementById doc "sdnfCode"
-                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString sdnf) sdnfCode
-
-                 nnfCode <- documentGetElementById doc "nnfCode"
-                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString nnf) nnfCode
-
-                 simplifiedCode <- documentGetElementById doc "simplifiedCode"
-                 setAttr "innerHTML" (stringToJSString $ prettyFormulaString simplified) simplifiedCode
-
-                 return ()
-
-    Left (pos, msg) -> alert $ "error at character " ++ show pos ++ ": " ++ msg
-
-data WindowPtr
-type Window = JSPtr WindowPtr
-
-foreign import js "window"
-  window :: IO Window
-
-documentGetElementById d = HTML5.documentGetElementById d . stringToJSString
-
-foreign import js "wrapper"
-  wrapIO1 :: (a -> IO ()) -> IO (JSFunPtr (a -> IO ()))
-
-data EventPtr
-type Event = JSPtr EventPtr
-
-foreign import js "%1.keyCode"
-  eventKeyCode :: Event -> Int
+                 withElem "cnfCode"        $ \el -> setProp el "innerHTML" $ prettyFormulaString cnf
+                 withElem "scnfCode"       $ \el -> setProp el "innerHTML" $ prettyFormulaString scnf
+                 withElem "dnfCode"        $ \el -> setProp el "innerHTML" $ prettyFormulaString dnf
+                 withElem "sdnfCode"       $ \el -> setProp el "innerHTML" $ prettyFormulaString sdnf
+                 withElem "nnfCode"        $ \el -> setProp el "innerHTML" $ prettyFormulaString nnf
+                 withElem "simplifiedCode" $ \el -> setProp el "innerHTML" $ prettyFormulaString simplified
