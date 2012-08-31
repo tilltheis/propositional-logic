@@ -490,6 +490,7 @@ petrick pis = essentials ++ (shortestCombo $ reduce $ productOfSums)
         reduce [xs] = xs
         reduce [] = []
 
+        shortestCombo [] = []
         shortestCombo combos = maximumBy (comparing $ sum . map (length . elemIndices QMDontCare . fst)) combosWithFewestElems
           where (combosWithFewestElems, _) = partition ((==) minNumElems . length) combos
                 minNumElems = length $ minimumBy (comparing length) combos
