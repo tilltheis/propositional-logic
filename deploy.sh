@@ -8,6 +8,8 @@ if [[ -z "$1" ]] ; then
   exit 1
 fi
 
+(cd src && hastec --out=../app.js --opt-all app.hs)
+
 files="App.html app.js foundation.css"
 
 for f in $files ; do
