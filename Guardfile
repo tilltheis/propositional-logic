@@ -1,5 +1,7 @@
 guard :shell do
   watch /.*\.l?hs$/ do |m|
-    `uhc -tjs -i 'lib/uhc-js/uhc-js/src;src' -o /dev/null src/App.hs && sh combine_dependencies.sh`
+    puts "building..."
+    `(cd src && hastec --out=../app.js app.hs)`
+    puts "done"
   end
 end
