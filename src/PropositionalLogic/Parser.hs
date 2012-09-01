@@ -102,24 +102,9 @@ choice = foldr1 (<|>)
 -- * Scanning
 
 
-data TokenID = TTok | FTok | SpaceTok | LParTok | RParTok | SymTok | NotTok | AndTok | OrTok | ImplTok | EqTok | ErrTok deriving Show
+data TokenID = TTok | FTok | SpaceTok | LParTok | RParTok | SymTok | NotTok | AndTok | OrTok | ImplTok | EqTok | ErrTok deriving (Show, Eq)
 data Token = Token { tid :: TokenID, position :: Position, match :: String } deriving (Show, Eq)
 type Position = Int
-
-instance Eq TokenID where
-  TTok     == TTok     = True
-  FTok     == FTok     = True
-  SpaceTok == SpaceTok = True
-  LParTok  == LParTok  = True
-  RParTok  == RParTok  = True
-  SymTok   == SymTok   = True
-  NotTok   == NotTok   = True
-  AndTok   == AndTok   = True
-  OrTok    == OrTok    = True
-  ImplTok  == ImplTok  = True
-  EqTok    == EqTok    = True
-  ErrTok   == ErrTok   = True
-  _        == _        = False
 
 tokenParser :: TokenID -> Parser Char String -> Parser Char Token
 tokenParser t p = p >>= \match -> return $ Token t 0 match
