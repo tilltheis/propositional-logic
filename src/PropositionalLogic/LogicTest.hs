@@ -11,6 +11,7 @@ import PropositionalLogic
 import PropositionalLogic.Logic
 
 import Control.Monad (liftM, liftM2)
+import Data.List (nub)
 
 
 main = defaultMain tests
@@ -26,6 +27,8 @@ tests =
             prop_dnfNoDisjInConj
         , testProperty "pretty printing and reparsing doesn't change formulae\n"
             prop_printReadIsId
+        , testProperty "simplified formula has no duplicate prime implicants\n"
+            prop_simplifiedNoDupPIs
         ]
     ]
 
@@ -136,3 +139,7 @@ prop_printReadIsId :: Formula Fancy -> Bool
 prop_printReadIsId x = case formula $ prettyFormulaString x of
                             Right y -> truthTable x == truthTable y
                             Left _  -> False
+
+prop_simplifiedNoDupPIs :: Formula Fancy -> Bool
+prop_simplifiedNoDupPIs x = simplePIs == nub simplePIs
+  where simplePIs = petrick . qm . qmMappings . trueMappings $ truthTable x

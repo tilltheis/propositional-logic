@@ -24,6 +24,8 @@ import Data.Maybe (fromJust)
 import Data.List hiding (foldr1)
 import Data.Function (on)
 
+import Debug.Trace
+
 
 -- | Propositional formulae in any form are represented by the atomic formulae
 -- 'T' (true), 'F' (false) and 'Symbol' and by nesting those within the basic
@@ -469,7 +471,7 @@ qm' done ((x, idxs):xs) unmerged next = qm' done' xs unmerged' next'
 
 
 essentialPIs :: PIChart -> PIChart
-essentialPIs pis = map (pis !!) essentialLocalIdxs
+essentialPIs pis = nub $ map (pis !!) essentialLocalIdxs
   where piIdxs = nub . concat . map snd $ pis
         idxToLocalIdx = map (\idx -> findIndices (elem idx . snd) pis) piIdxs
         essentialLocalIdxs = map head $ filter ((==) 1 . length) idxToLocalIdx
