@@ -24,6 +24,7 @@ import qualified Data.Map as Map
 import Data.Maybe (fromJust)
 import Data.List hiding (foldr1)
 import Data.Function (on)
+import Data.Ord (comparing)
 
 import Debug.Trace
 
@@ -510,8 +511,3 @@ petrick pis = essentials ++ (shortestCombo $ fromReducable $ reduce $ toReducabl
         shortestCombo combos = maximumBy (comparing $ sum . map (length . elemIndices QMDontCare . fst)) combosWithFewestElems
           where (combosWithFewestElems, _) = partition ((==) minNumElems . length) combos
                 minNumElems = length $ minimumBy (comparing length) combos
-
-
--- UHC doesn't ship with this
-comparing :: Ord a => (b -> a) -> b -> b -> Ordering 
-comparing p x y = compare (p x) (p y)
