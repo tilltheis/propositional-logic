@@ -3,8 +3,10 @@
 
 import Test.Framework (defaultMain, testGroup)
 import Test.Framework.Providers.QuickCheck2 (testProperty)
+import Test.Framework.Providers.HUnit
 
 import Test.QuickCheck
+import Test.HUnit
 
 
 import PropositionalLogic
@@ -25,10 +27,15 @@ tests =
             prop_cnfNoConjInDisj
         , testProperty "DNF Has No Disjunctions Within Conjunctions\n"
             prop_dnfNoDisjInConj
-        , testProperty "pretty printing and reparsing doesn't change formulae\n"
+        ]
+    , testGroup "Misc"
+        [ testProperty "pretty printing and reparsing doesn't change formulae\n"
             prop_printReadIsId
         , testProperty "simplified formula has no duplicate prime implicants\n"
             prop_simplifiedNoDupPIs
+        ]
+    , testGroup "Optimization Examples"
+        [ testCase "tautology" test_tautology
         ]
     ]
 
@@ -143,3 +150,10 @@ prop_printReadIsId x = case formula $ prettyFormulaString x of
 prop_simplifiedNoDupPIs :: Formula Fancy -> Bool
 prop_simplifiedNoDupPIs x = simplePIs == nub simplePIs
   where simplePIs = petrick . qm . qmMappings . trueMappings $ truthTable x
+
+
+test_tautology = simplify x @?= T
+  where x = Equivalence (Disjunction (Negation (Symbol "A")) (Symbol "B")) (Implication (Symbol "A") (Symbol "B")) -- !A v B <-> (A -> B)
+
+test_simplify = simplify x @?= Disjunction (Symbol "B") (Symbol "C") -- B v C
+  where x = Disjunction (Equivalence (Disjunction (Negation (Negation (Symbol "A"))) (Symbol "B")) (Implication (Symbol "A") (Symbol "B"))) (Symbol "C") -- (!!A v B <-> (A -> B)) v C

@@ -449,7 +449,7 @@ qmMappingsToFormula initialFormula mappings = fromL . disjunctions . disjAList $
 -- <http://www.eetimes.com/discussion/programmer-s-toolbox/4025004/All-about-Quine-McClusky>)
 -- to minimize a given 'Formula'.
 qm :: [[QMVal]] -> PIChart
-qm xs = let todo = flip zip [ [n] | n <- [0..] ] xs
+qm xs = {-# SCC "qm" #-} let todo = flip zip [ [n] | n <- [0..] ] xs
         in qm' [] todo todo []
 
 qm' :: PIChart -- ^ values we are done with and relevant
@@ -479,7 +479,7 @@ essentialPIs pis = nub $ map (pis !!) essentialLocalIdxs
 
 -- | Petrick's method (<http://en.wikipedia.org/wiki/Petrick's_method>). The result contains only the relevant rows.
 petrick :: PIChart -> PIChart
-petrick pis = essentials ++ (shortestCombo $ reduce $ productOfSums)
+petrick pis = {-# SCC "petrick" #-} essentials ++ (shortestCombo $ reduce $ productOfSums)
   where essentials = essentialPIs pis
         nonEssentials = pis \\ essentials
 
