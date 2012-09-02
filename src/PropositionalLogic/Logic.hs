@@ -18,6 +18,7 @@ module PropositionalLogic.Logic where
 
 import Prelude hiding (foldr1)
 import Data.Foldable (foldr1)
+import Data.Set (Set)
 import qualified Data.Set as Set
 import qualified Data.Map as Map
 import Data.Maybe (fromJust)
@@ -419,7 +420,7 @@ alterIf cond f x = if cond then f x else x
 
 
 -- | Value representation for the Quine-McCluskey algorithm.
-data QMVal = QMTrue | QMFalse | QMDontCare deriving (Show, Eq)
+data QMVal = QMTrue | QMFalse | QMDontCare deriving (Show, Eq, Ord)
 
 toQMVal :: Bool -> QMVal
 toQMVal True = QMTrue
@@ -479,37 +480,36 @@ essentialPIs pis = nub $ map (pis !!) essentialLocalIdxs
 
 -- | Petrick's method (<http://en.wikipedia.org/wiki/Petrick's_method>). The result contains only the relevant rows.
 petrick :: PIChart -> PIChart
-petrick pis = essentials ++ (shortestCombo $ reduce $ productOfSums)
+petrick pis = essentials ++ (shortestCombo $ fromReducable $ reduce $ toReducable $ productOfSums)
   where essentials = essentialPIs pis
         nonEssentials = pis \\ essentials
 
         originalIdxs = map snd nonEssentials
         allIdxs = nub $ concat originalIdxs
         productOfSums = [ map (:[]) $ filter (elem idx . snd) nonEssentials | idx <- allIdxs ]
-        
-        reduce :: Eq a => [[[a]]] -> [[a]]
-        reduce (xs:ys:zss) = reduce $ applyReductionRules [ x ++ y | x <- xs, y <- ys ] : zss
+
+        toReducable :: Ord a => [[[a]]] -> [Set (Set a)]
+        toReducable = map (Set.fromList . map Set.fromList)
+
+        fromReducable :: Ord a => Set (Set a) -> [[a]]
+        fromReducable = Set.toList . Set.map Set.toList
+
+        reduce :: Ord a => [Set (Set a)] -> Set (Set a)
+        reduce (xs:ys:zss) = reduce $ xOrXyIsX (expand xs ys) : zss
         reduce [xs] = xs
-        reduce [] = []
+        reduce [] = Set.empty
+
+        expand :: Ord a => Set (Set a) -> Set (Set a) -> Set (Set a)
+        expand xs ys = Set.foldr outerFolder Set.empty xs
+          where outerFolder = \x prods -> (Set.foldr (innerFolder x) Set.empty ys) `Set.union` prods
+                innerFolder x = \y prod -> Set.insert (x `Set.union` y) prod
+
+        xOrXyIsX set = Set.foldr (\xs -> Set.filter $ not . Set.isSubsetOf xs) set set
 
         shortestCombo [] = []
         shortestCombo combos = maximumBy (comparing $ sum . map (length . elemIndices QMDontCare . fst)) combosWithFewestElems
           where (combosWithFewestElems, _) = partition ((==) minNumElems . length) combos
                 minNumElems = length $ minimumBy (comparing length) combos
-
-applyReductionRules :: Eq a => [[a]] -> [[a]]
-applyReductionRules = xOrXyIsX . xOrXIsX . xXIsX
-
-xXIsX :: Eq a => [[a]] -> [[a]]
-xXIsX xs = map nub xs
-
-xOrXIsX :: Eq a => [[a]] -> [[a]]
-xOrXIsX xs = nub xs
-
-xOrXyIsX :: Eq a => [[a]] -> [[a]]
-xOrXyIsX xs = foldr f xs xs
-  where f xs = filter $ not . p xs
-        p xs ys = all (`elem` ys) xs && length xs < length ys
 
 
 -- UHC doesn't ship with this
