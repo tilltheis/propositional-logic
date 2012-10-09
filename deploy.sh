@@ -8,7 +8,7 @@ if [[ -z "$1" ]] ; then
   exit 1
 fi
 
-(cd src && hastec -O0 --opt-google-closure --out=../app.js app.hs)
+(cd src && hastec -O0 --out=../app.js app.hs)
 
 files="App.html app.js foundation.css"
 
