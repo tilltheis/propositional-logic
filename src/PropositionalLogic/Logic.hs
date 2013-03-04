@@ -323,7 +323,7 @@ simplifyCNF = outerFromL . go [F, Negation T] [T, Negation F] . innerFromL . map
 
         innerFromL = map (foldr1 Disjunction)
         outerFromL = foldr1 Conjunction
-                
+
         go shortCircuits strippables xs =
           if any (`elem` xs) shortCircuits || or [ isMutualExclusion x y | x <- xs, y <- reverse xs]
             then [ head shortCircuits ]
@@ -364,7 +364,7 @@ simplifyDNF = outerFromL . go [T, Negation F] [F, Negation T] . innerFromL . map
 
         innerFromL = map (foldr1 Conjunction)
         outerFromL = foldr1 Disjunction
-                
+
         go shortCircuits strippables xs =
           if any (`elem` xs) shortCircuits || or [ isMutualExclusion x y | x <- xs, y <- reverse xs]
             then [ head shortCircuits ]
@@ -465,8 +465,9 @@ qm' done ((x, idxs):xs) unmerged next = qm' done' xs unmerged' next'
     where mergeable = filter (\(y, _) -> isComparable x y && diff x y == 1) xs
           done'     = alterIf (null mergeable && (x, idxs) `elem` unmerged) ((x, idxs):) done
           unmerged' = alterIf (not $ null mergeable) (filter (`notElem` (x, idxs):mergeable)) unmerged
-          next'     = next ++ map (\(y, yIdxs) -> (merge x y, idxs `union` yIdxs)) mergeable
+          next'     = removeDuplicates $ next ++ map (\(y, yIdxs) -> (merge x y, idxs `union` yIdxs)) mergeable
 
+          removeDuplicates = nubBy ((==) `on` fst)
           merge        = zipWith (\a b -> if a == b then a else QMDontCare)
           diff x y     = length . filter not $ zipWith (==) x y
           isComparable = (==) `on` elemIndices QMDontCare

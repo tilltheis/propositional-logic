@@ -36,6 +36,8 @@ tests =
         ]
     , testGroup "Optimization Examples"
         [ testCase "tautology" test_tautology
+        , testCase "simplify1" test_simplify1
+        , testCase "simplify2" test_simplify2
         ]
     ]
 
@@ -155,5 +157,8 @@ prop_simplifiedNoDupPIs x = simplePIs == nub simplePIs
 test_tautology = simplify x @?= T
   where x = Equivalence (Disjunction (Negation (Symbol "A")) (Symbol "B")) (Implication (Symbol "A") (Symbol "B")) -- !A v B <-> (A -> B)
 
-test_simplify = simplify x @?= Disjunction (Symbol "B") (Symbol "C") -- B v C
+test_simplify1 = simplify x @?= Disjunction (Symbol "B") (Symbol "C") -- B v C
   where x = Disjunction (Equivalence (Disjunction (Negation (Negation (Symbol "A"))) (Symbol "B")) (Implication (Symbol "A") (Symbol "B"))) (Symbol "C") -- (!!A v B <-> (A -> B)) v C
+
+test_simplify2 = simplify x @?= Disjunction (Symbol "B") (Disjunction (Symbol "C") (Negation (Symbol "A"))) -- !A v B v C
+  where x = Disjunction (Negation (Symbol "A")) (Disjunction (Symbol "B") (Symbol "C")) -- !A v B v C
